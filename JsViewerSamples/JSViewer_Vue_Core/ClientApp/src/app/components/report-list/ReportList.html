@@ -1,0 +1,11 @@
+﻿<div class="main-nav navbar">
+    <div id="list-heading"> Select report</div>
+    <ul id="reportsList" class="nav navbar-nav">
+        <li class="reportList_item" 
+            v-bind:class="{active: selectedReport === name}"
+            v-for="(name, index) in reportList" 
+            v-on:click="selectReport(name)">
+            <span>{{name}}</span>
+        </li>
+    </ul>
+</div>

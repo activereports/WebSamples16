@@ -1,0 +1,95 @@
+﻿SaleID(Integer),SaleDate(DateTime),StoreName(String),Address1(String),Address2(String),City(String),Region(String),PostalCode(String),Country(String),Manager(String),Phone1(String),CustomerName(String),AccountNumber(String),ProductID(Integer),Quantity(Integer),Price(Float),Discount(Float),StorePrice(Float),Title(String),Media(String),TaxPercent(Float)
+1000,1/1/2004 12:00:00 AM,Store #1002,2326 W. June Street,,Issaquah,WA,10089,USA,M. Stephen Nuckolls,697-555-7548,M. Stephen Nuckolls,4546703088,1021,4,17.49,0,8.49,The Graduate ,VHS,6.5
+1000,1/1/2004 12:00:00 AM,Store #1002,2326 W. June Street,,Issaquah,WA,10089,USA,M. Stephen Nuckolls,697-555-7548,M. Stephen Nuckolls,4546703088,1309,1,21.49,0,19.49,The Lion King ,VHS,6.5
+1000,1/1/2004 12:00:00 AM,Store #1002,2326 W. June Street,,Issaquah,WA,10089,USA,M. Stephen Nuckolls,697-555-7548,M. Stephen Nuckolls,4546703088,1393,1,19.49,0,10.49,The First Wives Club ,VHS,6.5
+1000,1/1/2004 12:00:00 AM,Store #1002,2326 W. June Street,,Issaquah,WA,10089,USA,M. Stephen Nuckolls,697-555-7548,M. Stephen Nuckolls,4546703088,1504,1,20.45,0,8.45,Toy Story 2 ,VHS,6.5
+1000,1/1/2004 12:00:00 AM,Store #1002,2326 W. June Street,,Issaquah,WA,10089,USA,M. Stephen Nuckolls,697-555-7548,M. Stephen Nuckolls,4546703088,1507,1,19.45,0,6.45,The Mummy ,VHS,6.5
+1000,1/1/2004 12:00:00 AM,Store #1002,2326 W. June Street,,Issaquah,WA,10089,USA,M. Stephen Nuckolls,697-555-7548,M. Stephen Nuckolls,4546703088,1788,1,21.99,0.0299999993294477,15.99,"I, Robot ",DVD,6.5
+1001,1/3/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Jacinta Fiorini,198-555-8327,Jacinta Fiorini,4546703083,1114,1,19.49,0,11.49,Gremlins ,VHS,14
+1001,1/3/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Jacinta Fiorini,198-555-8327,Jacinta Fiorini,4546703083,1147,1,16.49,0,6.49,Fatal Attraction ,LaserDisc,14
+1001,1/3/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Jacinta Fiorini,198-555-8327,Jacinta Fiorini,4546703083,1167,1,23.49,0,12.49,Big ,VHS,14
+1001,1/3/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Jacinta Fiorini,198-555-8327,Jacinta Fiorini,4546703083,1416,2,15.49,0,5,Liar Liar ,LaserDisc,14
+1001,1/3/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Jacinta Fiorini,198-555-8327,Jacinta Fiorini,4546703083,1568,1,23.45,0,16.45,Gone in Sixty Seconds ,LaserDisc,14
+1001,1/3/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Jacinta Fiorini,198-555-8327,Jacinta Fiorini,4546703083,1793,1,13.45,0,12.45,Harry Potter and the Prisoner of Azkaban ,LaserDisc,14
+1002,1/3/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Cora Yaple,227-555-7789,Cora Yaple,4546705264,1103,5,19.45,0,16.45,Tootsie ,LaserDisc,0
+1002,1/3/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Cora Yaple,227-555-7789,Cora Yaple,4546705264,1117,1,18.49,0,9.49,Rocky IV ,VHS,0
+1002,1/3/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Cora Yaple,227-555-7789,Cora Yaple,4546705264,1763,1,17.49,0,16.49,Elf ,LaserDisc,0
+1003,1/4/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Peter Toto,198-555-8327,Peter Toto,4546704512,1777,1,14.49,0,10.49,The Incredibles ,VHS,14
+1004,1/6/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Warren Vittetoe,227-555-7789,Warren Vittetoe,4546704052,1112,1,15.49,0,8.49,Beverly Hills Cop ,VHS,0
+1004,1/6/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Warren Vittetoe,227-555-7789,Warren Vittetoe,4546704052,1142,1,22.45,0,16.45,Beverly Hills Cop II ,VHS,0
+1004,1/6/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Warren Vittetoe,227-555-7789,Warren Vittetoe,4546704052,1414,1,15.95,0,5,Liar Liar ,DVD,0
+1004,1/6/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Warren Vittetoe,227-555-7789,Warren Vittetoe,4546704052,1480,1,19.45,0,10.45,Lethal Weapon 4 ,VHS,0
+1004,1/6/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Warren Vittetoe,227-555-7789,Warren Vittetoe,4546704052,1665,1,19.49,0.0399999991059303,15.49,Die Another Day ,VHS,0
+1004,1/6/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Warren Vittetoe,227-555-7789,Warren Vittetoe,4546704052,1722,1,22.45,0,10.45,Cheaper by the Dozen ,LaserDisc,0
+1005,1/7/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Troilus Cearley,141-555-0886,Troilus Cearley,4546703729,1119,1,20.95,0,17.95,Rambo: First Blood Part II ,DVD,14
+1005,1/7/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Troilus Cearley,141-555-0886,Troilus Cearley,4546703729,1122,1,18.95,0,14.95,Back to the Future ,DVD,14
+1005,1/7/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Troilus Cearley,141-555-0886,Troilus Cearley,4546703729,1150,3,16.45,0,8.45,"Good Morning, Vietnam ",LaserDisc,14
+1005,1/7/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Troilus Cearley,141-555-0886,Troilus Cearley,4546703729,1181,2,22.99,0,12.99,Look Who's Talking ,DVD,14
+1005,1/7/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Troilus Cearley,141-555-0886,Troilus Cearley,4546703729,1209,1,17.45,0,10.45,Die Hard 2 ,VHS,14
+1005,1/7/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Troilus Cearley,141-555-0886,Troilus Cearley,4546703729,1488,1,14.45,0,5.45,Big Daddy ,LaserDisc,14
+1005,1/7/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Troilus Cearley,141-555-0886,Troilus Cearley,4546703729,1650,1,15.49,0,11.49,xXx ,LaserDisc,14
+1005,1/7/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Troilus Cearley,141-555-0886,Troilus Cearley,4546703729,1684,1,23.45,0,18.45,Chicago ,VHS,14
+1005,1/7/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Troilus Cearley,141-555-0886,Troilus Cearley,4546703729,1702,1,22.45,0,7.45,Bruce Almighty ,VHS,14
+1006,1/8/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Shannon Yetter,198-555-8327,Shannon Yetter,4546705161,1031,1,24.99,0,22.99,The Godfather ,DVD,14
+1006,1/8/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Shannon Yetter,198-555-8327,Shannon Yetter,4546705161,1055,1,17.49,0,13.49,Close Encounters of the Third Kind ,LaserDisc,14
+1006,1/8/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Shannon Yetter,198-555-8327,Shannon Yetter,4546705161,1352,1,16.45,0.0900000035762787,12.45,Die Hard: With a Vengeance ,VHS,14
+1006,1/8/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Shannon Yetter,198-555-8327,Shannon Yetter,4546705161,1403,1,22.99,0,21.99,Face/Off ,DVD,14
+1006,1/8/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Shannon Yetter,198-555-8327,Shannon Yetter,4546705161,1437,1,22.99,0,14.99,Deep Impact ,DVD,14
+1006,1/8/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Shannon Yetter,198-555-8327,Shannon Yetter,4546705161,1555,3,14.49,0,13.49,X-Men ,VHS,14
+1006,1/8/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Shannon Yetter,198-555-8327,Shannon Yetter,4546705161,1657,1,22.45,0,10.45,Road to Perdition ,LaserDisc,14
+1006,1/8/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Shannon Yetter,198-555-8327,Shannon Yetter,4546705161,1677,1,20.45,0,17.45,Star Wars: Episode II - Attack of the Clones ,LaserDisc,14
+1006,1/8/2004 12:00:00 AM,Store #1005,2806 N. Midway Way,,Oak Bay,BC,10601,Canada,Shannon Yetter,198-555-8327,Shannon Yetter,4546705161,1723,1,21.95,0,6.95,Seabiscuit ,DVD,14
+1007,1/9/2004 12:00:00 AM,Store #1002,2326 W. June Street,,Issaquah,WA,10089,USA,Lacey Colton,697-555-7548,Lacey Colton,4546703904,1011,1,16.95,0,11.95,Mary Poppins ,DVD,6.5
+1007,1/9/2004 12:00:00 AM,Store #1002,2326 W. June Street,,Issaquah,WA,10089,USA,Lacey Colton,697-555-7548,Lacey Colton,4546703904,1262,1,23.49,0,12.49,Aladdin ,VHS,6.5
+1007,1/9/2004 12:00:00 AM,Store #1002,2326 W. June Street,,Issaquah,WA,10089,USA,Lacey Colton,697-555-7548,Lacey Colton,4546703904,1694,4,13.49,0,5,8 Mile ,VHS,6.5
+1007,1/9/2004 12:00:00 AM,Store #1002,2326 W. June Street,,Issaquah,WA,10089,USA,Lacey Colton,697-555-7548,Lacey Colton,4546703904,1742,1,20.45,0.0500000007450581,9.45,Spy Kids 3-D: Game Over ,VHS,6.5
+1008,1/10/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Bob Riss,141-555-0886,Bob Riss,4546703986,1615,1,22.45,0,8.45,Ocean's Eleven ,VHS,14
+1008,1/10/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Bob Riss,141-555-0886,Bob Riss,4546703986,1707,1,22.45,0,15.45,Daredevil ,LaserDisc,14
+1009,1/11/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Glaudeana Martel,227-555-7789,Glaudeana Martel,4546704158,1176,1,18.45,0,5,Ghostbusters II ,VHS,0
+1009,1/11/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Glaudeana Martel,227-555-7789,Glaudeana Martel,4546704158,1438,1,13.45,0,6.45,Deep Impact ,VHS,0
+1009,1/11/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Glaudeana Martel,227-555-7789,Glaudeana Martel,4546704158,1559,1,29.95,0,21.95,Nutty Professor II: The Klumps ,HD-DVD,0
+1009,1/11/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Glaudeana Martel,227-555-7789,Glaudeana Martel,4546704158,1705,1,20.99,0,8.99,Daredevil ,DVD,0
+1010,1/11/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Ezra Mabry,141-555-0886,Ezra Mabry,4546702692,1544,1,13.49,0,5,Mission: Impossible II ,VHS,14
+1010,1/11/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Ezra Mabry,141-555-0886,Ezra Mabry,4546702692,1569,1,25.99,0,17.99,Big Momma's House ,DVD,14
+1011,1/11/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Loraine Witzke,141-555-0886,Loraine Witzke,4546702971,1058,1,13.49,0,12.49,Star Wars ,LaserDisc,14
+1011,1/11/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Loraine Witzke,141-555-0886,Loraine Witzke,4546702971,1149,2,19.49,0,8.49,"Good Morning, Vietnam ",VHS,14
+1011,1/11/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Loraine Witzke,141-555-0886,Loraine Witzke,4546702971,1573,1,22.45,0,8.45,Dinosaur ,VHS,14
+1011,1/11/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Loraine Witzke,141-555-0886,Loraine Witzke,4546702971,1716,4,16.99,0,15.99,The Last Samurai ,DVD,14
+1012,1/12/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Yasmina Record,141-555-0886,Yasmina Record,4546703151,1020,1,16.45,0,9.45,The Jungle Book ,LaserDisc,14
+1012,1/12/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Yasmina Record,141-555-0886,Yasmina Record,4546703151,1335,1,23.45,0,12.45,Jumanji ,LaserDisc,14
+1012,1/12/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Yasmina Record,141-555-0886,Yasmina Record,4546703151,1356,1,14.45,0,5.45,Batman Forever ,LaserDisc,14
+1013,1/13/2004 12:00:00 AM,Store #1000,6140 E. Tyler Street,,Beaverton,OR,10804,USA,Lillie Climer,801-555-9045,Lillie Climer,4546705050,1144,1,30.95,0,18.95,Beverly Hills Cop II ,HD-DVD,0
+1013,1/13/2004 12:00:00 AM,Store #1000,6140 E. Tyler Street,,Beaverton,OR,10804,USA,Lillie Climer,801-555-9045,Lillie Climer,4546705050,1174,1,33.95,0,29.95,Lethal Weapon 2 ,HD-DVD,0
+1013,1/13/2004 12:00:00 AM,Store #1000,6140 E. Tyler Street,,Beaverton,OR,10804,USA,Lillie Climer,801-555-9045,Lillie Climer,4546705050,1256,1,21.49,0,7.49,Wayne's World ,VHS,0
+1013,1/13/2004 12:00:00 AM,Store #1000,6140 E. Tyler Street,,Beaverton,OR,10804,USA,Lillie Climer,801-555-9045,Lillie Climer,4546705050,1417,1,20.95,0,18.95,The Lost World: Jurassic Park ,DVD,0
+1013,1/13/2004 12:00:00 AM,Store #1000,6140 E. Tyler Street,,Beaverton,OR,10804,USA,Lillie Climer,801-555-9045,Lillie Climer,4546705050,1531,2,16.49,0,11.49,Austin Powers: The Spy Who Shagged Me ,VHS,0
+1013,1/13/2004 12:00:00 AM,Store #1000,6140 E. Tyler Street,,Beaverton,OR,10804,USA,Lillie Climer,801-555-9045,Lillie Climer,4546705050,1671,1,16.95,0,5,Scooby-Doo ,DVD,0
+1014,1/14/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Olivia Neff,227-555-7789,Olivia Neff,4546703739,1038,1,15.49,0,7.49,The Exorcist ,VHS,0
+1014,1/14/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Olivia Neff,227-555-7789,Olivia Neff,4546703739,1136,1,19.45,0,16.45,Star Trek IV: The Voyage Home ,VHS,0
+1014,1/14/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Olivia Neff,227-555-7789,Olivia Neff,4546703739,1161,1,20.49,0,17.49,Rain Man ,VHS,0
+1014,1/14/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Olivia Neff,227-555-7789,Olivia Neff,4546703739,1349,1,22.49,0,14.49,Toy Story ,LaserDisc,0
+1014,1/14/2004 12:00:00 AM,Store #1006,41602 Deer Street,,W. Linn,OR,10902,USA,Olivia Neff,227-555-7789,Olivia Neff,4546703739,1518,1,23.49,0.0199999995529652,10.49,The World Is Not Enough ,VHS,0
+1015,1/15/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Chester Bagdis,141-555-0886,Chester Bagdis,4546705045,1020,1,16.45,0,9.45,The Jungle Book ,LaserDisc,14
+1015,1/15/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Chester Bagdis,141-555-0886,Chester Bagdis,4546705045,1060,2,13.49,0,10.49,Saturday Night Fever ,VHS,14
+1015,1/15/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Chester Bagdis,141-555-0886,Chester Bagdis,4546705045,1100,1,19.49,0.0500000007450581,5.49,Porky's ,VHS,14
+1015,1/15/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Chester Bagdis,141-555-0886,Chester Bagdis,4546705045,1150,1,16.45,0,8.45,"Good Morning, Vietnam ",LaserDisc,14
+1015,1/15/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Chester Bagdis,141-555-0886,Chester Bagdis,4546705045,1569,4,25.99,0,17.99,Big Momma's House ,DVD,14
+1015,1/15/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Chester Bagdis,141-555-0886,Chester Bagdis,4546705045,1673,1,16.95,0,11.95,Mr. Deeds ,DVD,14
+1016,1/18/2004 12:00:00 AM,Store #1004,40808 Gratiot Way,,Newton,BC,10596,Canada,Rusty Gilmer,853-555-2256,Rusty Gilmer,4546704368,1083,1,13.49,0,5,Nine to Five ,LaserDisc,14
+1016,1/18/2004 12:00:00 AM,Store #1004,40808 Gratiot Way,,Newton,BC,10596,Canada,Rusty Gilmer,853-555-2256,Rusty Gilmer,4546704368,1814,1,19.45,0,17.45,The Day After Tomorrow ,VHS,14
+1017,1/20/2004 12:00:00 AM,Store #1004,40808 Gratiot Way,,Newton,BC,10596,Canada,Rachelle Anchondo,853-555-2256,Rachelle Anchondo,4546703677,1155,1,15.45,0,5,Twins ,VHS,14
+1017,1/20/2004 12:00:00 AM,Store #1004,40808 Gratiot Way,,Newton,BC,10596,Canada,Rachelle Anchondo,853-555-2256,Rachelle Anchondo,4546703677,1212,1,13.45,0,10.45,Ghost ,VHS,14
+1017,1/20/2004 12:00:00 AM,Store #1004,40808 Gratiot Way,,Newton,BC,10596,Canada,Rachelle Anchondo,853-555-2256,Rachelle Anchondo,4546703677,1243,4,19.99,0,16.99,Unforgiven ,DVD,14
+1017,1/20/2004 12:00:00 AM,Store #1004,40808 Gratiot Way,,Newton,BC,10596,Canada,Rachelle Anchondo,853-555-2256,Rachelle Anchondo,4546703677,1336,1,22.99,0,13.99,Pocahontas ,DVD,14
+1017,1/20/2004 12:00:00 AM,Store #1004,40808 Gratiot Way,,Newton,BC,10596,Canada,Rachelle Anchondo,853-555-2256,Rachelle Anchondo,4546703677,1395,1,17.99,0,9.99,Good Will Hunting ,DVD,14
+1017,1/20/2004 12:00:00 AM,Store #1004,40808 Gratiot Way,,Newton,BC,10596,Canada,Rachelle Anchondo,853-555-2256,Rachelle Anchondo,4546703677,1468,1,16.45,0,5,Armageddon ,VHS,14
+1017,1/20/2004 12:00:00 AM,Store #1004,40808 Gratiot Way,,Newton,BC,10596,Canada,Rachelle Anchondo,853-555-2256,Rachelle Anchondo,4546703677,1469,1,25.95,0,18.95,The Waterboy ,DVD,14
+1017,1/20/2004 12:00:00 AM,Store #1004,40808 Gratiot Way,,Newton,BC,10596,Canada,Rachelle Anchondo,853-555-2256,Rachelle Anchondo,4546703677,1608,1,14.49,0,5,Harry Potter and the Sorcerer's Stone ,VHS,14
+1017,1/20/2004 12:00:00 AM,Store #1004,40808 Gratiot Way,,Newton,BC,10596,Canada,Rachelle Anchondo,853-555-2256,Rachelle Anchondo,4546703677,1651,1,27.99,0,26.99,xXx ,HD-DVD,14
+1018,1/20/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Abraham Bou,141-555-0886,Abraham Bou,4546703874,1357,1,18.99,0,14.99,101 Dalmatians ,DVD,14
+1018,1/20/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Abraham Bou,141-555-0886,Abraham Bou,4546703874,1585,1,20.49,0,6.49,The Patriot ,VHS,14
+1018,1/20/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Abraham Bou,141-555-0886,Abraham Bou,4546703874,1635,5,15.45,0,5,Pearl Harbor ,VHS,14
+1018,1/20/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Abraham Bou,141-555-0886,Abraham Bou,4546703874,1690,1,35.99,0,34.99,The Santa Clause 2 ,HD-DVD,14
+1018,1/20/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Abraham Bou,141-555-0886,Abraham Bou,4546703874,1708,1,31.99,0,28.99,Daredevil ,HD-DVD,14
+1019,1/20/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Masako Dyal,141-555-0886,Masako Dyal,4546705501,1177,2,16.49,0,5,Ghostbusters II ,LaserDisc,14
+1019,1/20/2004 12:00:00 AM,Store #1003,1952 Balsam Ave.,,Ladner,BC,10256,Canada,Masako Dyal,141-555-0886,Masako Dyal,4546705501,1653,1,21.49,0,14.49,Men in Black II ,VHS,14

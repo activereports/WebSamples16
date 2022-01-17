@@ -1,0 +1,119 @@
+﻿@page "/"
+@namespace WebDesigner_Blazor.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+    var theme = ViewBag.Theme;
+    var reportId = ViewBag.Id == null ? "" : ViewBag.Id;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ActiveReports Web Designer</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- No Virtual Directory -->
+    <base href="/">
+
+    <!-- For Virtual Directory -->
+    <!--<base href="/VirtualDirectoryName/">-->
+
+    <link rel="stylesheet" href="vendor/css/fonts-googleapis.css" type="text/css" />
+    <link rel="stylesheet" href="jsViewer.min.css" />
+    <link rel="stylesheet" href="web-designer.css" />
+
+    <style type="text/css">
+        #blazor-error-ui {
+            background: lightyellow;
+            bottom: 0;
+            box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+            display: none;
+            left: 0;
+            padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        #blazor-error-ui .dismiss {
+            cursor: pointer;
+            position: absolute;
+            right: 0.75rem;
+            top: 0.5rem;
+        }
+    </style>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
+    <link rel="shortcut icon" href="icons/favicon.ico" />
+
+    <script>
+        window.initDesigner = function () {
+            var designerOptions = GrapeCity.ActiveReports.WebDesigner.createDesignerOptions();
+            designerOptions.server.url = 'api';
+            designerOptions.reportInfo = '@reportId' ? { id: '@reportId' } : null;
+
+            designerOptions.openButton.visible = true;
+            designerOptions.saveButton.visible = true;
+            designerOptions.saveAsButton.visible = true;
+
+            // Used in About dialog and File View Help tab.
+            designerOptions.documentation.home = 'https://www.grapecity.com/activereports/docs/v16/online-webdesigner/overview.html';
+            // Used in notifications about report items transformation.
+            designerOptions.documentation.reportItemsTransformation = 'https://www.grapecity.com/activereports/docs/v16/online-webdesigner/supportedcontrols.html';
+
+            designerOptions.reportItemsFeatures.table.autoFillFooter = true;
+
+            var viewer = null;
+            designerOptions.openViewer = function (options) {
+                if (viewer) {
+                    viewer.openReport(options.reportInfo.id);
+                    return;
+                }
+                viewer = GrapeCity.ActiveReports.JSViewer.create({
+                    locale: 'en',
+                    element: '#' + options.element,
+                    reportService: {
+                        url: 'api/reporting',
+                    },
+                    reportID: options.reportInfo.id,
+                    settings: {
+                        zoomType: 'FitPage'
+                    },
+                });
+            };
+
+            designerOptions.dataTab.dataSets.canModify = true;
+            designerOptions.dataTab.dataSources.canModify = true;
+
+            GrapeCity.ActiveReports.WebDesigner.renderApplication('designer-id', designerOptions);
+        }
+    </script>
+</head>
+<body>
+
+    <script src="jsViewer.min.js"></script>
+    <script src="web-designer.js"></script>
+
+    <app>
+        <component type="typeof(App)" render-mode="ServerPrerendered" />
+    </app>
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.server.js"></script>
+</body>
+</html>

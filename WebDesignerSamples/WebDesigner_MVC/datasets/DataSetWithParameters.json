@@ -1,0 +1,76 @@
+{
+	"DataSet": {
+		"Name": "DataSetWithParameters",
+		"Query": {
+			"CommandText": "select * from Products where Discontinued=@DiscontinuedParameter and CategoryId=@CategoryParameter",
+			"DataSourceName": "RemoteNorthwind",
+			"QueryParameters": [
+				{
+					"Name": "CategoryParameter",
+					"Value": ""
+				},
+				{
+					"Name": "DiscontinuedParameter",
+					"Value": "False"
+				}
+			]
+		},
+		"Fields": [
+			{
+				"DataField": "ProductId",
+				"Name": "ProductId",
+				"DataType": "Integer",
+				"Aggregate": "Count"
+			},
+			{
+				"DataField": "ProductName",
+				"Name": "ProductName",
+				"DataType": "String",
+				"Aggregate": "Count"
+			},
+			{
+				"DataField": "QuantityPerUnit",
+				"Name": "QuantityPerUnit",
+				"DataType": "String",
+				"Aggregate": "Count"
+			},
+			{
+				"DataField": "UnitPrice",
+				"Name": "UnitPrice",
+				"DataType": "Float",
+				"Aggregate": "Sum"
+			},
+			{
+				"DataField": "UnitsInStock",
+				"Name": "UnitsInStock",
+				"DataType": "Integer",
+				"Aggregate": "Sum"
+			},
+			{
+				"DataField": "ReorderLevel",
+				"Name": "ReorderLevel",
+				"DataType": "Integer",
+				"Aggregate": "Sum"
+			},
+			{
+				"DataField": "Discontinued",
+				"Name": "Discontinued",
+				"DataType": "Boolean",
+				"Aggregate": "Count"
+			},
+			{
+				"DataField": "CategoryId",
+				"Name": "CategoryId",
+				"DataType": "Integer",
+				"Aggregate": "Count"
+			}
+		]
+	},
+	"DataSource": {
+		"Name": "RemoteNorthwind",
+		"ConnectionProperties": {
+			"DataProvider": "SQL",
+			"ConnectString": "Data Source=10.98.4.70;Initial Catalog=Northwind;User ID=qatester;Password=qatesting"
+		}
+	}
+}

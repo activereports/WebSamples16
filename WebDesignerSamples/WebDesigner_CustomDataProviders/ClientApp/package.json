@@ -1,0 +1,16 @@
+{
+    "name": "ar-designer-deployer",
+    "version": "0.0.1",
+    "description": "ActiveReports Web Designer Deployer",
+    "author": "GrapeCity",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@grapecity/ar-viewer": "16.0.0",
+        "@grapecity/ar-designer": "16.0.0",
+        "ncp": "^2.0.0"
+    },
+    "scripts": {
+        "build": "ncp ./node_modules/@grapecity/ar-viewer/dist ../wwwroot&& ncp ./node_modules/@grapecity/ar-designer/dist ../wwwroot"
+    }
+}

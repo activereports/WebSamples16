@@ -1,0 +1,35 @@
+﻿@page "/"
+@using BlazorViewerServer.Data
+@inject ReportsService ReportsService
+
+<div class="main">
+    <ReportList ReportsList="@reportsList" CurrentReport="@_currentReport" OnClickCallback="OnClick"></ReportList>
+    <div id="viewerContainer">
+        <ReportViewer @ref="_viewer" ReportName="@_currentReport" />
+    </div>
+</div>
+
+@code{
+
+    private ReportViewer _viewer;
+    private List<string> reportsList;
+    private string _currentReport = null;
+
+    //You can use remote report server then specify ReportService parameter
+    //private ReportServiceSettings _reportService = new ReportServiceSettings()
+    //{
+    //    Url = "http://localhost:58865/",
+    //};
+
+    protected override void OnInitialized()
+    {
+        reportsList = ReportsService.GetReports().ToList();
+        _currentReport = reportsList.FirstOrDefault();
+    }
+
+    private async void OnClick(string res)
+    {
+        _currentReport = res;
+        await _viewer.OpenReport(_currentReport);
+    }
+}

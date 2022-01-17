@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <title>JS Viewer</title>
+  <link href="jsViewer.min.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
+</head>
+
+<body onload="loadViewer()">
+    <div style="width: 100%; overflow-x: hidden">
+        <div style="float:left; width: 200pt" class="main-nav navbar">
+            <div id='list-heading'>Select report</div>
+            <ul id="reportsList" class="nav navbar-nav"></ul>
+        </div>
+        <div style="float:right;width:calc(100% - 200pt)" id="viewerContainer">
+        </div>
+    </div>
+    <script type="text/javascript" src="jsViewer.min.js"></script>
+    <script type="text/javascript">
+        let viewer;
+
+        function loadViewer() {
+            viewer = GrapeCity.ActiveReports.JSViewer.create({
+                element: '#viewerContainer'
+            });
+            const silentPrintButton = {
+                action: function (item) {
+                    viewer.export('Pdf', (url) => silentPrint(url), false, {silentPrint:true})
+                },
+            };
+            viewer.toolbar.desktop.updateItem('$print', silentPrintButton);
+            localize();
+            populateReports();
+        }
+
+        async function silentPrint(url) {
+            fetch(url).then(async response => {
+                if (response.ok) {
+                    let formData = new FormData()
+                    formData.append("file", await response.blob());
+                    fetch("http://localhost:5000/print", {
+                        method: 'POST',
+                        mode: 'cors',
+                        body: formData
+                    }).then((response) => {
+                        if (!response.ok) {
+                            response.json().then((json) => alert(json.detail))
+                        }
+                    }).catch((err) => alert(err))
+                }
+            })
+        }
+
+        function setActive(report) {
+            let reportsList = document.getElementById("reportsList");
+            let reports = reportsList.children;
+            for (let i = 0; i < reports.length; i++) {
+                reports[i].classList.remove('active');
+            }
+            report.classList.add('active');
+        }
+
+        function addToReportList(reportsList, reportName, isActive) {
+            const report = document.createElement('li');
+            report.className = 'reportList_item';
+            if (isActive) report.className += ' active'
+            const title = document.createElement('span');
+            title.innerText = reportName;
+            report.appendChild(title);
+            reportsList.appendChild(report);
+
+            report.addEventListener('click', function () {
+                viewer.openReport(reportName);
+                setActive(report);
+            });
+        }
+        
+        function populateReports() {
+            let reportsList = document.getElementById("reportsList");
+            fetch("reports")
+                .then((response) => response.json())
+                .then((reportsArray) => reportsArray.forEach((item, i, arr) => {
+                        addToReportList(reportsList, item, i===0);
+                        if (i===0) viewer.openReport(reportsArray[0]);                    
+                }))            
+        }
+
+        function localize() {
+            if (navigator.language === 'ja') {
+                document.getElementById("list-heading").innerText = "レポートを選択";
+                document.title = "JSビューア";
+            }
+        }
+    </script>
+</body>
+</html>

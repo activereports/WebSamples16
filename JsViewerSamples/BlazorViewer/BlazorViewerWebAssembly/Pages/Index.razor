@@ -1,0 +1,32 @@
+﻿@page "/"
+
+<div class="main">
+    <ReportList ReportsList="@reportsList" CurrentReport="@_currentReport" OnClickCallback="OnClick"></ReportList>
+    <div id="viewerContainer">
+        <ReportViewer @ref="_viewer" ReportName="@_currentReport" ReportService="@_reportService" />
+    </div>
+</div>
+
+@code{
+    private ReportViewer _viewer;
+    private List<string> reportsList;
+    private string _currentReport = null;
+
+    private ReportServiceSettings _reportService = new ReportServiceSettings()
+    {
+        Url = "http://localhost:58865/",
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        var http = new HttpClient { BaseAddress = new Uri(_reportService.Url) };
+        reportsList = await http.GetFromJsonAsync<List<string>>("/reports/");
+        _currentReport = reportsList.FirstOrDefault();
+    }
+
+    private async void OnClick(string res)
+    {
+        _currentReport = res;
+        await _viewer.OpenReport(_currentReport);
+    }
+}

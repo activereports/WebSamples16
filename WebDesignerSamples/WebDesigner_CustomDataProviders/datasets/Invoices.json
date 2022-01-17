@@ -1,0 +1,122 @@
+{
+	"DataSet": {
+		"Name": "Invoices",
+		"Query": {
+			"CommandText": "SELECT * FROM Invoices",
+			"DataSourceName": "NWIND"
+		},
+		"Fields": [
+			{
+				"Name": "ShipName",
+				"DataField": "ShipName"
+			},
+			{
+				"Name": "ShipAddress",
+				"DataField": "ShipAddress"
+			},
+			{
+				"Name": "ShipCity",
+				"DataField": "ShipCity"
+			},
+			{
+				"Name": "ShipRegion",
+				"DataField": "ShipRegion"
+			},
+			{
+				"Name": "ShipPostalCode",
+				"DataField": "ShipPostalCode"
+			},
+			{
+				"Name": "ShipCountry",
+				"DataField": "ShipCountry"
+			},
+			{
+				"Name": "CustomerID",
+				"DataField": "CustomerID"
+			},
+			{
+				"Name": "CustomerName",
+				"DataField": "CustomerName"
+			},
+			{
+				"Name": "Address",
+				"DataField": "Address"
+			},
+			{
+				"Name": "City",
+				"DataField": "City"
+			},
+			{
+				"Name": "Region",
+				"DataField": "Region"
+			},
+			{
+				"Name": "PostalCode",
+				"DataField": "PostalCode"
+			},
+			{
+				"Name": "Country",
+				"DataField": "Country"
+			},
+			{
+				"Name": "Salesperson",
+				"DataField": "Salesperson"
+			},
+			{
+				"Name": "OrderID",
+				"DataField": "OrderID"
+			},
+			{
+				"Name": "OrderDate",
+				"DataField": "OrderDate"
+			},
+			{
+				"Name": "RequiredDate",
+				"DataField": "RequiredDate"
+			},
+			{
+				"Name": "ShippedDate",
+				"DataField": "ShippedDate"
+			},
+			{
+				"Name": "ShipperName",
+				"DataField": "ShipperName"
+			},
+			{
+				"Name": "ProductID",
+				"DataField": "ProductID"
+			},
+			{
+				"Name": "ProductName",
+				"DataField": "ProductName"
+			},
+			{
+				"Name": "UnitPrice",
+				"DataField": "UnitPrice"
+			},
+			{
+				"Name": "Quantity",
+				"DataField": "Quantity"
+			},
+			{
+				"Name": "Discount",
+				"DataField": "Discount"
+			},
+			{
+				"Name": "ExtendedPrice",
+				"DataField": "ExtendedPrice"
+			},
+			{
+				"Name": "Freight",
+				"DataField": "Freight"
+			}
+		]
+	},
+	"DataSource": {
+		"Name": "NWIND",
+		"ConnectionProperties": {
+			"ConnectString": "Url=https://services.odata.org/V4/Northwind/Northwind.svc",
+			"DataProvider": "ODATA"
+		}
+	}
+}

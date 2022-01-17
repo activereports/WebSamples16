@@ -1,0 +1,101 @@
+.container {
+    display: grid;
+    grid-template-areas:
+        "left header header right"
+        "left list printlist right";
+    grid-template-columns: 3fr 4fr 4fr 3fr;
+    grid-template-rows: 60px 1fr;
+    grid-gap: 10px;
+}
+
+.container-header {
+    grid-area: header;
+}
+
+.container-list {
+    grid-area: list;
+    max-height: 100%;
+    max-width: 100%;
+    background: #F1F1F1;
+}
+
+.container-printlist {
+    grid-area: printlist;
+    background: #F1F1F1;
+}
+
+.container-right {
+    grid-area: right;
+}
+
+.container-left {
+    grid-area: left;
+}
+
+.list-heading {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+    .list-heading::after {
+        content: "";
+        display: block;
+        left: 50%;
+        width: 80%;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.11);
+        transform: translateX(-50%);
+        color: #0c5f78;
+        position: absolute;
+        top: 50px;
+    }
+
+.list-footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+.reportList_item {
+    cursor: pointer;
+    color: #2b2b2b;
+    padding: 0 1rem;
+    font-size: 15px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    transition-duration: .2s;
+    flex-shrink: 0;
+}
+
+    .reportList_item > span {
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .reportList_item:hover {
+        color: white;
+        background-color: #1b5166;
+    }
+
+    .reportList_item.active:hover {
+        color: white;
+        background-color: #1b5166;
+    }
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

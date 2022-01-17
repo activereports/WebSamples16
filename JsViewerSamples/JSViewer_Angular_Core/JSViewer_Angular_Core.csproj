@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <!-- Set this to true if you enable server-side prerendering -->
+    <BuildServerSideRenderer>false</BuildServerSideRenderer>
+    <Prefer32bit>true</Prefer32bit>
+    <AspNetCoreHostingModelV2>InProcess</AspNetCoreHostingModelV2>
+    <PublishToIIS>false</PublishToIIS>
+    <IISVirtualDirectoryName>/JSViewer_Angular_Core/</IISVirtualDirectoryName>
+    <DefaultItemExcludes>$(DefaultItemExcludes);ClientApp\node_modules\**</DefaultItemExcludes>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.17" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\JsViewerReports\*.*" LinkBase="Reports" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="ClientApp\e2e\tsconfig.e2e.json" />
+  </ItemGroup>
+  <Target Name="ClientBuild" BeforeTargets="BeforeBuild" Condition="'$(PublishToIIS)' == 'false'">
+    <Exec WorkingDirectory="ClientApp" Command="npm install" />
+    <Exec WorkingDirectory="ClientApp" Command="npm run build" />
+    <ItemGroup>
+      <Content Include="clientapp\dist\**" CopyToPublishDirectory="PreserveNewest" />
+    </ItemGroup>
+  </Target>
+  <Target Name="IISBuild" AfterTargets="ComputeFilesToPublish" Condition="'$(PublishToIIS)' == 'true'">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="ClientApp" Command="npm install" />
+    <Exec WorkingDirectory="ClientApp" Command="npm run build -- --base-href &quot;$(IISVirtualDirectoryName)&quot; --prod" />
+    <Exec WorkingDirectory="ClientApp" Command="npm run build:ssr -- --base-href &quot;$(IISVirtualDirectoryName)&quot; --prod" Condition=" '$(BuildServerSideRenderer)' == 'true' " />
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="ClientApp\dist\**; ClientApp\dist-server\**" />
+      <DistFiles Include="ClientApp\node_modules\**" Condition="'$(BuildServerSideRenderer)' == 'true'" />
+      <ResolvedFileToPublish Include="@(DistFiles-&gt;'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+</Project>

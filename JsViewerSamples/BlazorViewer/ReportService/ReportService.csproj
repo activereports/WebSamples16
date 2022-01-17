@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Prefer32bit>true</Prefer32bit>
+    <AspNetCoreHostingModelV2>InProcess</AspNetCoreHostingModelV2>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\**\*.*" />
+    <EmbeddedResource Include="..\..\JsViewerReports\*.*" LinkBase="Reports" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.0.0" />
+  </ItemGroup>
+</Project>

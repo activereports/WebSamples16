@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
+  <Body>
+    <Height>21cm</Height>
+    <ReportItems>
+      <FixedPage Name="FixedPage1">
+        <Pages>
+          <Page>
+            <ReportItems>
+              <Textbox Name="TextBox1">
+                <Height>0.86cm</Height>
+                <Style>
+                  <BackgroundColor>WhiteSmoke</BackgroundColor>
+                  <BorderStyle>
+                    <Bottom>None</Bottom>
+                    <Left>Solid</Left>
+                    <Top>Solid</Top>
+                  </BorderStyle>
+                  <PaddingTop>1pt</PaddingTop>
+                  <TextAlign>Left</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>0.19cm</Top>
+                <Value> Customer Name</Value>
+                <Width>1.1146in</Width>
+              </Textbox>
+              <Textbox Name="TextBox2">
+                <Height>0.3419in</Height>
+                <Left>2.8325cm</Left>
+                <Style>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Center</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>0.19cm</Top>
+                <Value>=Fields!COMPANY_NM.Value</Value>
+                <Width>4cm</Width>
+                <ZIndex>1</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox3">
+                <Height>0.84cm</Height>
+                <Style>
+                  <BackgroundColor>WhiteSmoke</BackgroundColor>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <PaddingTop>1pt</PaddingTop>
+                  <TextAlign>Left</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>1.07cm</Top>
+                <Value> Shop Name</Value>
+                <Width>1.1146in</Width>
+                <ZIndex>2</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox4">
+                <Height>0.84cm</Height>
+                <Left>2.8325cm</Left>
+                <Style>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <FontSize>12pt</FontSize>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Center</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>1.07cm</Top>
+                <Value>GrapeCity</Value>
+                <Width>4cm</Width>
+                <ZIndex>3</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox11">
+                <Height>0.88cm</Height>
+                <Left>2.822917in</Left>
+                <Style>
+                  <BackgroundColor>WhiteSmoke</BackgroundColor>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <PaddingLeft>3pt</PaddingLeft>
+                  <TextAlign>Center</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>0.07291666in</Top>
+                <Value>Customer ID</Value>
+                <Width>3.58cm</Width>
+                <ZIndex>10</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox12">
+                <Height>0.84cm</Height>
+                <Left>2.822917in</Left>
+                <Style>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <PaddingLeft>3pt</PaddingLeft>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+                <Top>1.07cm</Top>
+                <Value>=Fields!COMPANY_CD.Value</Value>
+                <Width>3.58cm</Width>
+                <ZIndex>11</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox15">
+                <Height>0.88cm</Height>
+                <Left>4.322917in</Left>
+                <Style>
+                  <BackgroundColor>WhiteSmoke</BackgroundColor>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <PaddingLeft>5pt</PaddingLeft>
+                  <PaddingRight>5pt</PaddingRight>
+                  <TextAlign>Center</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>0.19cm</Top>
+                <Value>Date</Value>
+                <Width>2.59cm</Width>
+                <ZIndex>14</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox16">
+                <Height>0.84cm</Height>
+                <Left>4.322917in</Left>
+                <Style>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <Format>d</Format>
+                  <PaddingBottom>2pt</PaddingBottom>
+                  <PaddingLeft>3pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+                <Top>1.07cm</Top>
+                <Value>=Fields!OrderDate.Value</Value>
+                <Width>2.59cm</Width>
+                <ZIndex>15</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox45">
+                <Height>1.02cm</Height>
+                <Left>4.61cm</Left>
+                <Style>
+                  <BackgroundColor>WhiteSmoke</BackgroundColor>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <TextAlign>Left</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>6.931917in</Top>
+                <Value>Total Quantity</Value>
+                <Width>1.008in</Width>
+                <ZIndex>25</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox46">
+                <Height>1.02cm</Height>
+                <Left>2.822917in</Left>
+                <Style>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <TextAlign>Right</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>6.931917in</Top>
+                <Value>=Sum(Fields!QTY.Value)</Value>
+                <Width>2.3002cm</Width>
+                <ZIndex>26</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox47">
+                <Height>1.02cm</Height>
+                <Left>3.729167in</Left>
+                <Style>
+                  <BackgroundColor>WhiteSmoke</BackgroundColor>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <PaddingBottom>2pt</PaddingBottom>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Left</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>6.931917in</Top>
+                <Value>Total Cost</Value>
+                <Width>2.44cm</Width>
+                <ZIndex>27</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox48">
+                <Height>1.02cm</Height>
+                <Left>4.677083in</Left>
+                <Style>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <Format>$#,##0.00</Format>
+                  <TextAlign>Right</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>6.931917in</Top>
+                <Value>=Sum(Fields!Cost.Value*Fields!QTY.Value)</Value>
+                <Width>2.44cm</Width>
+                <ZIndex>28</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox49">
+                <Height>1.02cm</Height>
+                <Left>5.635417in</Left>
+                <Style>
+                  <BackgroundColor>WhiteSmoke</BackgroundColor>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <PaddingBottom>2pt</PaddingBottom>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Left</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>6.931917in</Top>
+                <Value>Total Selling Price</Value>
+                <Width>2.44cm</Width>
+                <ZIndex>29</ZIndex>
+              </Textbox>
+              <Textbox Name="TextBox50">
+                <Height>1.02cm</Height>
+                <Left>6.59375in</Left>
+                <Style>
+                  <BorderStyle>
+                    <Default>Solid</Default>
+                  </BorderStyle>
+                  <Format>$#,##0.00</Format>
+                  <TextAlign>Right</TextAlign>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <Top>6.931917in</Top>
+                <Value>=Sum( (Fields!COST.Value- Fields!discount.Value) * Fields!QTY.Value)</Value>
+                <Width>1.0417in</Width>
+                <ZIndex>30</ZIndex>
+              </Textbox>
+              <Table Name="Table1">
+                <DataSetName>Customers</DataSetName>
+                <Header>
+                  <RepeatOnNewPage>true</RepeatOnNewPage>
+                  <TableRows>
+                    <TableRow>
+                      <Height>0.25in</Height>
+                      <TableCells>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox9">
+                              <Style>
+                                <BackgroundColor>WhiteSmoke</BackgroundColor>
+                                <BorderStyle>
+                                  <Default>Solid</Default>
+                                </BorderStyle>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>Product Name</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox10">
+                              <Style>
+                                <BackgroundColor>WhiteSmoke</BackgroundColor>
+                                <BorderStyle>
+                                  <Default>Solid</Default>
+                                </BorderStyle>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>Product ID</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox13">
+                              <Style>
+                                <BackgroundColor>WhiteSmoke</BackgroundColor>
+                                <BorderStyle>
+                                  <Default>Solid</Default>
+                                </BorderStyle>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>Quantity</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox14">
+                              <Style>
+                                <BackgroundColor>WhiteSmoke</BackgroundColor>
+                                <BorderStyle>
+                                  <Default>Solid</Default>
+                                </BorderStyle>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>Cost Price</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox17">
+                              <Style>
+                                <BackgroundColor>WhiteSmoke</BackgroundColor>
+                                <BorderStyle>
+                                  <Default>Solid</Default>
+                                </BorderStyle>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>Total Cost Price</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox18">
+                              <Style>
+                                <BackgroundColor>WhiteSmoke</BackgroundColor>
+                                <BorderStyle>
+                                  <Default>Solid</Default>
+                                </BorderStyle>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>Selling Price</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox19">
+                              <Style>
+                                <BackgroundColor>WhiteSmoke</BackgroundColor>
+                                <BorderStyle>
+                                  <Default>Solid</Default>
+                                </BorderStyle>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>Total Selling Price</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                      </TableCells>
+                    </TableRow>
+                  </TableRows>
+                </Header>
+                <Details>
+                  <TableRows>
+                    <TableRow>
+                      <Height>1.02cm</Height>
+                      <TableCells>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox35">
+                              <Style>
+                                <BorderStyle>
+                                  <Bottom>Solid</Bottom>
+                                  <Left>Solid</Left>
+                                  <Right>None</Right>
+                                  <Top>Solid</Top>
+                                </BorderStyle>
+                                <PaddingLeft>3pt</PaddingLeft>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>=Fields!PRODUCT_NM.Value</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox36">
+                              <Style>
+                                <BorderStyle>
+                                  <Bottom>Solid</Bottom>
+                                  <Left>Solid</Left>
+                                  <Right>None</Right>
+                                  <Top>Solid</Top>
+                                </BorderStyle>
+                                <PaddingLeft>3pt</PaddingLeft>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>=Fields!PRODUCT_CD.Value</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox5">
+                              <Style>
+                                <BorderStyle>
+                                  <Bottom>Solid</Bottom>
+                                  <Left>Solid</Left>
+                                  <Right>None</Right>
+                                  <Top>Solid</Top>
+                                </BorderStyle>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>=Fields!QTY.Value</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox6">
+                              <Style>
+                                <BorderStyle>
+                                  <Bottom>Solid</Bottom>
+                                  <Left>Solid</Left>
+                                  <Right>None</Right>
+                                  <Top>Solid</Top>
+                                </BorderStyle>
+                                <Format>$#,##0.00</Format>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>=Fields!COST.Value</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox7">
+                              <Style>
+                                <BorderStyle>
+                                  <Bottom>Solid</Bottom>
+                                  <Left>Solid</Left>
+                                  <Right>None</Right>
+                                  <Top>Solid</Top>
+                                </BorderStyle>
+                                <Format>$#,##0.00</Format>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>=Fields!COST.Value* Fields!QTY.Value</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox34">
+                              <Style>
+                                <BorderStyle>
+                                  <Bottom>Solid</Bottom>
+                                  <Left>Solid</Left>
+                                  <Right>None</Right>
+                                  <Top>Solid</Top>
+                                </BorderStyle>
+                                <Format>$#,##0.00</Format>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>=Fields!COST.Value- Fields!discount.Value</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                        <TableCell>
+                          <ReportItems>
+                            <Textbox Name="TextBox8">
+                              <Style>
+                                <BorderStyle>
+                                  <Bottom>Solid</Bottom>
+                                  <Left>Solid</Left>
+                                  <Right>Solid</Right>
+                                  <Top>Solid</Top>
+                                </BorderStyle>
+                                <Format>$#,##0.00</Format>
+                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <TextAlign>Center</TextAlign>
+                                <VerticalAlign>Middle</VerticalAlign>
+                              </Style>
+                              <Value>=(Fields!COST.Value- Fields!discount.Value)* Fields!QTY.Value</Value>
+                            </Textbox>
+                          </ReportItems>
+                        </TableCell>
+                      </TableCells>
+                    </TableRow>
+                  </TableRows>
+                </Details>
+                <Height>1.655cm</Height>
+                <dd:FixedHeight xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">14.3cm</dd:FixedHeight>
+                <dd:FixedWidth xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">16.38384cm</dd:FixedWidth>
+                <dd:RepeatToFill xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">true</dd:RepeatToFill>
+                <Style>
+                  <VerticalAlign>Middle</VerticalAlign>
+                </Style>
+                <TableColumns>
+                  <TableColumn>
+                    <Width>4.615cm</Width>
+                  </TableColumn>
+                  <TableColumn>
+                    <Width>2.56032cm</Width>
+                  </TableColumn>
+                  <TableColumn>
+                    <Width>2.3002cm</Width>
+                  </TableColumn>
+                  <TableColumn>
+                    <Width>2.402373cm</Width>
+                  </TableColumn>
+                  <TableColumn>
+                    <Width>2.440134cm</Width>
+                  </TableColumn>
+                  <TableColumn>
+                    <Width>2.442692cm</Width>
+                  </TableColumn>
+                  <TableColumn>
+                    <Width>2.645918cm</Width>
+                  </TableColumn>
+                </TableColumns>
+                <Top>2.54cm</Top>
+                <Width>19.40664cm</Width>
+                <ZIndex>31</ZIndex>
+              </Table>
+            </ReportItems>
+          </Page>
+        </Pages>
+        <DataSetName>Customers</DataSetName>
+        <Grouping Name="FixedPage1_Group">
+          <GroupExpressions>
+            <GroupExpression>=Fields.Item("COMPANY_CD").Value</GroupExpression>
+          </GroupExpressions>
+        </Grouping>
+      </FixedPage>
+    </ReportItems>
+  </Body>
+  <BottomMargin>0.76cm</BottomMargin>
+  <LeftMargin>0.76cm</LeftMargin>
+  <PageHeight>21cm</PageHeight>
+  <PageWidth>22cm</PageWidth>
+  <RightMargin>0.76cm</RightMargin>
+  <TopMargin>0.76cm</TopMargin>
+  <Width>22cm</Width>
+  <DataSources>
+    <DataSource Name="NWind">
+      <ConnectionProperties>
+        <ConnectString>Path=PurchaseReport.csv;Locale=en-US;TextQualifier=";ColumnsSeparator=,;RowsSeparator=\r\n;HasHeaders=True</ConnectString>
+        <DataProvider>CSV</DataProvider>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="Customers">
+      <Fields>
+        <Field Name="COMPANY_CD">
+          <DataField>COMPANY_CD</DataField>
+        </Field>
+        <Field Name="ContactName">
+          <DataField>ContactName</DataField>
+        </Field>
+        <Field Name="COMPANY_NM">
+          <DataField>COMPANY_NM</DataField>
+        </Field>
+        <Field Name="PRODUCT_CD">
+          <DataField>PRODUCT_CD</DataField>
+        </Field>
+        <Field Name="PRODUCT_NM">
+          <DataField>PRODUCT_NM</DataField>
+        </Field>
+        <Field Name="QTY">
+          <DataField>QTY</DataField>
+        </Field>
+        <Field Name="discount">
+          <DataField>discount</DataField>
+        </Field>
+        <Field Name="COST">
+          <DataField>COST</DataField>
+        </Field>
+        <Field Name="OrderDate">
+          <DataField>OrderDate</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <CommandText />
+        <DataSourceName>NWind</DataSourceName>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <CustomProperties>
+    <CustomProperty>
+      <Name>PaperOrientation</Name>
+      <Value>Landscape</Value>
+    </CustomProperty>
+  </CustomProperties>
+</Report>

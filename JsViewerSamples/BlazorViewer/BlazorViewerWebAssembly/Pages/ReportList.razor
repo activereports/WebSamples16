@@ -1,0 +1,26 @@
+﻿
+<div class="main-nav navbar">
+    <div id="list-heading"> Select report</div>
+    @if (ReportsList != null)
+    {
+        <ul id="reportsList" class="nav navbar-nav">
+            @foreach (var report in ReportsList)
+            {
+                var reportId = report;
+                <li class="reportList_item @(CurrentReport == reportId ? "active" : "" )" @onclick="()=>OnClickCallback.InvokeAsync(reportId)">
+                    <span>@report</span>
+                </li>
+            }
+        </ul>
+    }
+</div>
+@code {
+    [Parameter]
+    public List<string> ReportsList { get; set; }
+
+    [Parameter]
+    public string CurrentReport { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnClickCallback { get; set; }
+}

@@ -1,0 +1,4 @@
+GrapeCity.ActiveReports.Aspnet.WebViewer, GrapeCity.ActiveReports.Aspnet.Viewer, PublicKeyToken=cc4967777c49a3ff
+GrapeCity.ActiveReports.SectionReport, GrapeCity.ActiveReports, PublicKeyToken=cc4967777c49a3ff
+GrapeCity.ActiveReports.PageReport, GrapeCity.ActiveReports, PublicKeyToken=cc4967777c49a3ff
+GrapeCity.ActiveReports.Export.Pdf.Section.PdfExport, GrapeCity.ActiveReports.Export.Pdf, PublicKeyToken=cc4967777c49a3ff

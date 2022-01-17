@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.0.0" />
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Designer" Version="16.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="App.config" />
+    <Content Remove="appsettings.Development.json" />
+    <Content Remove="appsettings.json" />
+    <Content Remove="GrapeCity.ActiveReports.config" />
+    <Content Include="templates\**" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="resources\**" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="wwwwroot\**" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views/**/*.cshtml" />
+  </ItemGroup>
+  <Target Name="ClientBuild" BeforeTargets="BeforeBuild">
+    <Exec WorkingDirectory="ClientApp" Command="npm install" />
+    <Exec WorkingDirectory="ClientApp" Command="npm run build" />
+  </Target>
+</Project>

@@ -1,0 +1,4 @@
+GrapeCity.ActiveReports.SectionReport, GrapeCity.ActiveReports
+GrapeCity.ActiveReports.PageReport, GrapeCity.ActiveReports
+GrapeCity.ActiveReports.Export.Pdf.Section.PdfExport, GrapeCity.ActiveReports.Export.Pdf
+GrapeCity.ActiveReports.Web.WebViewer, GrapeCity.ActiveReports.Web

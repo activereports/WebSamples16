@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.WindowsServices" Version="5.0.9" />
+    <PackageReference Include="GrapeCity.Documents.Pdf" Version="5.0.0.762" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+</Project>

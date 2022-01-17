@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORS.Server", "CORS.Server.csproj", "{341904B1-E80C-40BA-8615-FDB4E1F054A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release_Local|Any CPU = Release_Local|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{341904B1-E80C-40BA-8615-FDB4E1F054A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341904B1-E80C-40BA-8615-FDB4E1F054A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341904B1-E80C-40BA-8615-FDB4E1F054A8}.Release_Local|Any CPU.ActiveCfg = Release_Local|Any CPU
+		{341904B1-E80C-40BA-8615-FDB4E1F054A8}.Release_Local|Any CPU.Build.0 = Release_Local|Any CPU
+		{341904B1-E80C-40BA-8615-FDB4E1F054A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341904B1-E80C-40BA-8615-FDB4E1F054A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E271D3D7-8C0F-40A6-BF54-BFB8A17C68F1}
+	EndGlobalSection
+EndGlobal

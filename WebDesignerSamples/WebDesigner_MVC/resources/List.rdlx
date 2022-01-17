@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
+  <dd:Name xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">List.rdlx</dd:Name>
+  <Body>
+    <ColumnSpacing>0in</ColumnSpacing>
+    <Height>1.25in</Height>
+    <ReportItems>
+      <List Name="List1">
+        <Height>1.25in</Height>
+        <ReportItems>
+          <Rectangle Name="Container1">
+            <Height>1in</Height>
+            <Left>0.125in</Left>
+            <Style>
+              <BackgroundColor>=IIF(RowNumber() Mod 3 = 0, Theme.Colors(1,8), IIF(RowNumber() Mod 3 = 1, Theme.Colors(1,7), Theme.Colors(1,6))</BackgroundColor>
+              <BorderColor>
+                <Default>=Theme.Colors!Dark2</Default>
+              </BorderColor>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <Top>0.125in</Top>
+            <Width>3in</Width>
+            <KeepTogether>false</KeepTogether>
+            <ReportItems>
+              <Textbox Name="TextBox1">
+                <CanGrow>true</CanGrow>
+                <Height>0.25in</Height>
+                <Left>0.12in</Left>
+                <Value>First Name:</Value>
+                <Style>
+                  <Color>=Theme.Colors!Dark2</Color>
+                  <FontFamily>Georgia</FontFamily>
+                  <FontWeight>700</FontWeight>
+                  <PaddingBottom>2pt</PaddingBottom>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+                <Top>0.12in</Top>
+                <Width>1in</Width>
+              </Textbox>
+              <Textbox Name="TextBox2">
+                <CanGrow>true</CanGrow>
+                <Height>0.25in</Height>
+                <Left>1.12in</Left>
+                <Value>=Fields!FirstName.Value</Value>
+                <Style>
+                  <Color>=Theme.Colors!Dark2</Color>
+                  <FontFamily>Georgia</FontFamily>
+                  <PaddingBottom>2pt</PaddingBottom>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+                <Top>0.12in</Top>
+                <Width>1.75in</Width>
+              </Textbox>
+              <Textbox Name="TextBox3">
+                <CanGrow>true</CanGrow>
+                <Height>0.25in</Height>
+                <Left>0.12in</Left>
+                <Value>Last Name:</Value>
+                <Style>
+                  <Color>=Theme.Colors!Dark2</Color>
+                  <FontFamily>Georgia</FontFamily>
+                  <FontWeight>700</FontWeight>
+                  <PaddingBottom>2pt</PaddingBottom>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+                <Top>0.37in</Top>
+                <Width>1in</Width>
+              </Textbox>
+              <Textbox Name="TextBox4">
+                <CanGrow>true</CanGrow>
+                <Height>0.25in</Height>
+                <Left>1.12in</Left>
+                <Value>=Fields!LastName.Value</Value>
+                <Style>
+                  <Color>=Theme.Colors!Dark2</Color>
+                  <FontFamily>Georgia</FontFamily>
+                  <PaddingBottom>2pt</PaddingBottom>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+                <Top>0.37in</Top>
+                <Width>1.75in</Width>
+              </Textbox>
+              <Textbox Name="TextBox5">
+                <CanGrow>true</CanGrow>
+                <Height>0.25in</Height>
+                <Left>0.12in</Left>
+                <Value>Title:</Value>
+                <Style>
+                  <Color>=Theme.Colors!Dark2</Color>
+                  <FontFamily>Georgia</FontFamily>
+                  <FontWeight>700</FontWeight>
+                  <PaddingBottom>2pt</PaddingBottom>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+                <Top>0.62in</Top>
+                <Width>1in</Width>
+              </Textbox>
+              <Textbox Name="TextBox6">
+                <CanGrow>true</CanGrow>
+                <Height>0.25in</Height>
+                <Left>1.12in</Left>
+                <Value>=Fields!Title.Value</Value>
+                <Style>
+                  <Color>=Theme.Colors!Dark2</Color>
+                  <FontFamily>Georgia</FontFamily>
+                  <PaddingBottom>2pt</PaddingBottom>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <TextAlign>Left</TextAlign>
+                </Style>
+                <Top>0.62in</Top>
+                <Width>1.75in</Width>
+              </Textbox>
+            </ReportItems>
+          </Rectangle>
+        </ReportItems>
+        <Width>3.25in</Width>
+      </List>
+    </ReportItems>
+  </Body>
+  <BottomMargin>1in</BottomMargin>
+  <LeftMargin>1in</LeftMargin>
+  <PageHeight>11in</PageHeight>
+  <PageWidth>8.5in</PageWidth>
+  <RightMargin>1in</RightMargin>
+  <TopMargin>1in</TopMargin>
+  <Width>3.25in</Width>
+  <DataSources>
+    <DataSource Name="NorthwindEmployees">
+      <ConnectionProperties>
+        <ConnectString>jsondata={"Data":[{"Id":1,"FirstName":"Nancy","LastName":"Davolio","Title":"Sales Representative"},{"Id":2,"FirstName":"Andrew","LastName":"Fuller","Title":"Vice President, Sales"},{"Id":3,"FirstName":"Janet","LastName":"Leverling","Title":"Sales Representative"},{"Id":4,"FirstName":"Margaret","LastName":"Peacock","Title":"Sales Representative"},{"Id":5,"FirstName":"Steven","LastName":"Buchanan","Title":"Sales Manager"},{"Id":6,"FirstName":"Michael","LastName":"Suyama","Title":"Sales Representative"},{"Id":7,"FirstName":"Robert","LastName":"King","Title":"Sales Representative"},{"Id":8,"FirstName":"Laura","LastName":"Callahan","Title":"Inside Sales Coordinator"},{"Id":9,"FirstName":"Anne","LastName":"Dodsworth","Title":"Sales Representative"}]};schemadata={"$id":"http://example.com/example.json","type":"object","definitions":{},"$schema":"http://json-schema.org/draft-07/schema#","properties":{"Data":{"$id":"/properties/Data","type":"array","items":{"$id":"/properties/Data/items","type":"object","properties":{"Id":{"$id":"/properties/Data/items/properties/Id","type":"integer","title":"The Id Schema","default":0,"examples":[123]},"FirstName":{"$id":"/properties/Data/items/properties/FirstName","type":"string","title":"The FirstName Schema","default":0,"examples":["abc"]},"LastName":{"$id":"/properties/Data/items/properties/LastName","type":"string","title":"The LastName Schema","default":0,"examples":["abc"]},"Title":{"$id":"/properties/Data/items/properties/Title","type":"string","title":"The Title Schema","default":0,"examples":["abc"]}}}}}}</ConnectString>
+        <DataProvider>JSON</DataProvider>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="Employees">
+      <Fields>
+        <Field Name="Id">
+          <DataField>Id</DataField>
+        </Field>
+        <Field Name="FirstName">
+          <DataField>FirstName</DataField>
+        </Field>
+        <Field Name="LastName">
+          <DataField>LastName</DataField>
+        </Field>
+        <Field Name="Title">
+          <DataField>Title</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <CommandText>$.Data[*]</CommandText>
+        <DataSourceName>NorthwindEmployees</DataSourceName>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <CustomProperties>
+    <CustomProperty>
+      <Name>Employees_Data_Set_Fields</Name>
+      <Value>{"Id":{"aggregate":"Count","dataType":"Integer"},"FirstName":{"aggregate":"Count","dataType":"String"},"LastName":{"aggregate":"Count","dataType":"String"},"Title":{"aggregate":"Count","dataType":"String"}}</Value>
+    </CustomProperty>
+    <CustomProperty>
+      <Name>Theme</Name>
+      <Value>Cosmo.rdlx-theme</Value>
+    </CustomProperty>
+    <CustomProperty>
+      <Name>DisplayType</Name>
+      <Value>Page</Value>
+    </CustomProperty>
+    <CustomProperty>
+      <Name>SizeType</Name>
+      <Value>Default</Value>
+    </CustomProperty>
+    <CustomProperty>
+      <Name>PaperOrientation</Name>
+      <Value>Portrait</Value>
+    </CustomProperty>
+  </CustomProperties>
+  <dd:ReportThemes xmlns:dd="http://schemas.datadynamics.com/reporting/2005/02/reportdefinition">
+    <ThemeUri>Cosmo.rdlx-theme</ThemeUri>
+  </dd:ReportThemes>
+</Report>

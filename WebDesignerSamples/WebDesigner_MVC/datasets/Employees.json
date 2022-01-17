@@ -1,0 +1,42 @@
+{
+	"DataSet": {
+		"Name": "Employees",
+		"Query": {
+			"CommandText": "$.Data[*]",
+			"DataSourceName": "NorthwindEmployees"
+		},
+		"Fields": [
+			{
+				"Name": "Id",
+				"DataField": "Id",
+				"DataType": "Integer",
+				"Aggregate": "Count"
+			},
+			{
+				"Name": "FirstName",
+				"DataField": "FirstName",
+				"DataType": "String",
+				"Aggregate": "Count"
+			},
+			{
+				"Name": "LastName",
+				"DataField": "LastName",
+				"DataType": "String",
+				"Aggregate": "Count"
+			},
+			{
+				"Name": "Title",
+				"DataField": "Title",
+				"DataType": "String",
+				"Aggregate": "Count"
+			}
+		]
+	},
+	"DataSource": {
+		"Name": "NorthwindEmployees",
+		"ConnectionProperties": {
+			"ConnectString": "jsondata={\"Data\":[{\"Id\":1,\"FirstName\":\"Nancy\",\"LastName\":\"Davolio\",\"Title\":\"Sales Representative\"},{\"Id\":2,\"FirstName\":\"Andrew\",\"LastName\":\"Fuller\",\"Title\":\"Vice President, Sales\"},{\"Id\":3,\"FirstName\":\"Janet\",\"LastName\":\"Leverling\",\"Title\":\"Sales Representative\"},{\"Id\":4,\"FirstName\":\"Margaret\",\"LastName\":\"Peacock\",\"Title\":\"Sales Representative\"},{\"Id\":5,\"FirstName\":\"Steven\",\"LastName\":\"Buchanan\",\"Title\":\"Sales Manager\"},{\"Id\":6,\"FirstName\":\"Michael\",\"LastName\":\"Suyama\",\"Title\":\"Sales Representative\"},{\"Id\":7,\"FirstName\":\"Robert\",\"LastName\":\"King\",\"Title\":\"Sales Representative\"},{\"Id\":8,\"FirstName\":\"Laura\",\"LastName\":\"Callahan\",\"Title\":\"Inside Sales Coordinator\"},{\"Id\":9,\"FirstName\":\"Anne\",\"LastName\":\"Dodsworth\",\"Title\":\"Sales Representative\"}]};schemadata={\"$id\":\"http://example.com/example.json\",\"type\":\"object\",\"definitions\":{},\"$schema\":\"http://json-schema.org/draft-07/schema#\",\"properties\":{\"Data\":{\"$id\":\"/properties/Data\",\"type\":\"array\",\"items\":{\"$id\":\"/properties/Data/items\",\"type\":\"object\",\"properties\":{\"Id\":{\"$id\":\"/properties/Data/items/properties/Id\",\"type\":\"integer\",\"title\":\"The Id Schema\",\"default\":0,\"examples\":[123]},\"FirstName\":{\"$id\":\"/properties/Data/items/properties/FirstName\",\"type\":\"string\",\"title\":\"The FirstName Schema\",\"default\":0,\"examples\":[\"abc\"]},\"LastName\":{\"$id\":\"/properties/Data/items/properties/LastName\",\"type\":\"string\",\"title\":\"The LastName Schema\",\"default\":0,\"examples\":[\"abc\"]},\"Title\":{\"$id\":\"/properties/Data/items/properties/Title\",\"type\":\"string\",\"title\":\"The Title Schema\",\"default\":0,\"examples\":[\"abc\"]}}}}}}",
+			"DataProvider": "JSON"
+		}
+	}
+}

@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <title>Batch printing sample</title>
+    <link href="jsViewer.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script type="text/javascript" src="jsViewer.min.js"></script>
+    <script type="text/javascript">
+        let reports = {}
+
+        const unique = (function () {
+            var cntr = 0;
+            return function (prefix) {
+                prefix = prefix || "";
+                return prefix + cntr++;
+            }
+        })();
+
+        function addToLeftList(reportName) {
+            addReportToList(reportName, "reportsList", (report) => {
+                if (isPrintRunning()) return;
+                let spans = report.getElementsByTagName("span");
+                addToRightList(spans[0].innerText);
+            })
+        }
+
+        function addToRightList(reportName) {
+            addReportToList(reportName, "selectedReportsList", (report) => {
+                if (!isPrintRunning()) removeFromRightList(report)
+            });
+            document.getElementById("selected-list-footer").style.display = "";
+        }
+
+        function removeFromRightList(report) {
+            var childCount = removeReportFromList(report, "selectedReportsList");
+            if (childCount == 0)
+                document.getElementById("selected-list-footer").style.display = "none";
+        }
+
+        function addReportToList(reportName, listId, onClick) {
+            let reportsList = document.getElementById(listId);
+
+            const report = document.createElement('li');
+            report.className = 'reportList_item';
+            report.id = unique("id");
+            const title = document.createElement('span');
+            title.innerText = reportName;
+            report.appendChild(title);
+            reportsList.appendChild(report);
+            report.addEventListener('click', () => onClick(report));
+        }
+
+        function removeReportFromList(report, listId) {
+            let reportsList = document.getElementById(listId);
+            reportsList.removeChild(report);
+            return reportsList.childElementCount;
+        }
+
+        function printNextReport(reportId) {
+            let report = document.getElementById(reportId)
+            removeFromRightList(report);
+            printReport(getFirstReportId());
+        }
+
+        function printReport(reportId) {
+            if (reportId == null) {
+                document.getElementById("print-button").disabled = false;
+                return;
+            }
+
+            const report = document.getElementById(reportId);
+            const reportName = report.getElementsByTagName("span")[0].innerText;
+
+            let exportSettings = { OnlyForPrint: 'True', ContentInline: 'true', Title: reportName }
+            let parameters = [];
+            const reportInfo = reports[reportName];
+            if (reportInfo && reportInfo.settings)
+                exportSettings = { ...exportSettings, ...reportInfo.settings }
+            if (reportInfo && reportInfo.parameters)
+                parameters = reportInfo.parameters;
+
+            GrapeCity.ActiveReports.JSViewer.export({
+                reportID: reportName,
+                exportType: 'Pdf',
+                settings: exportSettings,
+                saveAsDialog: false,
+                callback: (url) => silentPrint(url, reportId),
+                reportParameters: parameters
+            })
+        }
+
+        async function silentPrint(url, reportId) {
+            fetch(url).then(async response => {
+                if (response.ok) {
+                    let formData = new FormData()
+                    formData.append("file", await response.blob());
+                    fetch("http://localhost:5000/print", {
+                        method: 'POST',
+                        mode: 'cors',
+                        body: formData
+                    }).then((response) => {
+                        if (response.ok) {
+                            printNextReport(reportId);
+                        } else {
+                            document.getElementById("print-button").disabled = false;
+                            response.json().then((json) => alert(json.detail))
+                        }
+                    }).catch((err) => {
+                        document.getElementById("print-button").disabled = false;
+                        alert(err)
+                    });
+                }
+            })
+        }
+
+        function batchPrint() {
+            document.getElementById("print-button").disabled = true;
+            printReport(getFirstReportId());
+        }
+
+        function isPrintRunning() { return document.getElementById("print-button").disabled === true }
+
+        function getFirstReportId() {
+            let lis = document.getElementById("selectedReportsList").getElementsByTagName("li");
+            return (lis.length > 0) ? lis[0].id : null;
+        }
+
+        function populateReports() {
+            fetch("reports.json")
+                .then(response => response.json())
+                .then(json => {
+                    reports = json
+                    for (var reportName in json) {
+                        addToLeftList(reportName);
+                    }
+                });
+        }
+
+        function localize() {
+            if (navigator.language === 'ja') {
+                document.getElementById("header").innerText = "バッチ印刷サンプル";
+                document.getElementById("all-reports").innerText = "すべてのレポート ";
+                document.getElementById("selected-reports").innerText = "選択したレポート ";
+                document.getElementById("print-button").value = "選択したレポートを印刷する ";
+                document.title = "バッチ印刷サンプル";
+            }
+        }
+    </script>
+</head>
+
+<body onload="localize(); populateReports()">
+    <div class='container'>
+        <div class='container-header'>
+            <h2 id="header">Batch printing sample</h2>
+        </div>
+        <div class='container-left'></div>
+        <div class='container-list'>
+            <div id="all-reports" class="list-heading">All reports</div>
+            <div>
+                <ul id="reportsList"></ul>
+            </div>
+
+        </div>
+        <div class='container-printlist'>
+            <div id="selected-reports" class="list-heading">Selected reports</div>
+            <div>
+                <ul id="selectedReportsList"></ul>
+            </div>
+            <div id="selected-list-footer" style="display:none" class='list-footer'>
+                <input id="print-button" type="button" value="Print selected reports" onclick="batchPrint()">
+            </div>
+        </div>
+        <div class='container-right' ></div>
+    </div>
+</body>
+</html>

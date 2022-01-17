@@ -1,0 +1,27 @@
+{
+            "AcmeStore.rdlx": {
+                "parameters": [
+                    { "name": "SelectedRegions", "values": ["LA", "AP", "EMEA", "NA"] },
+                    { "name": "SelectedPayMethods", "values": ["Cash", "Card", "Check"] },
+                    { "name": "SelectedYear", "values": ["2016"] },
+                    { "name": "AgeFrom", "values": ["15"] },
+                    { "name": "AgeTo", "values": ["70"] }
+                ]
+            },
+            "AnnualReport.rdlx": null,
+            "Invoice.rdlx": {
+                "settings": { "StartPage": "1", "EndPage": "10" }
+            },
+            "InvoiceList.rdlx": {
+                "settings": { "StartPage": "1", "EndPage": "10" }
+            },
+            "Project & Resource Analysis - Staff Performance Analysis.rdlx": null,
+            "Statistical analysis scatter plot.rdlx": null,
+            "User defined report columns.rdlx": {
+                "parameters": [
+                    { "name": "ColNameParam", "values": ["GenreID", "GenreName", "StorePrice", "Quantity", "SaleDate", "Profit"] }
+                ]
+            },
+            "Invoice.rpx": null,
+            "Invoice_Colored.rpx": null
+        }

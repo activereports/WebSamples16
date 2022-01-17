@@ -1,0 +1,2156 @@
+﻿COMPANY_CD(String),ContactName(String),COMPANY_NM(String),PRODUCT_CD(Integer),PRODUCT_NM(String),QTY(Integer),discount(Float),COST(Float),OrderDate(DateTime)
+ALFKI,Maria Anders,Alfreds Futterkiste,39,Chartreuse verte,21,"0.25",18,09/25/1995 0:00:00
+ALFKI,Maria Anders,Alfreds Futterkiste,76,Lakkalikoori,15,0,18,11/13/1995 0:00:00
+ALFKI,Maria Anders,Alfreds Futterkiste,28,Rossle Sauerkraut,2,0,"45.6",04/15/1996 0:00:00
+ALFKI,Maria Anders,Alfreds Futterkiste,28,Rossle Sauerkraut,15,"0.25","45.6",09/25/1995 0:00:00
+ALFKI,Maria Anders,Alfreds Futterkiste,77,Original Frankfurter grune Sosse,2,"0.2",13,02/15/1996 0:00:00
+ALFKI,Maria Anders,Alfreds Futterkiste,63,Vegie-spread,20,0,"43.9",11/03/1995 0:00:00
+ALFKI,Maria Anders,Alfreds Futterkiste,71,Flotemysost,20,0,"21.5",05/09/1996 0:00:00
+ALFKI,Maria Anders,Alfreds Futterkiste,59,Raclette Courdavault,15,0,55,02/15/1996 0:00:00
+ALFKI,Maria Anders,Alfreds Futterkiste,6,Grandma's Boysenberry Spread,16,"0.05",25,04/15/1996 0:00:00
+ALFKI,Maria Anders,Alfreds Futterkiste,3,Aniseed Syrup,6,0,10,11/13/1995 0:00:00
+ALFKI,Maria Anders,Alfreds Futterkiste,46,Spegesild,2,"0.25",12,09/25/1995 0:00:00
+ALFKI,Maria Anders,Alfreds Futterkiste,58,Escargots de Bourgogne,40,"0.05","13.25",05/09/1996 0:00:00
+ANATR,Ana Trujillo,Ana Trujillo Emparedados y helados,14,Tofu,3,0,"23.25",09/08/1995 0:00:00
+ANATR,Ana Trujillo,Ana Trujillo Emparedados y helados,60,Camembert Pierrot,10,0,34,09/08/1995 0:00:00
+ANATR,Ana Trujillo,Ana Trujillo Emparedados y helados,69,Gudbrandsdalsost,1,0,"28.8",10/19/1994 0:00:00
+ANATR,Ana Trujillo,Ana Trujillo Emparedados y helados,72,Mozzarella di Giovanni,10,0,"34.8",04/03/1996 0:00:00
+ANATR,Ana Trujillo,Ana Trujillo Emparedados y helados,19,Teatime Chocolate Biscuits,7,0,"9.2",04/03/1996 0:00:00
+ANATR,Ana Trujillo,Ana Trujillo Emparedados y helados,13,Konbu,10,0,6,04/03/1996 0:00:00
+ANATR,Ana Trujillo,Ana Trujillo Emparedados y helados,11,Queso Cabrales,2,0,21,04/03/1996 0:00:00
+ANATR,Ana Trujillo,Ana Trujillo Emparedados y helados,42,Singaporean Hokkien Fried Mee,5,0,14,09/08/1995 0:00:00
+ANATR,Ana Trujillo,Ana Trujillo Emparedados y helados,32,Mascarpone Fabioli,10,0,32,12/29/1995 0:00:00
+ANATR,Ana Trujillo,Ana Trujillo Emparedados y helados,70,Outback Lager,5,0,12,10/19/1994 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,59,Raclette Courdavault,15,"0.1",55,06/13/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,57,Ravioli Angelo,5,"0.1","19.5",06/13/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,48,Chocolade,15,"0.15","12.75",05/16/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,33,Geitost,8,"0.15","2.5",10/23/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,11,Queso Cabrales,24,0,"16.8",12/28/1994 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,26,Gumbar Gummibarchen,30,"0.15","31.23",10/23/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,17,Alice Mutton,18,0,39,07/20/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,34,Sasquatch Ale,40,0,14,07/20/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,33,Geitost,30,0,"2.5",10/26/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,2,Chang,20,0,19,02/28/1996 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,40,Boston Crab Meat,10,"0.1","18.4",06/13/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,11,Queso Cabrales,50,"0.1",21,06/13/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,66,Louisiana Hot Spiced Okra,4,0,17,10/26/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,43,Ipoh Coffee,15,"0.15",46,05/16/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,53,Perth Pasties,25,0,"32.8",07/20/1995 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,42,Singaporean Hokkien Fried Mee,20,0,14,02/28/1996 0:00:00
+ANTON,Antonio Moreno,Antonio Moreno Taqueria,75,Rhonbrau Klosterbier,30,0,"7.75",10/26/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,48,Chocolade,15,"0.1","10.2",03/24/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,47,Zaanse koeken,25,0,"9.5",07/05/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,52,Filo Mix,30,0,7,07/05/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,50,Valkoinen suklaa,24,0,"16.25",04/02/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,53,Perth Pasties,18,0,"32.8",07/05/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,31,Gorgonzola Telino,15,0,"12.5",05/10/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,50,Valkoinen suklaa,15,0,13,01/16/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,22,Gustaf's Knackebrod,4,0,21,01/08/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,31,Gorgonzola Telino,50,"0.05","12.5",04/15/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,2,Chang,15,"0.2",19,12/15/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,56,Gnocchi di nonna Alice,20,0,"30.4",01/16/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,60,Camembert Pierrot,15,0,34,01/08/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,57,Ravioli Angelo,40,0,"19.5",11/16/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,52,Filo Mix,8,0,7,01/24/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,20,Sir Rodney's Marmalade,50,"0.05",81,04/15/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,67,Laughing Lumberjack Lager,15,0,14,03/04/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,57,Ravioli Angelo,25,0,"15.6",12/16/1994 0:00:00
+AROUT,Thomas Hardy,Around the Horn,35,Steeleye Stout,4,0,18,03/04/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,71,Flotemysost,12,0,"21.5",01/08/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,24,Guarana Fantastica,25,0,"3.6",12/16/1994 0:00:00
+AROUT,Thomas Hardy,Around the Horn,51,Manjimup Dried Apples,20,0,53,07/05/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,36,Inlagd Sill,16,0,19,05/10/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,70,Outback Lager,25,"0.1",12,03/24/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,41,Jack's New England Clam Chowder,14,0,"9.65",01/24/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,13,Konbu,20,0,"4.8",01/16/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,73,Rod Kaviar,3,0,15,07/05/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,46,Spegesild,28,"0.05",12,12/18/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,70,Outback Lager,28,"0.15",15,11/16/1995 0:00:00
+AROUT,Thomas Hardy,Around the Horn,31,Gorgonzola Telino,50,0,"12.5",01/08/1996 0:00:00
+AROUT,Thomas Hardy,Around the Horn,55,Pate chinois,21,0,24,11/16/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,60,Camembert Pierrot,15,0,"27.2",01/16/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,26,Gumbar Gummibarchen,35,"0.25","31.23",02/28/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,75,Rhonbrau Klosterbier,15,"0.1","7.75",07/19/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,55,Pate chinois,20,0,"19.2",09/14/1994 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,3,Aniseed Syrup,30,0,10,02/28/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,75,Rhonbrau Klosterbier,30,0,"6.2",09/14/1994 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,60,Camembert Pierrot,20,0,34,09/11/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,40,Boston Crab Meat,50,0,"18.4",07/19/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,73,Rod Kaviar,25,0,12,09/12/1994 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,4,Chef Anton's Cajun Seasoning,12,"0.1",22,10/03/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,39,Chartreuse verte,20,"0.1",18,10/03/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,28,Rossle Sauerkraut,20,0,"45.6",12/08/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,52,Filo Mix,25,0,7,12/08/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,20,Sir Rodney's Marmalade,28,0,"64.8",01/16/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,24,Guarana Fantastica,6,"0.25","4.5",03/05/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,29,Thuringer Rostbratwurst,10,"0.25","123.79",02/28/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,44,Gula Malacca,16,0,"15.5",09/12/1994 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,13,Konbu,6,0,6,02/16/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,43,Ipoh Coffee,60,0,46,06/01/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,63,Vegie-spread,8,0,"35.1",09/12/1994 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,30,Nord-Ost Matjeshering,10,0,"25.89",06/01/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,30,Nord-Ost Matjeshering,40,"0.25","25.89",03/05/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,19,Teatime Chocolate Biscuits,25,0,"9.2",03/08/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,24,Guarana Fantastica,12,0,"3.6",09/14/1994 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,10,Ikura,20,"0.1",31,04/03/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,32,Mascarpone Fabioli,10,"0.1",32,07/19/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,14,Tofu,16,0,"23.25",12/08/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,41,Jack's New England Clam Chowder,10,0,"9.65",01/16/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,10,Ikura,2,0,31,06/01/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,41,Jack's New England Clam Chowder,30,0,"7.7",03/15/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,71,Flotemysost,20,0,"21.5",09/11/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,40,Boston Crab Meat,25,0,"18.4",02/16/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,71,Flotemysost,12,0,"21.5",10/18/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,16,Pavlova,12,"0.1","17.45",07/19/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,47,Zaanse koeken,40,"0.25","9.5",02/16/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,53,Perth Pasties,12,0,"32.8",09/11/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,47,Zaanse koeken,21,"0.1","9.5",03/08/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,28,Rossle Sauerkraut,30,"0.1","45.6",04/03/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,2,Chang,21,"0.25",19,03/05/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,75,Rhonbrau Klosterbier,6,0,"7.75",04/03/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,38,Cote de Blaye,15,"0.1","263.5",10/18/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,35,Steeleye Stout,8,0,"14.4",03/15/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,17,Alice Mutton,10,0,"31.2",03/15/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,59,Raclette Courdavault,15,0,44,09/12/1994 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,49,Maxilaku,15,0,20,03/08/1996 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,26,Gumbar Gummibarchen,15,0,"24.9",03/15/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,54,Tourtiere,6,"0.1","7.45",10/03/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,54,Tourtiere,15,0,"5.9",03/16/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,39,Chartreuse verte,6,0,"14.4",03/16/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,1,Chai,35,"0.25",18,11/01/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,54,Tourtiere,15,0,"7.45",06/01/1995 0:00:00
+BERGS,Christina Berglund,Berglunds snabbkop,76,Lakkalikoori,21,"0.25",18,02/16/1996 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,21,Sir Rodney's Scones,3,0,10,05/29/1996 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,76,Lakkalikoori,14,0,18,07/28/1995 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,51,Manjimup Dried Apples,8,0,53,04/16/1996 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,28,Rossle Sauerkraut,3,0,"45.6",05/18/1995 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,54,Tourtiere,20,0,"7.45",05/10/1995 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,11,Queso Cabrales,14,0,21,08/29/1995 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,61,Sirop d'erable,4,0,"28.5",05/29/1996 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,47,Zaanse koeken,14,0,"9.5",04/16/1996 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,57,Ravioli Angelo,4,0,"19.5",07/28/1995 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,60,Camembert Pierrot,21,0,34,05/29/1996 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,39,Chartreuse verte,5,0,18,08/29/1995 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,21,Sir Rodney's Scones,8,0,10,08/29/1995 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,21,Sir Rodney's Scones,12,0,10,04/16/1996 0:00:00
+BLAUS,Hanna Moos,Blauer See Delikatessen,18,Carnarvon Tigers,10,0,"62.5",02/27/1996 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,10,Ikura,14,0,"24.8",03/21/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,72,Mozzarella di Giovanni,20,0,"27.8",10/05/1994 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,41,Jack's New England Clam Chowder,12,"0.05","9.65",07/06/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,55,Pate chinois,18,"0.05",24,07/06/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,76,Lakkalikoori,10,0,18,07/13/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,29,Thuringer Rostbratwurst,35,0,99,12/23/1994 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,28,Rossle Sauerkraut,30,0,"36.4",12/23/1994 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,1,Chai,25,0,18,09/12/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,38,Cote de Blaye,10,0,"210.8",12/23/1994 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,31,Gorgonzola Telino,35,0,"12.5",02/12/1996 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,52,Filo Mix,20,0,"5.6",03/21/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,54,Tourtiere,28,0,"5.9",12/23/1994 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,18,Carnarvon Tigers,18,"0.15","62.5",07/13/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,75,Rhonbrau Klosterbier,24,"0.1","6.2",03/08/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,46,Spegesild,5,0,"9.6",03/08/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,39,Chartreuse verte,60,0,"14.4",10/05/1994 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,49,Maxilaku,35,0,16,12/23/1994 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,17,Alice Mutton,30,0,"31.2",08/25/1994 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,62,Tarte au sucre,35,0,"39.4",03/21/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,57,Ravioli Angelo,15,0,"19.5",02/12/1996 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,70,Outback Lager,20,0,12,08/25/1994 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,64,Wimmers gute Semmelknodel,30,"0.1","26.6",03/08/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,56,Gnocchi di nonna Alice,40,"0.1","30.4",03/08/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,59,Raclette Courdavault,12,0,55,10/24/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,31,Gorgonzola Telino,50,"0.05","12.5",07/31/1995 0:00:00
+BLONP,Frederique Citeaux,Blondel pere et fils,11,Queso Cabrales,35,"0.15",21,07/13/1995 0:00:00
+BOLID,Martin Sommer,Bolido Comidas preparadas,17,Alice Mutton,40,"0.25",39,01/29/1996 0:00:00
+BOLID,Martin Sommer,Bolido Comidas preparadas,57,Ravioli Angelo,16,0,"15.6",11/10/1994 0:00:00
+BOLID,Martin Sommer,Bolido Comidas preparadas,29,Thuringer Rostbratwurst,20,"0.25","123.79",01/29/1996 0:00:00
+BOLID,Martin Sommer,Bolido Comidas preparadas,52,Filo Mix,40,"0.2",7,04/23/1996 0:00:00
+BOLID,Martin Sommer,Bolido Comidas preparadas,4,Chef Anton's Cajun Seasoning,24,0,"17.6",11/10/1994 0:00:00
+BOLID,Martin Sommer,Bolido Comidas preparadas,75,Rhonbrau Klosterbier,50,0,"6.2",11/10/1994 0:00:00
+BONAP,Laurence Lebihan,Bon app',17,Alice Mutton,16,"0.05",39,03/07/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',71,Flotemysost,30,0,"21.5",11/23/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',10,Ikura,15,0,31,02/12/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',69,Gudbrandsdalsost,25,"0.25",36,12/27/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',14,Tofu,20,"0.25","23.25",06/05/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',10,Ikura,21,0,31,11/23/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',23,Tunnbrod,15,0,"7.2",04/11/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',7,Uncle Bob's Organic Dried Pears,50,"0.15",30,05/19/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',25,NuNuCa Nuss-Nougat-Creme,50,0,"11.2",12/26/1994 0:00:00
+BONAP,Laurence Lebihan,Bon app',19,Teatime Chocolate Biscuits,10,"0.25","9.2",06/05/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',43,Ipoh Coffee,40,"0.05","36.8",11/29/1994 0:00:00
+BONAP,Laurence Lebihan,Bon app',7,Uncle Bob's Organic Dried Pears,8,0,30,04/10/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',51,Manjimup Dried Apples,20,"0.05",53,10/11/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',54,Tourtiere,24,0,"5.9",12/26/1994 0:00:00
+BONAP,Laurence Lebihan,Bon app',46,Spegesild,21,0,12,03/11/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',51,Manjimup Dried Apples,20,0,"42.4",12/26/1994 0:00:00
+BONAP,Laurence Lebihan,Bon app',31,Gorgonzola Telino,3,"0.05","12.5",12/06/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',13,Konbu,20,0,6,04/10/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',41,Jack's New England Clam Chowder,12,"0.05","7.7",11/29/1994 0:00:00
+BONAP,Laurence Lebihan,Bon app',8,Northwoods Cranberry Sauce,10,"0.15",40,05/19/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',76,Lakkalikoori,20,0,18,12/07/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',42,Singaporean Hokkien Fried Mee,30,"0.05",14,10/11/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',62,Tarte au sucre,14,"0.1","49.3",04/05/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',47,Zaanse koeken,30,"0.25","9.5",12/27/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',16,Pavlova,15,"0.05","17.45",12/06/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',39,Chartreuse verte,21,0,18,02/12/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',65,Louisiana Fiery Hot Pepper Sauce,10,"0.05","21.05",12/06/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',56,Gnocchi di nonna Alice,30,"0.25",38,12/27/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',18,Carnarvon Tigers,20,"0.05",50,11/29/1994 0:00:00
+BONAP,Laurence Lebihan,Bon app',75,Rhonbrau Klosterbier,20,"0.1","7.75",04/05/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',40,Boston Crab Meat,15,"0.1","18.4",06/02/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',72,Mozzarella di Giovanni,16,0,"34.8",04/05/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',64,Wimmers gute Semmelknodel,20,0,"33.25",03/11/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',16,Pavlova,12,"0.05","17.45",03/07/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',16,Pavlova,30,"0.1","17.45",04/05/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',36,Inlagd Sill,30,0,19,06/02/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',18,Carnarvon Tigers,30,0,50,04/11/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',40,Boston Crab Meat,30,"0.05","18.4",10/11/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',57,Ravioli Angelo,14,"0.25","19.5",12/27/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',64,Wimmers gute Semmelknodel,8,0,"26.6",04/11/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',6,Grandma's Boysenberry Spread,50,"0.05",25,03/07/1996 0:00:00
+BONAP,Laurence Lebihan,Bon app',54,Tourtiere,15,0,"5.9",11/16/1994 0:00:00
+BONAP,Laurence Lebihan,Bon app',4,Chef Anton's Cajun Seasoning,50,"0.15",22,05/19/1995 0:00:00
+BONAP,Laurence Lebihan,Bon app',6,Grandma's Boysenberry Spread,20,"0.25",25,06/05/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,44,Gula Malacca,18,"0.25","19.45",04/11/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,43,Ipoh Coffee,9,0,46,04/26/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,55,Pate chinois,15,0,"19.2",01/20/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,40,Boston Crab Meat,50,"0.25","14.7",03/02/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,10,Ikura,16,0,"24.8",01/20/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,17,Alice Mutton,6,0,39,04/12/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,25,NuNuCa Nuss-Nougat-Creme,60,"0.05","11.2",05/02/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,72,Mozzarella di Giovanni,35,0,"34.8",12/15/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,8,Northwoods Cranberry Sauce,16,0,40,04/24/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,56,Gnocchi di nonna Alice,18,0,38,04/11/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,44,Gula Malacca,40,"0.2","15.5",02/10/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,33,Geitost,49,0,2,02/10/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,70,Outback Lager,30,0,12,01/20/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,60,Camembert Pierrot,50,0,34,12/15/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,1,Chai,60,"0.25",18,04/01/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,41,Jack's New England Clam Chowder,25,"0.2","7.7",02/10/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,24,Guarana Fantastica,30,"0.25","4.5",05/16/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,62,Tarte au sucre,20,0,"39.4",01/20/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,59,Raclette Courdavault,16,0,44,02/10/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,47,Zaanse koeken,30,"0.25","7.6",03/02/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,17,Alice Mutton,50,"0.25","31.2",03/02/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,7,Uncle Bob's Organic Dried Pears,20,0,30,04/26/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,3,Aniseed Syrup,20,0,10,12/15/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,68,Scottish Longbreads,42,0,"12.5",05/24/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,51,Manjimup Dried Apples,24,0,53,05/23/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,33,Geitost,15,0,"2.5",05/23/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,75,Rhonbrau Klosterbier,10,0,"7.75",04/24/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,60,Camembert Pierrot,25,"0.25",34,04/01/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,10,Ikura,30,0,31,04/12/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,42,Singaporean Hokkien Fried Mee,20,"0.05","11.2",05/02/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,6,Grandma's Boysenberry Spread,12,0,25,04/12/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,59,Raclette Courdavault,9,"0.2",44,02/10/1995 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,62,Tarte au sucre,60,0,"49.3",04/12/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,62,Tarte au sucre,21,"0.25","49.3",05/16/1996 0:00:00
+BOTTM,Elizabeth Lincoln,Bottom-Dollar Markets,11,Queso Cabrales,5,"0.25",21,04/11/1996 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,70,Outback Lager,7,0,15,06/15/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,13,Konbu,8,0,6,06/16/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,51,Manjimup Dried Apples,3,0,"42.4",04/24/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,57,Ravioli Angelo,6,0,"19.5",07/25/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,59,Raclette Courdavault,4,0,55,04/12/1996 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,7,Uncle Bob's Organic Dried Pears,30,0,24,04/11/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,33,Geitost,15,0,"2.5",06/16/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,13,Konbu,15,0,6,04/10/1996 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,49,Maxilaku,6,0,20,06/16/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,35,Steeleye Stout,20,0,18,07/25/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,56,Gnocchi di nonna Alice,20,0,"30.4",04/11/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,21,Sir Rodney's Scones,14,0,8,04/24/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,40,Boston Crab Meat,10,0,"14.7",04/24/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,64,Wimmers gute Semmelknodel,9,0,"26.6",09/26/1994 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,7,Uncle Bob's Organic Dried Pears,4,0,30,05/14/1996 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,21,Sir Rodney's Scones,15,0,10,06/16/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,43,Ipoh Coffee,30,0,46,05/14/1996 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,46,Spegesild,15,0,12,04/10/1996 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,62,Tarte au sucre,10,0,"49.3",08/15/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,3,Aniseed Syrup,30,0,8,09/26/1994 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,72,Mozzarella di Giovanni,1,0,"34.8",06/15/1995 0:00:00
+BSBEV,Victoria Ashworth,B's Beverages,22,Gustaf's Knackebrod,21,0,21,04/10/1996 0:00:00
+CACTU,Patricio Simpson,Cactus Comidas para llevar,28,Rossle Sauerkraut,8,0,"45.6",04/09/1996 0:00:00
+CACTU,Patricio Simpson,Cactus Comidas para llevar,35,Steeleye Stout,3,0,18,05/30/1995 0:00:00
+CACTU,Patricio Simpson,Cactus Comidas para llevar,41,Jack's New England Clam Chowder,10,0,"9.65",05/30/1995 0:00:00
+CACTU,Patricio Simpson,Cactus Comidas para llevar,33,Geitost,10,0,"2.5",05/28/1996 0:00:00
+CACTU,Patricio Simpson,Cactus Comidas para llevar,34,Sasquatch Ale,20,0,14,04/09/1996 0:00:00
+CACTU,Patricio Simpson,Cactus Comidas para llevar,67,Laughing Lumberjack Lager,20,0,14,05/28/1996 0:00:00
+CACTU,Patricio Simpson,Cactus Comidas para llevar,43,Ipoh Coffee,7,0,46,02/07/1996 0:00:00
+CACTU,Patricio Simpson,Cactus Comidas para llevar,31,Gorgonzola Telino,1,0,"12.5",01/17/1996 0:00:00
+CACTU,Patricio Simpson,Cactus Comidas para llevar,68,Scottish Longbreads,6,0,"12.5",05/30/1995 0:00:00
+CACTU,Patricio Simpson,Cactus Comidas para llevar,75,Rhonbrau Klosterbier,20,0,"7.75",02/07/1996 0:00:00
+CACTU,Patricio Simpson,Cactus Comidas para llevar,73,Rod Kaviar,10,0,15,03/13/1996 0:00:00
+CENTC,Francisco Chang,Centro comercial Moctezuma,37,Gravad lax,1,0,"20.8",08/18/1994 0:00:00
+CENTC,Francisco Chang,Centro comercial Moctezuma,21,Sir Rodney's Scones,10,0,8,08/18/1994 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,63,Vegie-spread,12,0,"43.9",05/16/1996 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,63,Vegie-spread,30,0,"43.9",05/22/1996 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,42,Singaporean Hokkien Fried Mee,28,0,14,12/20/1995 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,1,Chai,15,"0.15","14.4",01/03/1995 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,13,Konbu,6,0,6,12/20/1995 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,62,Tarte au sucre,12,"0.15","49.3",04/19/1996 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,56,Gnocchi di nonna Alice,40,0,38,05/29/1995 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,56,Gnocchi di nonna Alice,20,0,38,05/16/1996 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,64,Wimmers gute Semmelknodel,30,0,"26.6",01/03/1995 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,56,Gnocchi di nonna Alice,12,"0.15",38,04/19/1996 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,51,Manjimup Dried Apples,30,"0.05",53,12/07/1995 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,21,Sir Rodney's Scones,40,"0.05",10,12/07/1995 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,60,Camembert Pierrot,10,"0.05",34,05/29/1995 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,62,Tarte au sucre,9,0,"49.3",12/20/1995 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,74,Longlife Tofu,21,0,8,08/11/1994 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,55,Pate chinois,21,"0.15","19.2",08/11/1994 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,2,Chang,30,"0.2",19,05/22/1996 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,74,Longlife Tofu,20,"0.15",8,01/03/1995 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,24,Guarana Fantastica,15,"0.15","3.6",08/11/1994 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,37,Gravad lax,8,0,26,04/19/1996 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,69,Gudbrandsdalsost,40,0,36,12/20/1995 0:00:00
+CHOPS,Yang Wang,Chop-suey Chinese,10,Ikura,16,"0.05",31,05/29/1995 0:00:00
+COMMI,Pedro Afonso,Comercio Mineiro,49,Maxilaku,15,0,16,09/27/1994 0:00:00
+COMMI,Pedro Afonso,Comercio Mineiro,29,Thuringer Rostbratwurst,15,0,99,09/27/1994 0:00:00
+COMMI,Pedro Afonso,Comercio Mineiro,61,Sirop d'erable,4,0,"28.5",05/22/1996 0:00:00
+COMMI,Pedro Afonso,Comercio Mineiro,44,Gula Malacca,15,0,"19.45",05/22/1996 0:00:00
+COMMI,Pedro Afonso,Comercio Mineiro,5,Chef Anton's Gumbo Mix,20,0,17,09/27/1994 0:00:00
+COMMI,Pedro Afonso,Comercio Mineiro,56,Gnocchi di nonna Alice,30,0,"30.4",05/03/1995 0:00:00
+COMMI,Pedro Afonso,Comercio Mineiro,11,Queso Cabrales,10,0,"16.8",04/06/1995 0:00:00
+COMMI,Pedro Afonso,Comercio Mineiro,77,Original Frankfurter grune Sosse,10,0,"10.4",09/27/1994 0:00:00
+COMMI,Pedro Afonso,Comercio Mineiro,46,Spegesild,9,0,12,04/22/1996 0:00:00
+COMMI,Pedro Afonso,Comercio Mineiro,46,Spegesild,5,0,"9.6",04/06/1995 0:00:00
+CONSH,Elizabeth Brown,Consolidated Holdings,9,Mishi Kobe Niku,3,0,97,02/23/1996 0:00:00
+CONSH,Elizabeth Brown,Consolidated Holdings,5,Chef Anton's Gumbo Mix,30,0,"21.35",02/23/1996 0:00:00
+CONSH,Elizabeth Brown,Consolidated Holdings,22,Gustaf's Knackebrod,12,0,"16.8",03/07/1995 0:00:00
+CONSH,Elizabeth Brown,Consolidated Holdings,13,Konbu,1,0,"4.8",04/03/1995 0:00:00
+CONSH,Elizabeth Brown,Consolidated Holdings,2,Chang,10,0,"15.2",03/07/1995 0:00:00
+CONSH,Elizabeth Brown,Consolidated Holdings,23,Tunnbrod,21,0,"7.2",04/03/1995 0:00:00
+CONSH,Elizabeth Brown,Consolidated Holdings,72,Mozzarella di Giovanni,10,0,"27.8",03/07/1995 0:00:00
+DRACD,Sven Ottlieb,Drachenblut Delikatessen,11,Queso Cabrales,20,0,21,01/25/1996 0:00:00
+DRACD,Sven Ottlieb,Drachenblut Delikatessen,59,Raclette Courdavault,30,0,55,05/20/1996 0:00:00
+DRACD,Sven Ottlieb,Drachenblut Delikatessen,76,Lakkalikoori,12,0,"14.4",12/27/1994 0:00:00
+DRACD,Sven Ottlieb,Drachenblut Delikatessen,41,Jack's New England Clam Chowder,9,0,"9.65",06/03/1996 0:00:00
+DRACD,Sven Ottlieb,Drachenblut Delikatessen,26,Gumbar Gummibarchen,12,0,"31.23",02/09/1996 0:00:00
+DRACD,Sven Ottlieb,Drachenblut Delikatessen,53,Perth Pasties,20,0,"32.8",02/09/1996 0:00:00
+DRACD,Sven Ottlieb,Drachenblut Delikatessen,75,Rhonbrau Klosterbier,12,0,"6.2",12/27/1994 0:00:00
+DRACD,Sven Ottlieb,Drachenblut Delikatessen,13,Konbu,7,0,6,05/20/1996 0:00:00
+DRACD,Sven Ottlieb,Drachenblut Delikatessen,13,Konbu,18,0,"4.8",01/23/1995 0:00:00
+DRACD,Sven Ottlieb,Drachenblut Delikatessen,31,Gorgonzola Telino,20,0,10,12/27/1994 0:00:00
+DUMON,Janine Labrune,Du monde entier,21,Sir Rodney's Scones,6,0,10,08/24/1995 0:00:00
+DUMON,Janine Labrune,Du monde entier,10,Ikura,10,0,31,08/24/1995 0:00:00
+DUMON,Janine Labrune,Du monde entier,1,Chai,3,0,18,08/24/1995 0:00:00
+DUMON,Janine Labrune,Du monde entier,42,Singaporean Hokkien Fried Mee,6,0,"11.2",10/21/1994 0:00:00
+DUMON,Janine Labrune,Du monde entier,41,Jack's New England Clam Chowder,14,0,"9.65",03/18/1996 0:00:00
+DUMON,Janine Labrune,Du monde entier,69,Gudbrandsdalsost,7,0,"28.8",10/21/1994 0:00:00
+DUMON,Janine Labrune,Du monde entier,52,Filo Mix,9,0,7,10/27/1995 0:00:00
+DUMON,Janine Labrune,Du monde entier,34,Sasquatch Ale,10,0,14,03/18/1996 0:00:00
+DUMON,Janine Labrune,Du monde entier,17,Alice Mutton,15,0,39,03/18/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,66,Louisiana Hot Spiced Okra,24,0,17,06/09/1995 0:00:00
+EASTC,Ann Devon,Eastern Connection,72,Mozzarella di Giovanni,20,0,"34.8",04/30/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,65,Louisiana Fiery Hot Pepper Sauce,21,0,"21.05",05/15/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,4,Chef Anton's Cajun Seasoning,25,0,22,12/04/1995 0:00:00
+EASTC,Ann Devon,Eastern Connection,5,Chef Anton's Gumbo Mix,30,"0.25","21.35",05/24/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,43,Ipoh Coffee,6,0,46,04/30/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,11,Queso Cabrales,5,0,21,12/04/1995 0:00:00
+EASTC,Ann Devon,Eastern Connection,69,Gudbrandsdalsost,30,0,"28.8",12/27/1994 0:00:00
+EASTC,Ann Devon,Eastern Connection,33,Geitost,30,0,"2.5",05/15/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,1,Chai,25,"0.25",18,05/24/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,55,Pate chinois,35,0,24,05/28/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,49,Maxilaku,30,0,16,02/01/1995 0:00:00
+EASTC,Ann Devon,Eastern Connection,35,Steeleye Stout,35,0,"14.4",02/01/1995 0:00:00
+EASTC,Ann Devon,Eastern Connection,71,Flotemysost,5,0,"17.2",12/27/1994 0:00:00
+EASTC,Ann Devon,Eastern Connection,29,Thuringer Rostbratwurst,21,0,99,02/01/1995 0:00:00
+EASTC,Ann Devon,Eastern Connection,60,Camembert Pierrot,50,0,34,05/28/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,71,Flotemysost,50,0,"21.5",05/15/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,7,Uncle Bob's Organic Dried Pears,40,0,30,05/28/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,7,Uncle Bob's Organic Dried Pears,60,0,30,04/30/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,26,Gumbar Gummibarchen,12,0,"31.23",05/15/1996 0:00:00
+EASTC,Ann Devon,Eastern Connection,30,Nord-Ost Matjeshering,15,0,"25.89",06/09/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,63,Vegie-spread,35,0,"43.9",04/25/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,64,Wimmers gute Semmelknodel,35,"0.1","26.6",12/30/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,51,Manjimup Dried Apples,120,"0.05",53,01/15/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,24,Guarana Fantastica,80,0,"4.5",04/25/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,29,Thuringer Rostbratwurst,12,"0.05","123.79",11/09/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,57,Ravioli Angelo,24,0,"19.5",02/16/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,13,Konbu,13,"0.15",6,09/15/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,61,Sirop d'erable,120,"0.25","28.5",08/10/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,46,Spegesild,45,0,"9.6",01/23/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,62,Tarte au sucre,80,"0.15","49.3",09/15/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,14,Tofu,11,"0.15","23.25",07/18/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,24,Guarana Fantastica,30,0,"4.5",04/22/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,59,Raclette Courdavault,70,"0.2",44,03/02/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,28,Rossle Sauerkraut,35,0,"45.6",05/23/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,17,Alice Mutton,45,"0.2","31.2",03/02/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,50,Valkoinen suklaa,22,0,"16.25",06/04/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,57,Ravioli Angelo,25,0,"15.6",12/30/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,28,Rossle Sauerkraut,13,"0.1","36.4",12/30/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,61,Sirop d'erable,66,"0.15","28.5",05/01/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,27,Schoggi Schokolade,30,0,"43.9",04/25/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,17,Alice Mutton,35,"0.25",39,01/24/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,16,Pavlova,21,"0.15","13.9",02/03/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,48,Chocolade,70,"0.15","10.2",02/03/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,45,Rogede sild,27,"0.05","9.5",01/15/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,13,Konbu,65,"0.15",6,02/27/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,18,Carnarvon Tigers,9,0,50,01/13/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,17,Alice Mutton,33,0,39,01/11/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,63,Vegie-spread,65,0,"35.1",02/02/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,28,Rossle Sauerkraut,70,"0.05","45.6",05/08/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,59,Raclette Courdavault,110,0,55,05/13/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,60,Camembert Pierrot,100,0,34,03/20/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,26,Gumbar Gummibarchen,35,"0.15","31.23",09/15/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,60,Camembert Pierrot,60,0,34,02/16/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,16,Pavlova,65,0,"17.45",01/24/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,29,Thuringer Rostbratwurst,14,0,99,01/13/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,17,Alice Mutton,8,"0.05",39,11/09/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,16,Pavlova,60,"0.25","13.9",08/23/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,5,Chef Anton's Gumbo Mix,32,0,17,01/13/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,69,Gudbrandsdalsost,65,"0.25",36,08/10/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,56,Gnocchi di nonna Alice,30,0,"30.4",03/02/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,22,Gustaf's Knackebrod,52,0,21,02/16/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,11,Queso Cabrales,30,0,"16.8",03/14/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,42,Singaporean Hokkien Fried Mee,28,"0.15",14,07/18/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,5,Chef Anton's Gumbo Mix,65,"0.2",17,08/17/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,41,Jack's New England Clam Chowder,13,0,"7.7",12/12/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,42,Singaporean Hokkien Fried Mee,12,"0.05",14,01/15/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,41,Jack's New England Clam Chowder,40,0,"9.65",06/04/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,3,Aniseed Syrup,25,0,10,05/13/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,3,Aniseed Syrup,20,"0.1",10,01/03/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,11,Queso Cabrales,15,0,21,11/09/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,56,Gnocchi di nonna Alice,70,0,38,05/23/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,74,Longlife Tofu,36,"0.25",8,08/23/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,35,Steeleye Stout,30,"0.25",18,08/10/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,21,Sir Rodney's Scones,50,0,8,03/02/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,10,Ikura,100,"0.15",31,02/27/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,55,Pate chinois,65,"0.15",24,05/01/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,39,Chartreuse verte,45,0,18,03/20/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,70,Outback Lager,8,"0.05",15,11/09/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,31,Gorgonzola Telino,60,"0.1",10,01/23/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,74,Longlife Tofu,50,0,8,01/13/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,31,Gorgonzola Telino,24,0,"12.5",04/25/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,65,Louisiana Fiery Hot Pepper Sauce,10,"0.05","16.8",12/12/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,2,Chang,50,"0.2","15.2",08/17/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,21,Sir Rodney's Scones,5,"0.1",8,12/30/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,69,Gudbrandsdalsost,45,"0.2",36,10/13/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,38,Cote de Blaye,20,"0.05","210.8",12/12/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,31,Gorgonzola Telino,16,"0.05","12.5",01/15/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,70,Outback Lager,30,0,15,05/13/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,39,Chartreuse verte,130,"0.1",18,01/03/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,24,Guarana Fantastica,28,0,"3.6",08/23/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,31,Gorgonzola Telino,70,"0.2","12.5",01/11/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,24,Guarana Fantastica,110,0,"4.5",03/20/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,65,Louisiana Fiery Hot Pepper Sauce,39,0,"21.05",05/23/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,33,Geitost,60,0,2,01/13/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,12,Queso Manchego La Pastora,30,0,38,04/22/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,12,Queso Manchego La Pastora,20,0,38,04/25/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,35,Steeleye Stout,40,"0.1","14.4",01/23/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,23,Tunnbrod,60,0,"7.2",02/02/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,64,Wimmers gute Semmelknodel,130,0,"33.25",06/04/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,34,Sasquatch Ale,90,"0.05",14,05/08/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,64,Wimmers gute Semmelknodel,4,0,"33.25",04/22/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,2,Chang,8,0,19,06/04/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,75,Rhonbrau Klosterbier,7,"0.2","7.75",01/11/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,64,Wimmers gute Semmelknodel,30,0,"33.25",02/16/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,71,Flotemysost,21,0,"21.5",05/08/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,32,Mascarpone Fabioli,6,"0.2","25.6",08/17/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,20,Sir Rodney's Marmalade,39,0,81,05/23/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,21,Sir Rodney's Scones,65,0,10,05/01/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,7,Uncle Bob's Organic Dried Pears,18,0,30,04/25/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,40,Boston Crab Meat,91,0,"18.4",03/20/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,75,Rhonbrau Klosterbier,50,0,"7.75",05/23/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,66,Louisiana Hot Spiced Okra,60,0,"13.6",03/14/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,44,Gula Malacca,77,"0.05","15.5",12/12/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,30,Nord-Ost Matjeshering,60,"0.25","20.7",08/23/1994 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,12,Queso Manchego La Pastora,36,"0.15",38,09/15/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,71,Flotemysost,14,"0.2","21.5",10/13/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,35,Steeleye Stout,6,0,18,02/16/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,34,Sasquatch Ale,60,"0.15",14,05/01/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,65,Louisiana Fiery Hot Pepper Sauce,65,"0.05","21.05",11/09/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,71,Flotemysost,16,0,"21.5",01/10/1996 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,72,Mozzarella di Giovanni,24,"0.1","27.8",01/23/1995 0:00:00
+ERNSH,Roland Mendel,Ernst Handel,54,Tourtiere,80,0,"5.9",03/14/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,25,NuNuCa Nuss-Nougat-Creme,10,0,"11.2",12/07/1994 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,53,Perth Pasties,25,"0.05","32.8",09/29/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,47,Zaanse koeken,6,"0.15","9.5",05/22/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,40,Boston Crab Meat,4,0,"14.7",12/07/1994 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,41,Jack's New England Clam Chowder,12,0,"9.65",12/01/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,33,Geitost,50,0,2,02/14/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,19,Teatime Chocolate Biscuits,18,"0.05","7.3",02/14/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,52,Filo Mix,4,0,7,12/01/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,39,Chartreuse verte,50,"0.15","14.4",12/07/1994 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,75,Rhonbrau Klosterbier,50,"0.2","7.75",07/27/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,75,Rhonbrau Klosterbier,6,"0.15","6.2",12/07/1994 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,30,Nord-Ost Matjeshering,30,0,"25.89",09/29/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,54,Tourtiere,30,0,"7.45",09/29/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,24,Guarana Fantastica,10,"0.15","4.5",05/22/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,60,Camembert Pierrot,12,"0.15",34,05/22/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,55,Pate chinois,6,0,24,12/01/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,24,Guarana Fantastica,15,0,"3.6",01/18/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,34,Sasquatch Ale,10,0,"11.2",01/18/1995 0:00:00
+FAMIA,Aria Cruz,Familia Arquibaldo,46,Spegesild,9,"0.15",12,05/22/1995 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,51,Manjimup Dried Apples,15,0,53,09/15/1995 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,63,Vegie-spread,30,0,"43.9",01/22/1996 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,18,Carnarvon Tigers,30,0,"62.5",01/22/1996 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,24,Guarana Fantastica,20,0,"4.5",01/03/1996 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,35,Steeleye Stout,15,0,18,01/22/1996 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,68,Scottish Longbreads,18,0,"12.5",01/22/1996 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,54,Tourtiere,6,0,"5.9",02/08/1995 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,37,Gravad lax,10,0,"20.8",02/08/1995 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,75,Rhonbrau Klosterbier,2,0,"7.75",09/15/1995 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,21,Sir Rodney's Scones,40,0,10,01/03/1996 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,62,Tarte au sucre,35,0,"39.4",02/08/1995 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,47,Zaanse koeken,30,0,"7.6",04/20/1995 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,18,Carnarvon Tigers,50,0,"62.5",09/15/1995 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,7,Uncle Bob's Organic Dried Pears,35,0,30,09/15/1995 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,59,Raclette Courdavault,12,0,44,04/20/1995 0:00:00
+FOLIG,Martine Rance,Folies gourmandes,22,Gustaf's Knackebrod,6,0,21,01/03/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,75,Rhonbrau Klosterbier,4,"0.25","6.2",03/31/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,4,Chef Anton's Cajun Seasoning,50,"0.05",22,06/12/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,58,Escargots de Bourgogne,30,"0.2","10.6",11/11/1994 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,23,Tunnbrod,30,"0.2",9,03/12/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,75,Rhonbrau Klosterbier,40,"0.2","7.75",04/26/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,73,Rod Kaviar,35,0,15,11/14/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,76,Lakkalikoori,18,"0.15","14.4",03/06/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,47,Zaanse koeken,30,0,"9.5",04/25/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,39,Chartreuse verte,16,0,18,01/02/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,39,Chartreuse verte,30,0,18,04/25/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,73,Rod Kaviar,24,"0.05",15,06/12/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,2,Chang,5,0,19,11/14/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,72,Mozzarella di Giovanni,24,0,"34.8",06/12/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,68,Scottish Longbreads,21,"0.25",10,03/31/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,76,Lakkalikoori,50,"0.1",18,05/27/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,55,Pate chinois,30,"0.15",24,03/25/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,41,Jack's New England Clam Chowder,12,0,"9.65",02/09/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,46,Spegesild,25,0,12,05/06/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,2,Chang,35,0,"15.2",08/24/1994 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,41,Jack's New England Clam Chowder,35,"0.25","9.65",05/01/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,70,Outback Lager,9,0,15,02/09/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,62,Tarte au sucre,6,"0.15","49.3",03/25/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,51,Manjimup Dried Apples,50,0,53,07/07/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,66,Louisiana Hot Spiced Okra,50,0,17,01/11/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,30,Nord-Ost Matjeshering,35,"0.2","20.7",11/11/1994 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,29,Thuringer Rostbratwurst,50,"0.25","123.79",05/01/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,51,Manjimup Dried Apples,28,0,53,01/02/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,63,Vegie-spread,20,0,"43.9",04/25/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,56,Gnocchi di nonna Alice,60,0,38,01/02/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,11,Queso Cabrales,50,"0.2","16.8",11/11/1994 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,7,Uncle Bob's Organic Dried Pears,60,0,30,05/06/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,31,Gorgonzola Telino,2,"0.25","12.5",01/11/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,70,Outback Lager,50,"0.2",15,03/12/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,71,Flotemysost,6,0,"17.2",01/10/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,51,Manjimup Dried Apples,10,0,53,04/25/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,47,Zaanse koeken,30,0,"9.5",01/02/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,59,Raclette Courdavault,35,0,55,11/14/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,61,Sirop d'erable,30,"0.2","28.5",03/12/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,2,Chang,25,"0.2","15.2",11/11/1994 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,41,Jack's New England Clam Chowder,25,"0.15","7.7",08/24/1994 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,55,Pate chinois,6,0,24,05/06/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,22,Gustaf's Knackebrod,25,0,21,05/06/1996 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,44,Gula Malacca,10,0,"19.45",07/07/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,11,Queso Cabrales,6,0,"16.8",03/06/1995 0:00:00
+FOLKO,Maria Larsson,Folk och fa HB,75,Rhonbrau Klosterbier,12,"0.2","7.75",04/16/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,77,Original Frankfurter grune Sosse,15,0,13,04/04/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,59,Raclette Courdavault,70,"0.15",44,08/29/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,36,Inlagd Sill,20,0,"15.2",11/24/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,54,Tourtiere,35,"0.25","7.45",02/29/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,36,Inlagd Sill,40,"0.2","15.2",11/30/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,35,Steeleye Stout,30,"0.1",18,09/07/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,23,Tunnbrod,40,0,"7.2",01/27/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,2,Chang,24,"0.2","15.2",11/30/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,23,Tunnbrod,40,0,"7.2",11/24/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,76,Lakkalikoori,15,"0.15","14.4",08/29/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,59,Raclette Courdavault,30,0,44,04/27/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,54,Tourtiere,15,0,"7.45",11/24/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,26,Gumbar Gummibarchen,24,0,"24.9",11/24/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,37,Gravad lax,28,0,"20.8",11/24/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,58,Escargots de Bourgogne,30,0,"13.25",10/20/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,69,Gudbrandsdalsost,25,"0.05",36,11/24/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,21,Sir Rodney's Scones,60,0,10,04/04/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,23,Tunnbrod,32,0,9,10/17/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,41,Jack's New England Clam Chowder,20,"0.05","9.65",01/23/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,14,Tofu,30,0,"23.25",10/20/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,46,Spegesild,60,0,12,10/17/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,21,Sir Rodney's Scones,32,"0.05",10,11/24/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,62,Tarte au sucre,15,"0.25","49.3",07/07/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,16,Pavlova,30,"0.1","17.45",10/03/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,21,Sir Rodney's Scones,25,"0.1",10,09/07/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,71,Flotemysost,60,0,"17.2",01/27/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,31,Gorgonzola Telino,56,"0.2",10,11/30/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,30,Nord-Ost Matjeshering,20,0,"25.89",07/07/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,67,Laughing Lumberjack Lager,25,0,14,10/17/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,24,Guarana Fantastica,3,0,"4.5",09/07/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,24,Guarana Fantastica,40,"0.25","4.5",02/29/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,29,Thuringer Rostbratwurst,14,"0.05","123.79",01/23/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,64,Wimmers gute Semmelknodel,30,"0.25","33.25",02/29/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,19,Teatime Chocolate Biscuits,50,"0.05","9.2",05/09/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,14,Tofu,21,0,"23.25",09/07/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,19,Teatime Chocolate Biscuits,15,"0.1","9.2",09/07/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,75,Rhonbrau Klosterbier,49,0,"7.75",04/04/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,75,Rhonbrau Klosterbier,25,0,"7.75",10/17/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,55,Pate chinois,40,"0.2","19.2",11/30/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,71,Flotemysost,60,"0.05","21.5",05/09/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,60,Camembert Pierrot,36,"0.05",34,05/09/1996 0:00:00
+FRANK,Peter Franken,Frankenversand,72,Mozzarella di Giovanni,25,0,"27.8",11/24/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,73,Rod Kaviar,20,"0.2",12,04/27/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,40,Boston Crab Meat,50,0,"14.7",08/29/1994 0:00:00
+FRANK,Peter Franken,Frankenversand,73,Rod Kaviar,50,0,15,10/17/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,60,Camembert Pierrot,20,"0.1",34,10/03/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,53,Perth Pasties,10,0,"32.8",10/20/1995 0:00:00
+FRANK,Peter Franken,Frankenversand,72,Mozzarella di Giovanni,21,0,"27.8",01/27/1995 0:00:00
+FRANR,Carine Schmitt,France restauration,51,Manjimup Dried Apples,3,0,53,02/29/1996 0:00:00
+FRANR,Carine Schmitt,France restauration,65,Louisiana Fiery Hot Pepper Sauce,12,0,"21.05",10/18/1995 0:00:00
+FRANR,Carine Schmitt,France restauration,29,Thuringer Rostbratwurst,14,0,"123.79",04/23/1996 0:00:00
+FRANR,Carine Schmitt,France restauration,16,Pavlova,10,0,"17.45",10/18/1995 0:00:00
+FRANR,Carine Schmitt,France restauration,76,Lakkalikoori,20,0,18,02/29/1996 0:00:00
+FRANR,Carine Schmitt,France restauration,62,Tarte au sucre,10,0,"49.3",10/18/1995 0:00:00
+FRANS,Paolo Accorti,Franchi S.p.A.,77,Original Frankfurter grune Sosse,10,0,13,05/30/1996 0:00:00
+FRANS,Paolo Accorti,Franchi S.p.A.,40,Boston Crab Meat,1,0,"18.4",01/31/1996 0:00:00
+FRANS,Paolo Accorti,Franchi S.p.A.,74,Longlife Tofu,5,0,10,12/26/1995 0:00:00
+FRANS,Paolo Accorti,Franchi S.p.A.,47,Zaanse koeken,5,0,"9.5",11/20/1995 0:00:00
+FRANS,Paolo Accorti,Franchi S.p.A.,45,Rogede sild,4,0,"9.5",12/26/1995 0:00:00
+FRANS,Paolo Accorti,Franchi S.p.A.,18,Carnarvon Tigers,8,0,"62.5",05/15/1996 0:00:00
+FRANS,Paolo Accorti,Franchi S.p.A.,26,Gumbar Gummibarchen,2,0,"24.9",02/22/1995 0:00:00
+FRANS,Paolo Accorti,Franchi S.p.A.,60,Camembert Pierrot,4,0,34,05/30/1996 0:00:00
+FRANS,Paolo Accorti,Franchi S.p.A.,19,Teatime Chocolate Biscuits,5,0,"9.2",11/20/1995 0:00:00
+FRANS,Paolo Accorti,Franchi S.p.A.,51,Manjimup Dried Apples,10,0,53,05/15/1996 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,24,Guarana Fantastica,10,0,"3.6",12/13/1994 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,54,Tourtiere,20,"0.15","5.9",12/13/1994 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,56,Gnocchi di nonna Alice,12,"0.15",38,10/11/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,56,Gnocchi di nonna Alice,30,"0.2","30.4",04/04/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,44,Gula Malacca,40,0,"19.45",06/28/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,10,Ikura,24,"0.15",31,10/11/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,65,Louisiana Fiery Hot Pepper Sauce,15,"0.15","21.05",10/11/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,16,Pavlova,40,"0.15","17.45",06/28/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,60,Camembert Pierrot,2,"0.15",34,04/18/1996 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,48,Chocolade,6,"0.1","12.75",08/18/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,4,Chef Anton's Cajun Seasoning,16,"0.2","17.6",04/04/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,60,Camembert Pierrot,20,0,"27.2",04/04/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,44,Gula Malacca,15,"0.15","15.5",05/01/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,68,Scottish Longbreads,10,0,10,11/14/1994 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,76,Lakkalikoori,10,"0.1",18,08/18/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,43,Ipoh Coffee,3,0,"36.8",04/04/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,59,Raclette Courdavault,9,0,44,11/14/1994 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,35,Steeleye Stout,20,"0.15",18,06/28/1995 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,65,Louisiana Fiery Hot Pepper Sauce,40,0,"16.8",11/14/1994 0:00:00
+FURIB,Lino Rodriguez ,Furia Bacalhau e Frutos do Mar,77,Original Frankfurter grune Sosse,7,"0.15","10.4",05/01/1995 0:00:00
+GALED,Eduardo Saavedra,Galeria del gastronomo,10,Ikura,5,0,31,07/14/1995 0:00:00
+GALED,Eduardo Saavedra,Galeria del gastronomo,64,Wimmers gute Semmelknodel,7,0,"26.6",02/27/1995 0:00:00
+GALED,Eduardo Saavedra,Galeria del gastronomo,65,Louisiana Fiery Hot Pepper Sauce,5,0,"16.8",12/29/1994 0:00:00
+GALED,Eduardo Saavedra,Galeria del gastronomo,56,Gnocchi di nonna Alice,5,0,"30.4",02/27/1995 0:00:00
+GALED,Eduardo Saavedra,Galeria del gastronomo,25,NuNuCa Nuss-Nougat-Creme,5,0,14,03/15/1996 0:00:00
+GALED,Eduardo Saavedra,Galeria del gastronomo,77,Original Frankfurter grune Sosse,5,0,"10.4",12/29/1994 0:00:00
+GALED,Eduardo Saavedra,Galeria del gastronomo,76,Lakkalikoori,5,0,18,04/04/1996 0:00:00
+GALED,Eduardo Saavedra,Galeria del gastronomo,47,Zaanse koeken,5,0,"9.5",04/04/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,68,Scottish Longbreads,15,"0.1",10,10/12/1994 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,62,Tarte au sucre,20,"0.05","49.3",03/07/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,65,Louisiana Fiery Hot Pepper Sauce,30,"0.1","16.8",10/12/1994 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,10,Ikura,10,0,31,03/08/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,21,Sir Rodney's Scones,6,"0.1",10,06/28/1995 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,68,Scottish Longbreads,18,0,"12.5",03/18/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,29,Thuringer Rostbratwurst,20,0,"123.79",09/12/1995 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,64,Wimmers gute Semmelknodel,9,0,"33.25",09/12/1995 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,64,Wimmers gute Semmelknodel,15,"0.05","33.25",03/07/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,61,Sirop d'erable,10,"0.1","28.5",06/28/1995 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,67,Laughing Lumberjack Lager,15,0,14,03/28/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,55,Pate chinois,4,0,24,04/12/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,65,Louisiana Fiery Hot Pepper Sauce,21,"0.05","21.05",03/07/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,19,Teatime Chocolate Biscuits,10,0,"9.2",06/28/1995 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,36,Inlagd Sill,18,"0.25",19,05/08/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,51,Manjimup Dried Apples,40,0,53,04/12/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,1,Chai,10,0,18,03/28/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,50,Valkoinen suklaa,9,0,"16.25",04/12/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,17,Alice Mutton,12,0,39,03/28/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,17,Alice Mutton,8,"0.1",39,06/28/1995 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,2,Chang,20,0,19,03/18/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,24,Guarana Fantastica,12,0,"4.5",05/08/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,55,Pate chinois,10,"0.05",24,03/07/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,60,Camembert Pierrot,9,0,34,05/08/1996 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,40,Boston Crab Meat,40,"0.1","14.7",10/12/1994 0:00:00
+GODOS,Jose Pedro Freyre,Godos Cocina Tipica,70,Outback Lager,4,0,15,05/21/1996 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,75,Rhonbrau Klosterbier,20,"0.15","7.75",04/17/1996 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,41,Jack's New England Clam Chowder,4,0,"9.65",10/30/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,10,Ikura,20,0,31,10/30/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,76,Lakkalikoori,20,0,18,12/08/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,30,Nord-Ost Matjeshering,2,"0.25","25.89",10/02/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,42,Singaporean Hokkien Fried Mee,20,"0.2",14,01/15/1996 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,7,Uncle Bob's Organic Dried Pears,3,"0.15",30,01/22/1996 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,6,Grandma's Boysenberry Spread,30,0,25,12/08/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,8,Northwoods Cranberry Sauce,40,0,40,11/17/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,31,Gorgonzola Telino,14,0,10,02/23/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,42,Singaporean Hokkien Fried Mee,20,0,14,10/02/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,2,Chang,10,"0.2",19,05/24/1996 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,30,Nord-Ost Matjeshering,15,0,"25.89",12/08/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,12,Queso Manchego La Pastora,4,"0.2",38,05/24/1996 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,60,Camembert Pierrot,10,0,34,11/17/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,51,Manjimup Dried Apples,28,0,53,11/17/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,56,Gnocchi di nonna Alice,20,"0.15",38,01/22/1996 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,59,Raclette Courdavault,20,0,44,02/23/1995 0:00:00
+GOURL,Andre Fonseca,Gourmet Lanchonetes,47,Zaanse koeken,15,0,"9.5",10/30/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,19,Teatime Chocolate Biscuits,30,"0.1","9.2",10/26/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,70,Outback Lager,15,"0.05",15,08/31/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,14,Tofu,3,"0.1","23.25",10/05/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,38,Cote de Blaye,15,"0.05","263.5",08/31/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,47,Zaanse koeken,6,"0.1","9.5",10/05/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,38,Cote de Blaye,30,"0.05","263.5",02/06/1996 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,62,Tarte au sucre,20,"0.05","49.3",02/06/1996 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,60,Camembert Pierrot,15,0,34,05/30/1996 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,71,Flotemysost,15,"0.05","21.5",08/31/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,21,Sir Rodney's Scones,20,0,10,05/22/1996 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,33,Geitost,8,"0.2","2.5",06/06/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,21,Sir Rodney's Scones,12,"0.1",10,10/26/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,72,Mozzarella di Giovanni,9,0,"34.8",06/06/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,1,Chai,8,0,18,05/07/1996 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,56,Gnocchi di nonna Alice,14,0,38,08/31/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,29,Thuringer Rostbratwurst,2,"0.25","123.79",05/07/1996 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,35,Steeleye Stout,4,0,18,08/04/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,36,Inlagd Sill,30,"0.2",19,04/08/1996 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,44,Gula Malacca,28,"0.1","19.45",10/05/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,59,Raclette Courdavault,30,"0.15",55,08/31/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,64,Wimmers gute Semmelknodel,28,0,"33.25",10/26/1995 0:00:00
+GREAL,Howard Snyder,Great Lakes Food Market,11,Queso Cabrales,3,0,21,06/06/1995 0:00:00
+GROSR,Manuel Pereira,GROSELLA-Restaurante,10,Ikura,10,0,31,01/18/1996 0:00:00
+GROSR,Manuel Pereira,GROSELLA-Restaurante,75,Rhonbrau Klosterbier,10,0,"7.75",01/18/1996 0:00:00
+GROSR,Manuel Pereira,GROSELLA-Restaurante,29,Thuringer Rostbratwurst,10,0,99,08/30/1994 0:00:00
+GROSR,Manuel Pereira,GROSELLA-Restaurante,72,Mozzarella di Giovanni,4,0,"27.8",08/30/1994 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,31,Gorgonzola Telino,35,0,"12.5",03/15/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,38,Cote de Blaye,4,"0.1","263.5",06/19/1995 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,31,Gorgonzola Telino,10,0,"12.5",01/18/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,77,Original Frankfurter grune Sosse,40,0,13,03/15/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,36,Inlagd Sill,15,0,19,09/26/1995 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,77,Original Frankfurter grune Sosse,30,"0.25",13,11/02/1995 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,36,Inlagd Sill,25,"0.15",19,04/03/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,39,Chartreuse verte,42,0,"14.4",08/10/1994 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,38,Cote de Blaye,60,0,"263.5",04/26/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,38,Cote de Blaye,5,0,"263.5",01/18/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,17,Alice Mutton,15,0,39,04/02/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,49,Maxilaku,40,0,16,08/10/1994 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,51,Manjimup Dried Apples,35,"0.15","42.4",08/08/1994 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,10,Ikura,70,0,31,03/15/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,65,Louisiana Fiery Hot Pepper Sauce,21,0,"21.05",03/26/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,65,Louisiana Fiery Hot Pepper Sauce,36,"0.1","21.05",06/19/1995 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,56,Gnocchi di nonna Alice,20,"0.25",38,11/02/1995 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,24,Guarana Fantastica,35,"0.1","4.5",06/19/1995 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,52,Filo Mix,12,"0.15",7,04/03/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,65,Louisiana Fiery Hot Pepper Sauce,15,"0.15","16.8",08/08/1994 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,18,Carnarvon Tigers,20,0,"62.5",09/26/1995 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,24,Guarana Fantastica,35,0,"4.5",04/02/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,19,Teatime Chocolate Biscuits,35,0,"9.2",05/14/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,68,Scottish Longbreads,20,0,"12.5",03/26/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,41,Jack's New England Clam Chowder,10,0,"7.7",08/08/1994 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,31,Gorgonzola Telino,20,0,10,08/10/1994 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,11,Queso Cabrales,15,"0.25",21,01/09/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,71,Flotemysost,9,"0.1","21.5",06/19/1995 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,43,Ipoh Coffee,30,"0.2",46,05/27/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,69,Gudbrandsdalsost,30,0,36,05/14/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,61,Sirop d'erable,10,"0.2","28.5",05/27/1996 0:00:00
+HANAR,Mario Pontes,Hanari Carnes,13,Konbu,40,0,6,03/26/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,53,Perth Pasties,70,"0.1","26.2",01/26/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,35,Steeleye Stout,40,0,18,04/17/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,31,Gorgonzola Telino,20,0,"12.5",11/15/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,40,Boston Crab Meat,60,0,"18.4",09/22/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,46,Spegesild,28,"0.1","9.6",01/26/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,40,Boston Crab Meat,5,0,"18.4",05/08/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,32,Mascarpone Fabioli,4,0,32,11/15/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,51,Manjimup Dried Apples,25,0,"42.4",04/26/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,24,Guarana Fantastica,14,0,"4.5",05/08/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,44,Gula Malacca,10,0,"19.45",01/25/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,25,NuNuCa Nuss-Nougat-Creme,15,0,14,05/28/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,39,Chartreuse verte,6,0,"14.4",08/16/1994 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,24,Guarana Fantastica,15,0,"4.5",05/28/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,42,Singaporean Hokkien Fried Mee,30,0,14,05/08/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,30,Nord-Ost Matjeshering,30,0,"25.89",04/17/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,27,Schoggi Schokolade,25,0,"35.1",08/16/1994 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,24,Guarana Fantastica,10,"0.25","4.5",04/18/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,51,Manjimup Dried Apples,20,0,53,05/28/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,26,Gumbar Gummibarchen,21,"0.2","31.23",01/25/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,41,Jack's New England Clam Chowder,24,0,"9.65",04/18/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,41,Jack's New England Clam Chowder,30,0,"9.65",03/25/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,28,Rossle Sauerkraut,20,0,"45.6",04/24/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,74,Longlife Tofu,16,0,8,04/26/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,58,Escargots de Bourgogne,12,"0.15","13.25",03/04/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,55,Pate chinois,2,"0.05","19.2",04/17/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,1,Chai,20,"0.15",18,03/04/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,69,Gudbrandsdalsost,24,"0.2",36,01/25/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,64,Wimmers gute Semmelknodel,8,0,"33.25",04/17/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,64,Wimmers gute Semmelknodel,35,"0.2","33.25",01/25/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,59,Raclette Courdavault,35,0,55,08/16/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,13,Konbu,60,0,6,08/16/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,71,Flotemysost,30,0,"21.5",03/25/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,69,Gudbrandsdalsost,8,0,"28.8",01/26/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,13,Konbu,8,"0.1",6,08/29/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,70,Outback Lager,12,0,12,04/17/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,57,Ravioli Angelo,20,0,"19.5",05/28/1996 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,2,Chang,50,0,19,09/22/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,69,Gudbrandsdalsost,18,0,36,06/29/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,77,Original Frankfurter grune Sosse,15,0,"10.4",08/16/1994 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,68,Scottish Longbreads,30,0,10,05/01/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,11,Queso Cabrales,5,0,"16.8",04/26/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,75,Rhonbrau Klosterbier,40,0,"7.75",08/29/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,59,Raclette Courdavault,60,0,44,05/01/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,75,Rhonbrau Klosterbier,30,0,"7.75",06/29/1995 0:00:00
+HILAA,Carlos Hernandez,HILARIoN-Abastos,75,Rhonbrau Klosterbier,36,0,"6.2",05/01/1995 0:00:00
+HUNGC,Yoshi Latimer,Hungry Coyote Import Store,73,Rod Kaviar,30,0,15,08/16/1995 0:00:00
+HUNGC,Yoshi Latimer,Hungry Coyote Import Store,33,Geitost,20,0,2,02/15/1995 0:00:00
+HUNGC,Yoshi Latimer,Hungry Coyote Import Store,54,Tourtiere,4,0,"7.45",08/16/1995 0:00:00
+HUNGC,Yoshi Latimer,Hungry Coyote Import Store,17,Alice Mutton,2,0,"31.2",02/15/1995 0:00:00
+HUNGC,Yoshi Latimer,Hungry Coyote Import Store,13,Konbu,10,0,"4.8",01/25/1995 0:00:00
+HUNGC,Yoshi Latimer,Hungry Coyote Import Store,14,Tofu,15,0,"18.6",01/06/1995 0:00:00
+HUNGC,Yoshi Latimer,Hungry Coyote Import Store,54,Tourtiere,10,0,"5.9",01/06/1995 0:00:00
+HUNGC,Yoshi Latimer,Hungry Coyote Import Store,62,Tarte au sucre,10,0,"39.4",01/25/1995 0:00:00
+HUNGC,Yoshi Latimer,Hungry Coyote Import Store,20,Sir Rodney's Marmalade,21,0,81,10/09/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,63,Vegie-spread,35,"0.25","35.1",03/01/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,36,Inlagd Sill,40,"0.25","15.2",10/06/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,10,Ikura,18,"0.25",31,09/27/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,71,Flotemysost,3,0,"17.2",10/20/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,70,Outback Lager,30,0,12,01/12/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,75,Rhonbrau Klosterbier,20,0,"7.75",12/12/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,51,Manjimup Dried Apples,3,0,53,07/13/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,41,Jack's New England Clam Chowder,80,"0.1","9.65",05/25/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,71,Flotemysost,50,"0.2","17.2",01/05/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,39,Chartreuse verte,3,"0.2",18,10/10/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,51,Manjimup Dried Apples,48,"0.2","42.4",11/22/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,18,Carnarvon Tigers,25,"0.1","62.5",05/25/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,31,Gorgonzola Telino,60,"0.2","12.5",07/13/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,62,Tarte au sucre,15,0,"39.4",10/06/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,58,Escargots de Bourgogne,80,"0.2","10.6",01/05/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,18,Carnarvon Tigers,8,"0.1","62.5",04/29/1996 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,58,Escargots de Bourgogne,49,"0.2","13.25",10/10/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,14,Tofu,70,0,"23.25",05/12/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,9,Mishi Kobe Niku,50,"0.25",97,10/31/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,59,Raclette Courdavault,30,"0.25",44,10/06/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,4,Chef Anton's Cajun Seasoning,20,0,"17.6",10/20/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,59,Raclette Courdavault,42,"0.15",55,11/13/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,30,Nord-Ost Matjeshering,36,0,"25.89",03/21/1996 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,41,Jack's New England Clam Chowder,30,"0.1","9.65",05/30/1996 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,77,Original Frankfurter grune Sosse,35,"0.25",13,09/27/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,36,Inlagd Sill,6,"0.25",19,10/31/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,65,Louisiana Fiery Hot Pepper Sauce,40,0,"21.05",12/12/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,29,Thuringer Rostbratwurst,60,"0.25","123.79",03/28/1996 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,53,Perth Pasties,3,"0.05","32.8",11/21/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,42,Singaporean Hokkien Fried Mee,20,0,14,05/25/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,29,Thuringer Rostbratwurst,80,0,"123.79",03/21/1996 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,32,Mascarpone Fabioli,35,"0.1",32,04/29/1996 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,65,Louisiana Fiery Hot Pepper Sauce,20,0,"21.05",05/12/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,32,Mascarpone Fabioli,6,"0.2","25.6",11/22/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,30,Nord-Ost Matjeshering,18,"0.1","20.7",01/12/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,11,Queso Cabrales,40,"0.25",21,03/28/1996 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,16,Pavlova,36,"0.1","17.45",04/29/1996 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,60,Camembert Pierrot,6,"0.1","27.2",01/12/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,6,Grandma's Boysenberry Spread,30,0,20,10/20/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,43,Ipoh Coffee,20,0,"36.8",10/20/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,1,Chai,15,"0.25",18,09/27/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,29,Thuringer Rostbratwurst,10,0,"123.79",10/31/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,31,Gorgonzola Telino,25,"0.2",10,11/22/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,59,Raclette Courdavault,40,"0.2",55,07/13/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,71,Flotemysost,30,"0.25","21.5",09/27/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,40,Boston Crab Meat,40,"0.1","18.4",05/30/1996 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,56,Gnocchi di nonna Alice,30,0,38,11/21/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,50,Valkoinen suklaa,40,0,13,03/01/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,76,Lakkalikoori,35,"0.15",18,11/13/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,2,Chang,7,"0.2","15.2",11/22/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,2,Chang,40,0,"15.2",10/06/1994 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,53,Perth Pasties,20,"0.1","26.2",01/12/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,34,Sasquatch Ale,30,0,14,05/30/1996 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,71,Flotemysost,20,"0.15","21.5",11/13/1995 0:00:00
+HUNGO,Patricia McKenna,Hungry Owl All-Night Grocers,42,Singaporean Hokkien Fried Mee,2,0,"11.2",10/20/1994 0:00:00
+ISLAT,Helen Bennett,Island Trading,71,Flotemysost,12,0,"17.2",04/13/1995 0:00:00
+ISLAT,Helen Bennett,Island Trading,71,Flotemysost,15,0,"21.5",09/05/1995 0:00:00
+ISLAT,Helen Bennett,Island Trading,60,Camembert Pierrot,21,0,34,02/13/1996 0:00:00
+ISLAT,Helen Bennett,Island Trading,72,Mozzarella di Giovanni,10,0,"34.8",01/26/1996 0:00:00
+ISLAT,Helen Bennett,Island Trading,41,Jack's New England Clam Chowder,20,0,"7.7",11/01/1994 0:00:00
+ISLAT,Helen Bennett,Island Trading,33,Geitost,12,0,2,04/13/1995 0:00:00
+ISLAT,Helen Bennett,Island Trading,61,Sirop d'erable,30,0,"28.5",04/05/1996 0:00:00
+ISLAT,Helen Bennett,Island Trading,59,Raclette Courdavault,6,0,55,12/21/1995 0:00:00
+ISLAT,Helen Bennett,Island Trading,56,Gnocchi di nonna Alice,15,0,38,12/21/1995 0:00:00
+ISLAT,Helen Bennett,Island Trading,23,Tunnbrod,10,0,9,09/05/1995 0:00:00
+ISLAT,Helen Bennett,Island Trading,23,Tunnbrod,5,0,9,10/19/1995 0:00:00
+ISLAT,Helen Bennett,Island Trading,53,Perth Pasties,2,0,"32.8",04/05/1996 0:00:00
+ISLAT,Helen Bennett,Island Trading,76,Lakkalikoori,10,0,18,12/21/1995 0:00:00
+ISLAT,Helen Bennett,Island Trading,62,Tarte au sucre,2,0,"49.3",01/26/1996 0:00:00
+ISLAT,Helen Bennett,Island Trading,35,Steeleye Stout,10,0,"14.4",11/03/1994 0:00:00
+ISLAT,Helen Bennett,Island Trading,13,Konbu,10,0,6,02/13/1996 0:00:00
+ISLAT,Helen Bennett,Island Trading,70,Outback Lager,30,0,12,10/27/1994 0:00:00
+ISLAT,Helen Bennett,Island Trading,19,Teatime Chocolate Biscuits,5,0,"9.2",09/05/1995 0:00:00
+ISLAT,Helen Bennett,Island Trading,8,Northwoods Cranberry Sauce,20,0,40,02/13/1996 0:00:00
+ISLAT,Helen Bennett,Island Trading,34,Sasquatch Ale,14,0,"11.2",10/27/1994 0:00:00
+ISLAT,Helen Bennett,Island Trading,76,Lakkalikoori,6,0,"14.4",11/01/1994 0:00:00
+ISLAT,Helen Bennett,Island Trading,2,Chang,10,0,19,02/13/1996 0:00:00
+ISLAT,Helen Bennett,Island Trading,70,Outback Lager,20,0,15,09/05/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,40,Boston Crab Meat,60,"0.15","18.4",02/06/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,30,Nord-Ost Matjeshering,8,0,"20.7",04/07/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,30,Nord-Ost Matjeshering,35,0,"25.89",03/20/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,43,Ipoh Coffee,15,0,"36.8",04/07/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,11,Queso Cabrales,15,"0.05",21,06/20/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,72,Mozzarella di Giovanni,40,0,"27.8",11/09/1994 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,8,Northwoods Cranberry Sauce,30,0,40,03/20/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,16,Pavlova,20,0,"17.45",11/27/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,29,Thuringer Rostbratwurst,24,0,"123.79",03/20/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,13,Konbu,20,"0.15",6,01/26/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,13,Konbu,12,0,"4.8",11/09/1994 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,6,Grandma's Boysenberry Spread,6,0,20,11/09/1994 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,31,Gorgonzola Telino,4,0,10,11/09/1994 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,62,Tarte au sucre,20,0,"49.3",11/27/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,15,Genen Shouyu,5,0,"12.4",11/07/1994 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,14,Tofu,9,0,"18.6",11/09/1994 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,62,Tarte au sucre,25,"0.15","49.3",02/06/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,70,Outback Lager,14,"0.1",15,05/16/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,49,Maxilaku,21,"0.15",16,03/28/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,12,Queso Manchego La Pastora,36,0,38,11/27/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,76,Lakkalikoori,35,0,18,09/13/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,24,Guarana Fantastica,20,"0.15","4.5",01/26/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,21,Sir Rodney's Scones,40,"0.15",8,03/28/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,3,Aniseed Syrup,49,0,10,02/23/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,59,Raclette Courdavault,25,0,55,01/26/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,55,Pate chinois,35,0,24,05/16/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,24,Guarana Fantastica,10,0,"4.5",03/20/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,36,Inlagd Sill,20,0,19,03/20/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,55,Pate chinois,12,"0.05",24,09/13/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,39,Chartreuse verte,4,0,"14.4",11/07/1994 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,36,Inlagd Sill,40,0,19,11/27/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,59,Raclette Courdavault,36,0,44,03/28/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,25,NuNuCa Nuss-Nougat-Creme,4,0,"11.2",11/07/1994 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,54,Tourtiere,24,"0.05","7.45",06/20/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,59,Raclette Courdavault,24,0,55,05/16/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,25,NuNuCa Nuss-Nougat-Creme,18,"0.1",14,05/16/1995 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,38,Cote de Blaye,30,0,"263.5",02/06/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,26,Gumbar Gummibarchen,18,"0.15","31.23",02/23/1996 0:00:00
+KOENE,Philip Cramer,Koniglich Essen,26,Gumbar Gummibarchen,40,"0.15","31.23",02/06/1996 0:00:00
+LACOR,Daniel Tonini,La corne d'abondance,33,Geitost,7,0,"2.5",04/23/1996 0:00:00
+LACOR,Daniel Tonini,La corne d'abondance,26,Gumbar Gummibarchen,5,0,"31.23",04/23/1996 0:00:00
+LACOR,Daniel Tonini,La corne d'abondance,52,Filo Mix,5,0,7,04/04/1996 0:00:00
+LACOR,Daniel Tonini,La corne d'abondance,7,Uncle Bob's Organic Dried Pears,5,0,30,02/29/1996 0:00:00
+LACOR,Daniel Tonini,La corne d'abondance,41,Jack's New England Clam Chowder,6,0,"9.65",04/23/1996 0:00:00
+LACOR,Daniel Tonini,La corne d'abondance,20,Sir Rodney's Marmalade,5,0,81,04/04/1996 0:00:00
+LACOR,Daniel Tonini,La corne d'abondance,75,Rhonbrau Klosterbier,10,0,"7.75",04/23/1996 0:00:00
+LACOR,Daniel Tonini,La corne d'abondance,27,Schoggi Schokolade,10,0,"43.9",02/29/1996 0:00:00
+LACOR,Daniel Tonini,La corne d'abondance,70,Outback Lager,4,0,15,02/29/1996 0:00:00
+LACOR,Daniel Tonini,La corne d'abondance,76,Lakkalikoori,20,0,18,04/04/1996 0:00:00
+LACOR,Daniel Tonini,La corne d'abondance,17,Alice Mutton,6,0,39,04/23/1996 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,13,Konbu,3,"0.2",6,02/14/1996 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,46,Spegesild,10,"0.2","9.6",03/24/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,42,Singaporean Hokkien Fried Mee,10,"0.2",14,04/02/1996 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,67,Laughing Lumberjack Lager,24,"0.2",14,04/02/1996 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,24,Guarana Fantastica,10,"0.2","4.5",05/27/1996 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,1,Chai,24,0,"14.4",02/14/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,36,Inlagd Sill,20,"0.05","15.2",12/21/1994 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,34,Sasquatch Ale,10,"0.05","11.2",12/21/1994 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,36,Inlagd Sill,6,"0.2","15.2",01/03/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,2,Chang,15,"0.05",19,01/19/1996 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,66,Louisiana Hot Spiced Okra,10,"0.1","13.6",05/03/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,76,Lakkalikoori,14,0,"14.4",02/14/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,69,Gudbrandsdalsost,18,"0.1","28.8",12/12/1994 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,43,Ipoh Coffee,10,"0.2",46,04/02/1996 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,55,Pate chinois,10,"0.25","19.2",02/24/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,65,Louisiana Fiery Hot Pepper Sauce,15,"0.1","16.8",05/03/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,24,Guarana Fantastica,10,"0.05","3.6",12/21/1994 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,64,Wimmers gute Semmelknodel,3,0,"33.25",02/14/1996 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,69,Gudbrandsdalsost,10,"0.1","28.8",05/03/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,44,Gula Malacca,16,"0.2","19.45",02/14/1996 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,29,Thuringer Rostbratwurst,20,"0.05","123.79",01/19/1996 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,76,Lakkalikoori,20,"0.25","14.4",02/24/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,36,Inlagd Sill,21,"0.25",19,08/25/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,15,Genen Shouyu,12,"0.05","15.5",05/10/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,75,Rhonbrau Klosterbier,8,"0.1","7.75",09/14/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,50,Valkoinen suklaa,15,"0.1",13,12/12/1994 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,33,Geitost,20,"0.2",2,03/24/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,16,Pavlova,20,"0.2","13.9",03/24/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,25,NuNuCa Nuss-Nougat-Creme,10,"0.2",14,02/14/1996 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,28,Rossle Sauerkraut,8,"0.05","45.6",05/10/1995 0:00:00
+LAMAI,Annette Roulet,La maison d'Asie,62,Tarte au sucre,40,0,"39.4",02/14/1995 0:00:00
+LAUGB,Yoshi Tannamuri,Laughing Bacchus Wine Cellars,24,Guarana Fantastica,5,0,"4.5",09/05/1995 0:00:00
+LAUGB,Yoshi Tannamuri,Laughing Bacchus Wine Cellars,25,NuNuCa Nuss-Nougat-Creme,5,0,14,02/01/1996 0:00:00
+LAUGB,Yoshi Tannamuri,Laughing Bacchus Wine Cellars,52,Filo Mix,5,0,7,09/05/1995 0:00:00
+LAUGB,Yoshi Tannamuri,Laughing Bacchus Wine Cellars,23,Tunnbrod,10,0,"7.2",05/04/1995 0:00:00
+LAUGB,Yoshi Tannamuri,Laughing Bacchus Wine Cellars,41,Jack's New England Clam Chowder,20,0,"7.7",05/04/1995 0:00:00
+LAUGB,Yoshi Tannamuri,Laughing Bacchus Wine Cellars,13,Konbu,7,0,6,02/01/1996 0:00:00
+LAUGB,Yoshi Tannamuri,Laughing Bacchus Wine Cellars,70,Outback Lager,5,0,15,02/01/1996 0:00:00
+LAUGB,Yoshi Tannamuri,Laughing Bacchus Wine Cellars,77,Original Frankfurter grune Sosse,5,0,"10.4",05/04/1995 0:00:00
+LAZYK,John Steel,Lazy K Kountry Store,11,Queso Cabrales,10,0,21,06/22/1995 0:00:00
+LAZYK,John Steel,Lazy K Kountry Store,40,Boston Crab Meat,10,0,"14.7",04/21/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,60,Camembert Pierrot,20,"0.25","27.2",09/19/1994 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,31,Gorgonzola Telino,20,0,"12.5",06/04/1996 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,6,Grandma's Boysenberry Spread,20,0,25,04/08/1996 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,26,Gumbar Gummibarchen,5,"0.05","31.23",08/08/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,68,Scottish Longbreads,4,"0.05",10,12/01/1994 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,77,Original Frankfurter grune Sosse,25,0,"10.4",05/05/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,40,Boston Crab Meat,25,"0.2","18.4",05/31/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,44,Gula Malacca,21,0,"15.5",09/19/1994 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,16,Pavlova,30,"0.15","17.45",06/04/1996 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,72,Mozzarella di Giovanni,25,0,"27.8",05/05/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,60,Camembert Pierrot,35,"0.25",34,06/14/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,30,Nord-Ost Matjeshering,10,0,"25.89",06/12/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,54,Tourtiere,10,"0.2","7.45",06/12/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,67,Laughing Lumberjack Lager,5,"0.25","11.2",09/19/1994 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,17,Alice Mutton,15,"0.25","31.2",09/13/1994 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,11,Queso Cabrales,25,0,21,03/01/1996 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,40,Boston Crab Meat,10,"0.2","18.4",06/12/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,30,Nord-Ost Matjeshering,20,"0.2","25.89",05/31/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,30,Nord-Ost Matjeshering,15,"0.05","25.89",03/19/1996 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,1,Chai,40,"0.2",18,05/31/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,64,Wimmers gute Semmelknodel,30,0,"33.25",07/04/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,75,Rhonbrau Klosterbier,20,0,"7.75",07/04/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,12,Queso Manchego La Pastora,15,"0.25",38,06/14/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,27,Schoggi Schokolade,15,"0.25","35.1",09/19/1994 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,52,Filo Mix,8,0,7,03/01/1996 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,64,Wimmers gute Semmelknodel,50,0,"26.6",12/01/1994 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,20,Sir Rodney's Marmalade,21,"0.2",81,08/09/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,69,Gudbrandsdalsost,20,"0.2",36,08/09/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,1,Chai,40,"0.15",18,06/04/1996 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,15,Genen Shouyu,25,"0.05","15.5",08/08/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,76,Lakkalikoori,15,0,"14.4",12/01/1994 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,8,Northwoods Cranberry Sauce,24,0,40,05/31/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,59,Raclette Courdavault,25,0,55,01/10/1996 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,76,Lakkalikoori,4,"0.2",18,08/09/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,56,Gnocchi di nonna Alice,14,0,"30.4",05/05/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,29,Thuringer Rostbratwurst,18,0,"123.79",01/10/1996 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,2,Chang,20,"0.15",19,06/04/1996 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,33,Geitost,30,0,"2.5",06/14/1995 0:00:00
+LEHMS,Renate Messner,Lehmanns Marktstand,31,Gorgonzola Telino,20,0,"12.5",06/14/1995 0:00:00
+LETSS,Jaime Yorres,Let's Stop N Shop,56,Gnocchi di nonna Alice,21,"0.05",38,03/14/1996 0:00:00
+LETSS,Jaime Yorres,Let's Stop N Shop,54,Tourtiere,40,"0.25","7.45",11/27/1995 0:00:00
+LETSS,Jaime Yorres,Let's Stop N Shop,65,Louisiana Fiery Hot Pepper Sauce,12,"0.05","21.05",03/14/1996 0:00:00
+LETSS,Jaime Yorres,Let's Stop N Shop,30,Nord-Ost Matjeshering,3,"0.25","25.89",11/27/1995 0:00:00
+LETSS,Jaime Yorres,Let's Stop N Shop,15,Genen Shouyu,10,0,"15.5",07/26/1995 0:00:00
+LETSS,Jaime Yorres,Let's Stop N Shop,77,Original Frankfurter grune Sosse,2,"0.1",13,12/11/1995 0:00:00
+LETSS,Jaime Yorres,Let's Stop N Shop,18,Carnarvon Tigers,12,"0.25","62.5",11/27/1995 0:00:00
+LETSS,Jaime Yorres,Let's Stop N Shop,61,Sirop d'erable,20,"0.1","28.5",12/11/1995 0:00:00
+LETSS,Jaime Yorres,Let's Stop N Shop,21,Sir Rodney's Scones,40,"0.05",10,03/14/1996 0:00:00
+LETSS,Jaime Yorres,Let's Stop N Shop,75,Rhonbrau Klosterbier,21,0,"7.75",07/26/1995 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,77,Original Frankfurter grune Sosse,15,0,13,01/16/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,10,Ikura,30,"0.2","24.8",12/20/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,70,Outback Lager,35,0,15,01/16/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,72,Mozzarella di Giovanni,25,"0.15","27.8",11/16/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,69,Gudbrandsdalsost,15,0,"28.8",10/04/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,7,Uncle Bob's Organic Dried Pears,15,"0.05",30,06/04/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,30,Nord-Ost Matjeshering,4,"0.25","25.89",05/31/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,72,Mozzarella di Giovanni,3,0,"27.8",09/16/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,11,Queso Cabrales,12,0,"16.8",10/04/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,32,Mascarpone Fabioli,50,0,32,05/03/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,74,Longlife Tofu,14,0,8,01/12/1995 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,39,Chartreuse verte,8,"0.15",18,03/22/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,77,Original Frankfurter grune Sosse,15,"0.1",13,02/09/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,30,Nord-Ost Matjeshering,28,"0.25","20.7",03/31/1995 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,12,Queso Manchego La Pastora,30,"0.15",38,06/21/1995 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,19,Teatime Chocolate Biscuits,18,0,"7.3",09/16/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,49,Maxilaku,25,0,20,05/09/1995 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,57,Ravioli Angelo,15,0,"19.5",02/09/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,26,Gumbar Gummibarchen,16,0,"24.9",12/20/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,60,Camembert Pierrot,35,0,"27.2",09/16/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,21,Sir Rodney's Scones,40,"0.25",8,03/31/1995 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,60,Camembert Pierrot,8,"0.2","27.2",12/20/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,26,Gumbar Gummibarchen,50,"0.15","24.9",11/16/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,52,Filo Mix,20,"0.25",7,05/03/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,13,Konbu,10,"0.05",6,06/04/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,16,Pavlova,30,0,"13.9",10/04/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,55,Pate chinois,60,"0.25","19.2",03/31/1995 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,11,Queso Cabrales,20,"0.1",21,02/09/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,46,Spegesild,20,"0.25",12,05/03/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,54,Tourtiere,20,"0.25","7.45",05/31/1996 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,15,Genen Shouyu,20,0,"12.4",09/16/1994 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,23,Tunnbrod,70,"0.15",9,06/21/1995 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,28,Rossle Sauerkraut,20,0,"45.6",05/09/1995 0:00:00
+LILAS,Carlos Gonzalez,LILA-Supermercado,59,Raclette Courdavault,40,"0.1",55,02/09/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,50,Valkoinen suklaa,40,0,"16.25",12/05/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,49,Maxilaku,60,0,20,05/21/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,65,Louisiana Fiery Hot Pepper Sauce,21,0,"21.05",09/20/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,72,Mozzarella di Giovanni,60,0,"34.8",09/20/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,16,Pavlova,28,"0.15","17.45",04/16/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,60,Camembert Pierrot,24,"0.15",34,04/16/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,18,Carnarvon Tigers,25,"0.25","62.5",02/19/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,31,Gorgonzola Telino,25,"0.15","12.5",04/16/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,40,Boston Crab Meat,30,0,"18.4",02/02/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,40,Boston Crab Meat,20,0,"18.4",04/01/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,16,Pavlova,24,0,"17.45",04/01/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,19,Teatime Chocolate Biscuits,15,0,"9.2",02/02/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,35,Steeleye Stout,24,0,18,05/21/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,23,Tunnbrod,18,0,9,02/02/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,35,Steeleye Stout,9,"0.25",18,11/08/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,55,Pate chinois,30,"0.1","19.2",04/25/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,1,Chai,50,0,18,12/05/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,36,Inlagd Sill,50,"0.25",19,02/19/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,1,Chai,4,"0.25",18,02/19/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,3,Aniseed Syrup,20,"0.1",8,04/25/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,2,Chang,20,"0.1","15.2",04/25/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,39,Chartreuse verte,10,"0.2",18,02/19/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,19,Teatime Chocolate Biscuits,7,"0.25","9.2",11/08/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,57,Ravioli Angelo,28,0,"19.5",05/21/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,58,Escargots de Bourgogne,30,"0.25","13.25",11/08/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,3,Aniseed Syrup,50,0,8,02/06/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,70,Outback Lager,30,"0.25",15,11/08/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,25,NuNuCa Nuss-Nougat-Creme,6,"0.2",14,02/19/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,25,NuNuCa Nuss-Nougat-Creme,24,0,14,04/01/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,21,Sir Rodney's Scones,30,0,10,12/05/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,70,Outback Lager,60,"0.1",12,04/25/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,45,Rogede sild,20,0,"9.5",09/20/1995 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,41,Jack's New England Clam Chowder,28,"0.1","9.65",05/10/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,45,Rogede sild,30,0,"9.5",04/16/1996 0:00:00
+LINOD,Felipe Izquierdo,LINO-Delicateses,28,Rossle Sauerkraut,20,0,"45.6",05/21/1996 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,68,Scottish Longbreads,3,0,10,10/18/1994 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,51,Manjimup Dried Apples,20,0,53,10/12/1995 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,12,Queso Manchego La Pastora,20,0,38,05/13/1996 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,18,Carnarvon Tigers,10,0,"62.5",05/13/1996 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,59,Raclette Courdavault,1,0,55,10/12/1995 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,56,Gnocchi di nonna Alice,5,0,38,05/13/1996 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,76,Lakkalikoori,10,0,18,10/12/1995 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,24,Guarana Fantastica,8,0,"4.5",03/14/1996 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,1,Chai,20,0,"14.4",10/31/1994 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,62,Tarte au sucre,10,0,"39.4",10/18/1994 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,53,Perth Pasties,3,0,"32.8",03/05/1996 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,28,Rossle Sauerkraut,7,0,"45.6",06/21/1995 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,67,Laughing Lumberjack Lager,7,0,14,06/21/1995 0:00:00
+LONEP,Fran Wilson,Lonesome Pine Restaurant,68,Scottish Longbreads,10,0,"12.5",10/10/1995 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,22,Gustaf's Knackebrod,40,0,21,09/18/1995 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,2,Chang,10,"0.15",19,04/09/1996 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,39,Chartreuse verte,2,"0.15",18,01/18/1996 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,41,Jack's New England Clam Chowder,20,0,"9.65",02/07/1996 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,26,Gumbar Gummibarchen,30,"0.05","24.9",02/03/1995 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,40,Boston Crab Meat,3,0,"18.4",12/26/1995 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,4,Chef Anton's Cajun Seasoning,5,0,22,04/15/1996 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,5,Chef Anton's Gumbo Mix,15,"0.1","21.35",09/18/1995 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,72,Mozzarella di Giovanni,30,"0.15","34.8",01/18/1996 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,49,Maxilaku,30,"0.05",16,02/03/1995 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,32,Mascarpone Fabioli,20,0,32,02/07/1996 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,68,Scottish Longbreads,20,0,10,10/10/1994 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,4,Chef Anton's Cajun Seasoning,10,"0.1",22,09/18/1995 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,36,Inlagd Sill,30,0,19,01/18/1996 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,59,Raclette Courdavault,6,"0.05",44,09/07/1994 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,24,Guarana Fantastica,12,"0.05","3.6",09/07/1994 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,25,NuNuCa Nuss-Nougat-Creme,12,0,"11.2",04/06/1995 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,66,Louisiana Hot Spiced Okra,30,0,"13.6",10/10/1994 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,24,Guarana Fantastica,28,0,"3.6",04/06/1995 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,42,Singaporean Hokkien Fried Mee,40,"0.05","11.2",02/03/1995 0:00:00
+MAGAA,Giovanni Rovelli,Magazzini Alimentari Riuniti,67,Laughing Lumberjack Lager,40,"0.15",14,04/09/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,72,Mozzarella di Giovanni,15,0,"34.8",09/28/1995 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,76,Lakkalikoori,6,0,18,05/07/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,59,Raclette Courdavault,40,"0.05",55,03/19/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,43,Ipoh Coffee,30,"0.25",46,01/01/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,25,NuNuCa Nuss-Nougat-Creme,12,"0.25",14,01/01/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,21,Sir Rodney's Scones,40,"0.15",10,04/25/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,69,Gudbrandsdalsost,10,0,36,06/07/1995 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,55,Pate chinois,14,0,24,06/07/1995 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,68,Scottish Longbreads,20,0,"12.5",06/07/1995 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,44,Gula Malacca,6,"0.15","19.45",04/25/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,56,Gnocchi di nonna Alice,16,0,38,03/21/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,45,Rogede sild,15,0,"9.5",03/21/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,27,Schoggi Schokolade,40,0,"43.9",01/01/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,26,Gumbar Gummibarchen,6,0,"31.23",05/07/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,8,Northwoods Cranberry Sauce,20,"0.15",40,04/25/1996 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,28,Rossle Sauerkraut,20,0,"45.6",09/28/1995 0:00:00
+MAISD,Catherine Dewey,Maison Dewey,40,Boston Crab Meat,10,0,"18.4",04/25/1996 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,59,Raclette Courdavault,20,"0.05",55,08/21/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,64,Wimmers gute Semmelknodel,18,"0.1","33.25",07/12/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,11,Queso Cabrales,15,"0.05",21,07/18/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,18,Carnarvon Tigers,40,"0.2",50,11/17/1994 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,16,Pavlova,30,"0.05","17.45",08/21/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,77,Original Frankfurter grune Sosse,60,"0.05",13,08/07/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,42,Singaporean Hokkien Fried Mee,10,"0.2","11.2",11/17/1994 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,12,Queso Manchego La Pastora,15,0,"30.4",03/10/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,64,Wimmers gute Semmelknodel,6,0,"26.6",03/10/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,31,Gorgonzola Telino,42,"0.05",10,01/09/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,68,Scottish Longbreads,15,0,"12.5",09/01/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,16,Pavlova,16,0,"13.9",03/10/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,47,Zaanse koeken,16,"0.2","7.6",11/17/1994 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,38,Cote de Blaye,49,"0.2","210.8",02/23/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,21,Sir Rodney's Scones,42,0,10,09/04/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,56,Gnocchi di nonna Alice,20,0,38,09/01/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,61,Sirop d'erable,5,0,"28.5",11/30/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,56,Gnocchi di nonna Alice,60,"0.05",38,07/18/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,35,Steeleye Stout,60,"0.2","14.4",02/23/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,24,Guarana Fantastica,25,"0.1","4.5",07/12/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,71,Flotemysost,15,"0.05","21.5",08/21/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,1,Chai,20,0,18,08/07/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,6,Grandma's Boysenberry Spread,70,0,25,09/01/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,60,Camembert Pierrot,70,"0.05",34,08/21/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,62,Tarte au sucre,3,0,"49.3",05/15/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,68,Scottish Longbreads,30,"0.2",10,02/23/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,22,Gustaf's Knackebrod,40,0,21,09/04/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,62,Tarte au sucre,28,0,"39.4",11/28/1994 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,74,Longlife Tofu,30,0,8,03/10/1995 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,4,Chef Anton's Cajun Seasoning,10,0,"17.6",11/28/1994 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,17,Alice Mutton,70,"0.05","31.2",11/28/1994 0:00:00
+MEREP,Jean Fresniere,Mere Paillarde,10,Ikura,16,0,31,11/30/1995 0:00:00
+MORGK,Alexander Feuer,Morgenstern Gesundkost,13,Konbu,20,0,6,04/11/1996 0:00:00
+MORGK,Alexander Feuer,Morgenstern Gesundkost,28,Rossle Sauerkraut,20,0,"36.4",09/09/1994 0:00:00
+MORGK,Alexander Feuer,Morgenstern Gesundkost,76,Lakkalikoori,10,0,18,07/21/1995 0:00:00
+MORGK,Alexander Feuer,Morgenstern Gesundkost,16,Pavlova,20,0,"17.45",01/16/1996 0:00:00
+MORGK,Alexander Feuer,Morgenstern Gesundkost,72,Mozzarella di Giovanni,30,0,"34.8",07/21/1995 0:00:00
+MORGK,Alexander Feuer,Morgenstern Gesundkost,63,Vegie-spread,6,0,"43.9",07/21/1995 0:00:00
+MORGK,Alexander Feuer,Morgenstern Gesundkost,59,Raclette Courdavault,12,0,55,07/21/1995 0:00:00
+MORGK,Alexander Feuer,Morgenstern Gesundkost,47,Zaanse koeken,12,0,"9.5",11/09/1995 0:00:00
+MORGK,Alexander Feuer,Morgenstern Gesundkost,31,Gorgonzola Telino,10,0,"12.5",04/11/1996 0:00:00
+MORGK,Alexander Feuer,Morgenstern Gesundkost,62,Tarte au sucre,12,0,"39.4",09/09/1994 0:00:00
+MORGK,Alexander Feuer,Morgenstern Gesundkost,62,Tarte au sucre,20,0,"49.3",01/16/1996 0:00:00
+NORTS,Simon Crowther,North/South,59,Raclette Courdavault,4,0,55,05/25/1995 0:00:00
+NORTS,Simon Crowther,North/South,1,Chai,8,0,18,12/25/1995 0:00:00
+NORTS,Simon Crowther,North/South,69,Gudbrandsdalsost,3,0,36,12/25/1995 0:00:00
+NORTS,Simon Crowther,North/South,70,Outback Lager,6,0,15,05/25/1995 0:00:00
+NORTS,Simon Crowther,North/South,70,Outback Lager,3,0,15,05/29/1996 0:00:00
+NORTS,Simon Crowther,North/South,52,Filo Mix,6,0,7,05/25/1995 0:00:00
+OCEAN,Yvonne Moncada,Oceano Atlantico Ltda.,20,Sir Rodney's Marmalade,15,0,81,04/29/1996 0:00:00
+OCEAN,Yvonne Moncada,Oceano Atlantico Ltda.,7,Uncle Bob's Organic Dried Pears,6,0,30,04/17/1996 0:00:00
+OCEAN,Yvonne Moncada,Oceano Atlantico Ltda.,76,Lakkalikoori,10,0,18,04/29/1996 0:00:00
+OCEAN,Yvonne Moncada,Oceano Atlantico Ltda.,5,Chef Anton's Gumbo Mix,20,0,"21.35",04/17/1996 0:00:00
+OCEAN,Yvonne Moncada,Oceano Atlantico Ltda.,72,Mozzarella di Giovanni,5,0,"34.8",04/17/1996 0:00:00
+OCEAN,Yvonne Moncada,Oceano Atlantico Ltda.,13,Konbu,5,0,6,03/22/1996 0:00:00
+OCEAN,Yvonne Moncada,Oceano Atlantico Ltda.,11,Queso Cabrales,30,0,21,04/29/1996 0:00:00
+OCEAN,Yvonne Moncada,Oceano Atlantico Ltda.,77,Original Frankfurter grune Sosse,15,0,13,04/29/1996 0:00:00
+OCEAN,Yvonne Moncada,Oceano Atlantico Ltda.,21,Sir Rodney's Scones,12,0,8,02/09/1995 0:00:00
+OCEAN,Yvonne Moncada,Oceano Atlantico Ltda.,14,Tofu,12,0,"18.6",02/09/1995 0:00:00
+OCEAN,Yvonne Moncada,Oceano Atlantico Ltda.,59,Raclette Courdavault,2,0,55,06/08/1995 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,30,Nord-Ost Matjeshering,15,0,"20.7",11/25/1994 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,42,Singaporean Hokkien Fried Mee,40,"0.25",14,10/25/1995 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,65,Louisiana Fiery Hot Pepper Sauce,15,"0.15","21.05",02/27/1996 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,21,Sir Rodney's Scones,15,"0.1",10,05/20/1996 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,61,Sirop d'erable,6,0,"28.5",05/20/1996 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,51,Manjimup Dried Apples,16,0,53,04/19/1996 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,44,Gula Malacca,12,0,"19.45",05/20/1996 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,59,Raclette Courdavault,8,0,55,11/16/1995 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,18,Carnarvon Tigers,25,"0.1",50,10/14/1994 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,31,Gorgonzola Telino,20,"0.25","12.5",10/25/1995 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,16,Pavlova,50,"0.25","17.45",10/25/1995 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,29,Thuringer Rostbratwurst,25,"0.1",99,10/14/1994 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,43,Ipoh Coffee,24,0,46,11/16/1995 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,16,Pavlova,20,0,"17.45",11/16/1995 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,16,Pavlova,50,0,"17.45",02/27/1996 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,58,Escargots de Bourgogne,30,0,"13.25",08/09/1995 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,31,Gorgonzola Telino,14,0,"12.5",02/27/1996 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,52,Filo Mix,24,0,7,08/09/1995 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,17,Alice Mutton,20,0,"31.2",11/25/1994 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,56,Gnocchi di nonna Alice,24,0,38,02/27/1996 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,27,Schoggi Schokolade,50,0,"35.1",03/13/1995 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,56,Gnocchi di nonna Alice,20,"0.15",38,02/01/1996 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,76,Lakkalikoori,50,"0.15",18,02/01/1996 0:00:00
+OLDWO,Rene Phillips,Old World Delicatessen,39,Chartreuse verte,30,"0.1","14.4",10/14/1994 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,16,Pavlova,30,"0.05","17.45",06/30/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,23,Tunnbrod,20,"0.05",9,06/30/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,14,Tofu,15,"0.05","23.25",07/27/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,7,Uncle Bob's Organic Dried Pears,35,0,30,01/05/1996 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,2,Chang,40,0,19,01/05/1996 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,7,Uncle Bob's Organic Dried Pears,20,"0.1",30,02/15/1996 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,10,Ikura,24,"0.15",31,05/14/1996 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,11,Queso Cabrales,30,0,"16.8",02/07/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,31,Gorgonzola Telino,9,"0.1","12.5",02/15/1996 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,13,Konbu,10,0,6,05/17/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,71,Flotemysost,15,0,"17.2",02/07/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,62,Tarte au sucre,20,"0.05","49.3",06/30/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,53,Perth Pasties,9,"0.1","32.8",02/15/1996 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,60,Camembert Pierrot,30,0,34,10/27/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,77,Original Frankfurter grune Sosse,10,"0.05",13,06/30/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,51,Manjimup Dried Apples,15,"0.05",53,05/03/1996 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,77,Original Frankfurter grune Sosse,21,"0.05",13,05/03/1996 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,40,Boston Crab Meat,20,0,"18.4",10/27/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,41,Jack's New England Clam Chowder,20,"0.05","9.65",05/03/1996 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,41,Jack's New England Clam Chowder,16,"0.25","7.7",08/19/1994 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,68,Scottish Longbreads,40,0,"12.5",01/05/1996 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,41,Jack's New England Clam Chowder,9,"0.05","9.65",07/27/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,39,Chartreuse verte,10,0,18,05/17/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,47,Zaanse koeken,40,0,"9.5",10/27/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,65,Louisiana Fiery Hot Pepper Sauce,30,"0.05","21.05",07/27/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,69,Gudbrandsdalsost,15,0,"28.8",02/07/1995 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,70,Outback Lager,21,"0.25",12,08/19/1994 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,57,Ravioli Angelo,50,0,"15.6",08/19/1994 0:00:00
+OTTIK,Henriette Pfalzheim,Ottilies Kaseladen,62,Tarte au sucre,15,"0.25","39.4",08/19/1994 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,51,Manjimup Dried Apples,20,0,53,05/02/1996 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,60,Camembert Pierrot,4,0,34,05/02/1996 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,75,Rhonbrau Klosterbier,10,0,"6.2",04/13/1995 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,53,Perth Pasties,6,0,"32.8",05/11/1995 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,28,Rossle Sauerkraut,18,0,"36.4",04/13/1995 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,11,Queso Cabrales,10,0,21,06/04/1996 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,40,Boston Crab Meat,21,0,"14.7",04/13/1995 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,52,Filo Mix,20,0,"5.6",11/04/1994 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,24,Guarana Fantastica,20,0,"4.5",06/04/1996 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,67,Laughing Lumberjack Lager,30,0,14,05/11/1995 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,1,Chai,12,0,"14.4",12/15/1994 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,14,Tofu,12,0,"18.6",04/13/1995 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,29,Thuringer Rostbratwurst,4,0,99,12/15/1994 0:00:00
+PERIC,Guillermo Fernandez,Pericles Comidas clasicas,45,Rogede sild,21,0,"9.5",05/11/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,26,Gumbar Gummibarchen,15,0,"31.23",10/31/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,32,Mascarpone Fabioli,20,0,32,05/27/1996 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,61,Sirop d'erable,20,0,"28.5",06/08/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,69,Gudbrandsdalsost,50,0,"28.8",01/24/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,22,Gustaf's Knackebrod,35,0,21,02/21/1996 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,11,Queso Cabrales,12,"0.2","16.8",12/14/1994 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,11,Queso Cabrales,15,"0.25","16.8",04/28/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,65,Louisiana Fiery Hot Pepper Sauce,12,"0.2","21.05",08/11/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,69,Gudbrandsdalsost,30,0,36,12/20/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,17,Alice Mutton,30,"0.2",39,10/31/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,24,Guarana Fantastica,35,"0.2","4.5",08/11/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,41,Jack's New England Clam Chowder,35,0,"9.65",12/20/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,17,Alice Mutton,40,0,39,06/08/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,76,Lakkalikoori,50,0,18,06/08/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,57,Ravioli Angelo,20,0,"19.5",08/11/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,18,Carnarvon Tigers,35,"0.2","62.5",05/27/1996 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,63,Vegie-spread,9,0,"43.9",12/20/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,38,Cote de Blaye,50,"0.2","210.8",12/14/1994 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,31,Gorgonzola Telino,8,0,"12.5",12/20/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,43,Ipoh Coffee,25,0,46,06/08/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,64,Wimmers gute Semmelknodel,25,"0.2","33.25",05/27/1996 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,16,Pavlova,18,0,"13.9",04/28/1995 0:00:00
+PICCO,Georg Pipps,Piccolo und mehr,14,Tofu,35,0,"18.6",02/27/1995 0:00:00
+PRINI,Isabel de Castro,Princesa Isabel Vinhos,4,Chef Anton's Cajun Seasoning,18,"0.1","17.6",11/23/1994 0:00:00
+PRINI,Isabel de Castro,Princesa Isabel Vinhos,8,Northwoods Cranberry Sauce,30,0,40,05/08/1996 0:00:00
+PRINI,Isabel de Castro,Princesa Isabel Vinhos,29,Thuringer Rostbratwurst,10,0,"123.79",05/08/1996 0:00:00
+PRINI,Isabel de Castro,Princesa Isabel Vinhos,21,Sir Rodney's Scones,10,"0.15",8,01/27/1995 0:00:00
+PRINI,Isabel de Castro,Princesa Isabel Vinhos,56,Gnocchi di nonna Alice,28,0,"30.4",03/06/1995 0:00:00
+PRINI,Isabel de Castro,Princesa Isabel Vinhos,21,Sir Rodney's Scones,21,"0.25",8,04/17/1995 0:00:00
+PRINI,Isabel de Castro,Princesa Isabel Vinhos,39,Chartreuse verte,20,"0.25","14.4",04/17/1995 0:00:00
+PRINI,Isabel de Castro,Princesa Isabel Vinhos,42,Singaporean Hokkien Fried Mee,14,0,14,05/08/1996 0:00:00
+PRINI,Isabel de Castro,Princesa Isabel Vinhos,1,Chai,15,0,"14.4",04/17/1995 0:00:00
+PRINI,Isabel de Castro,Princesa Isabel Vinhos,51,Manjimup Dried Apples,18,"0.15","42.4",01/27/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,71,Flotemysost,8,0,"21.5",11/28/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,14,Tofu,15,"0.2","23.25",01/24/1996 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,35,Steeleye Stout,20,0,"14.4",08/19/1994 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,65,Louisiana Fiery Hot Pepper Sauce,20,"0.1","16.8",01/11/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,13,Konbu,20,"0.1","4.8",09/27/1994 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,77,Original Frankfurter grune Sosse,10,"0.15","10.4",02/21/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,21,Sir Rodney's Scones,20,0,8,08/19/1994 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,35,Steeleye Stout,20,0,18,08/02/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,44,Gula Malacca,24,"0.1","15.5",09/27/1994 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,41,Jack's New England Clam Chowder,8,"0.1","7.7",01/11/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,19,Teatime Chocolate Biscuits,30,0,"9.2",09/27/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,35,Steeleye Stout,21,0,18,11/28/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,53,Perth Pasties,15,"0.15","26.2",02/21/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,6,Grandma's Boysenberry Spread,40,0,25,04/30/1996 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,63,Vegie-spread,16,"0.1","35.1",01/11/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,41,Jack's New England Clam Chowder,4,0,"9.65",04/30/1996 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,77,Original Frankfurter grune Sosse,20,0,13,08/02/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,19,Teatime Chocolate Biscuits,4,"0.15","7.3",02/21/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,54,Tourtiere,6,"0.2","7.45",01/24/1996 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,11,Queso Cabrales,15,0,21,04/30/1996 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,39,Chartreuse verte,20,0,18,09/27/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,26,Gumbar Gummibarchen,6,0,"31.23",08/02/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,26,Gumbar Gummibarchen,30,0,"24.9",02/21/1995 0:00:00
+QUEDE,Bernardo Batista,Que Delicia,51,Manjimup Dried Apples,2,"0.1","42.4",09/27/1994 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,21,Sir Rodney's Scones,30,"0.1",8,02/07/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,1,Chai,10,0,"14.4",02/07/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,49,Maxilaku,42,"0.1",20,03/06/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,56,Gnocchi di nonna Alice,60,"0.05",38,09/19/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,28,Rossle Sauerkraut,8,"0.15","45.6",06/03/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,20,Sir Rodney's Marmalade,12,"0.25","64.8",01/04/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,43,Ipoh Coffee,36,"0.15",46,06/03/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,26,Gumbar Gummibarchen,30,0,"24.9",04/26/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,50,Valkoinen suklaa,25,"0.05","16.25",09/19/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,72,Mozzarella di Giovanni,42,"0.25","27.8",01/04/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,60,Camembert Pierrot,70,"0.25","27.2",01/04/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,71,Flotemysost,25,0,"21.5",03/29/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,35,Steeleye Stout,30,0,18,03/06/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,31,Gorgonzola Telino,20,"0.05","12.5",10/06/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,77,Original Frankfurter grune Sosse,28,"0.15",13,06/03/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,36,Inlagd Sill,5,"0.1","15.2",02/07/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,52,Filo Mix,6,"0.05",7,04/18/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,24,Guarana Fantastica,35,0,"4.5",11/14/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,11,Queso Cabrales,10,0,21,09/19/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,30,Nord-Ost Matjeshering,15,"0.2","25.89",01/19/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,58,Escargots de Bourgogne,15,0,"13.25",03/28/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,30,Nord-Ost Matjeshering,15,0,"25.89",12/05/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,48,Chocolade,24,0,"12.75",11/14/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,4,Chef Anton's Cajun Seasoning,30,"0.25",22,03/28/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,54,Tourtiere,24,"0.25","5.9",04/26/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,4,Chef Anton's Cajun Seasoning,6,0,22,11/14/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,75,Rhonbrau Klosterbier,42,"0.2","7.75",01/19/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,8,Northwoods Cranberry Sauce,30,"0.2",40,01/19/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,40,Boston Crab Meat,2,"0.1","14.7",02/07/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,55,Pate chinois,12,0,24,12/05/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,19,Teatime Chocolate Biscuits,5,0,"7.3",04/26/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,40,Boston Crab Meat,24,"0.05","18.4",10/06/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,38,Cote de Blaye,40,"0.25","210.8",01/04/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,60,Camembert Pierrot,15,0,34,12/05/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,33,Geitost,40,"0.25","2.5",03/28/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,26,Gumbar Gummibarchen,20,0,"31.23",03/06/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,70,Outback Lager,40,"0.05",15,10/06/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,40,Boston Crab Meat,6,0,"18.4",12/05/1995 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,76,Lakkalikoori,60,0,18,04/18/1996 0:00:00
+QUEEN,Lucia Carvalho,Queen Cozinha,28,Rossle Sauerkraut,42,"0.1","36.4",02/07/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,29,Thuringer Rostbratwurst,40,0,"123.79",11/03/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,2,Chang,50,"0.2",19,05/01/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,3,Aniseed Syrup,60,0,10,06/19/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,75,Rhonbrau Klosterbier,40,"0.05","7.75",01/22/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,43,Ipoh Coffee,24,"0.25",46,04/09/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,44,Gula Malacca,24,0,"19.45",11/03/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,19,Teatime Chocolate Biscuits,80,0,"7.3",12/05/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,2,Chang,11,"0.25",19,05/14/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,43,Ipoh Coffee,40,0,46,11/03/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,26,Gumbar Gummibarchen,63,0,"31.23",05/14/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,53,Perth Pasties,36,"0.2","26.2",09/20/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,71,Flotemysost,35,"0.25","21.5",04/09/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,7,Uncle Bob's Organic Dried Pears,90,0,30,11/06/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,51,Manjimup Dried Apples,44,"0.25",53,05/14/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,23,Tunnbrod,70,"0.1",9,02/21/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,72,Mozzarella di Giovanni,7,0,"34.8",12/19/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,53,Perth Pasties,20,0,"32.8",04/18/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,51,Manjimup Dried Apples,48,"0.15",53,06/27/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,7,Uncle Bob's Organic Dried Pears,45,0,30,04/18/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,26,Gumbar Gummibarchen,40,0,"31.23",06/19/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,72,Mozzarella di Giovanni,35,0,"34.8",05/14/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,8,Northwoods Cranberry Sauce,70,0,32,12/05/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,21,Sir Rodney's Scones,60,0,10,10/06/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,70,Outback Lager,20,"0.2",15,05/01/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,44,Gula Malacca,50,"0.05","19.45",11/29/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,27,Schoggi Schokolade,120,0,"43.9",05/24/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,47,Zaanse koeken,55,0,"7.6",02/17/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,9,Mishi Kobe Niku,16,"0.15",97,05/24/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,10,Ikura,24,"0.05","24.8",09/05/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,70,Outback Lager,50,0,15,11/06/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,4,Chef Anton's Cajun Seasoning,50,"0.1",22,06/05/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,74,Longlife Tofu,15,0,8,02/17/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,20,Sir Rodney's Marmalade,15,0,81,05/14/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,20,Sir Rodney's Marmalade,20,"0.05",81,03/12/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,45,Rogede sild,100,"0.15","9.5",06/27/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,44,Gula Malacca,16,0,"19.45",12/19/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,69,Gudbrandsdalsost,9,0,36,04/18/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,19,Teatime Chocolate Biscuits,50,"0.05","9.2",01/22/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,55,Pate chinois,120,"0.1","19.2",03/22/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,65,Louisiana Fiery Hot Pepper Sauce,28,"0.1","16.8",03/22/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,59,Raclette Courdavault,45,0,55,12/19/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,60,Camembert Pierrot,49,"0.25",34,04/09/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,60,Camembert Pierrot,55,"0.1","27.2",12/23/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,76,Lakkalikoori,33,"0.05","14.4",09/05/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,62,Tarte au sucre,48,0,"49.3",11/03/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,76,Lakkalikoori,90,"0.2",18,05/01/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,31,Gorgonzola Telino,55,"0.15","12.5",06/27/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,35,Steeleye Stout,100,0,"14.4",09/21/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,76,Lakkalikoori,44,0,18,04/18/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,38,Cote de Blaye,30,0,"263.5",06/19/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,16,Pavlova,50,0,"17.45",05/24/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,40,Boston Crab Meat,60,"0.05","14.7",09/05/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,77,Original Frankfurter grune Sosse,55,"0.1","10.4",03/22/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,1,Chai,45,"0.2","14.4",09/20/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,77,Original Frankfurter grune Sosse,70,"0.05",13,10/06/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,1,Chai,30,0,18,11/03/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,2,Chang,60,0,"15.2",02/17/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,62,Tarte au sucre,40,0,"39.4",09/21/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,60,Camembert Pierrot,84,"0.15",34,05/24/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,38,Cote de Blaye,60,"0.05","263.5",03/04/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,65,Louisiana Fiery Hot Pepper Sauce,80,"0.1","21.05",01/04/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,39,Chartreuse verte,54,"0.1","14.4",12/23/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,40,Boston Crab Meat,70,"0.05","18.4",10/06/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,60,Camembert Pierrot,55,"0.05",34,10/06/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,33,Geitost,20,0,2,09/05/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,42,Singaporean Hokkien Fried Mee,100,"0.2",14,08/03/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,42,Singaporean Hokkien Fried Mee,40,0,14,05/02/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,40,Boston Crab Meat,40,"0.2","14.7",09/20/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,58,Escargots de Bourgogne,60,"0.1","13.25",02/21/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,18,Carnarvon Tigers,24,0,"62.5",12/19/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,36,Inlagd Sill,12,0,"15.2",10/25/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,42,Singaporean Hokkien Fried Mee,42,"0.1",14,02/21/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,64,Wimmers gute Semmelknodel,35,"0.1","26.6",03/22/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,36,Inlagd Sill,30,"0.1",19,06/05/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,68,Scottish Longbreads,35,0,"12.5",06/19/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,18,Carnarvon Tigers,40,"0.2","62.5",08/03/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,35,Steeleye Stout,25,"0.1",18,02/21/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,59,Raclette Courdavault,25,0,55,11/06/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,33,Geitost,16,"0.15","2.5",05/24/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,64,Wimmers gute Semmelknodel,48,0,"33.25",02/21/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,13,Konbu,77,0,6,04/18/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,42,Singaporean Hokkien Fried Mee,9,0,"11.2",12/05/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,39,Chartreuse verte,80,"0.05",18,03/04/1996 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,31,Gorgonzola Telino,15,"0.05",10,09/05/1994 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,61,Sirop d'erable,16,0,"22.8",02/17/1995 0:00:00
+QUICK,Horst Kloss,QUICK-Stop,13,Konbu,20,"0.25",6,04/09/1996 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,40,Boston Crab Meat,20,0,"14.7",03/20/1995 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,26,Gumbar Gummibarchen,6,0,"24.9",03/20/1995 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,49,Maxilaku,2,0,20,05/13/1996 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,46,Spegesild,3,0,12,05/13/1996 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,57,Ravioli Angelo,20,0,"19.5",03/29/1996 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,21,Sir Rodney's Scones,5,0,10,11/24/1995 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,16,Pavlova,6,0,"17.45",03/29/1996 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,38,Cote de Blaye,2,0,"263.5",02/13/1996 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,51,Manjimup Dried Apples,7,0,53,11/24/1995 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,32,Mascarpone Fabioli,6,0,32,03/29/1996 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,61,Sirop d'erable,10,0,"28.5",11/24/1995 0:00:00
+RANCH,Sergio Gutierrez,Rancho grande,20,Sir Rodney's Marmalade,5,0,81,02/13/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,4,Chef Anton's Cajun Seasoning,1,0,22,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,7,Uncle Bob's Organic Dried Pears,1,"0.05",30,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,4,Chef Anton's Cajun Seasoning,25,"0.25",22,05/06/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,66,Louisiana Hot Spiced Okra,1,0,17,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,60,Camembert Pierrot,2,"0.06",34,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,55,Pate chinois,25,"0.05",24,07/11/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,39,Chartreuse verte,2,"0.05",18,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,64,Wimmers gute Semmelknodel,2,"0.03","33.25",06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,6,Grandma's Boysenberry Spread,1,"0.02",25,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,1,Chai,18,0,"14.4",09/30/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,7,Uncle Bob's Organic Dried Pears,15,0,24,08/22/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,62,Tarte au sucre,40,"0.1","49.3",04/30/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,72,Mozzarella di Giovanni,24,0,"27.8",09/02/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,64,Wimmers gute Semmelknodel,30,0,"26.6",04/19/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,62,Tarte au sucre,50,0,"49.3",02/26/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,53,Perth Pasties,28,0,"26.2",04/19/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,24,Guarana Fantastica,30,"0.25","4.5",05/06/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,13,Konbu,4,0,6,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,62,Tarte au sucre,25,"0.1","39.4",10/26/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,71,Flotemysost,9,0,"21.5",08/14/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,5,Chef Anton's Gumbo Mix,12,"0.2",17,08/22/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,77,Original Frankfurter grune Sosse,30,0,13,05/06/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,12,Queso Manchego La Pastora,2,"0.05",38,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,65,Louisiana Fiery Hot Pepper Sauce,20,0,"16.8",02/01/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,38,Cote de Blaye,30,0,"210.8",04/19/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,25,NuNuCa Nuss-Nougat-Creme,35,"0.25",14,01/02/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,62,Tarte au sucre,70,0,"39.4",10/28/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,71,Flotemysost,60,0,"17.2",02/01/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,14,Tofu,1,"0.03","23.25",06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,7,Uncle Bob's Organic Dried Pears,60,0,30,04/30/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,38,Cote de Blaye,40,0,"263.5",03/18/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,23,Tunnbrod,2,0,9,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,2,Chang,24,"0.2",19,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,3,Aniseed Syrup,4,0,10,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,77,Original Frankfurter grune Sosse,2,0,13,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,17,Alice Mutton,36,"0.1","31.2",12/06/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,75,Rhonbrau Klosterbier,6,0,"6.2",09/30/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,11,Queso Cabrales,40,0,21,03/18/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,20,Sir Rodney's Marmalade,6,0,"64.8",09/02/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,76,Lakkalikoori,30,0,18,07/17/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,56,Gnocchi di nonna Alice,30,0,38,02/07/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,31,Gorgonzola Telino,35,"0.2","12.5",07/17/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,31,Gorgonzola Telino,6,"0.05","12.5",07/11/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,17,Alice Mutton,15,0,"31.2",09/30/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,17,Alice Mutton,6,0,39,02/26/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,60,Camembert Pierrot,21,0,"27.2",09/30/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,75,Rhonbrau Klosterbier,18,0,"7.75",01/02/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,2,Chang,15,0,19,02/26/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,75,Rhonbrau Klosterbier,4,0,"7.75",06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,41,Jack's New England Clam Chowder,3,0,"9.65",06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,31,Gorgonzola Telino,40,0,10,09/02/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,59,Raclette Courdavault,60,0,44,04/19/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,30,Nord-Ost Matjeshering,18,0,"20.7",02/01/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,58,Escargots de Bourgogne,30,"0.1","10.6",10/26/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,43,Ipoh Coffee,15,0,"36.8",09/30/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,10,Ikura,1,0,31,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,17,Alice Mutton,16,"0.05",39,07/11/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,73,Rod Kaviar,2,"0.01",15,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,32,Mascarpone Fabioli,40,"0.1","25.6",10/26/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,56,Gnocchi di nonna Alice,20,0,"30.4",12/06/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,32,Mascarpone Fabioli,1,0,32,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,8,Northwoods Cranberry Sauce,2,"0.1",40,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,56,Gnocchi di nonna Alice,70,0,"30.4",02/01/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,16,Pavlova,2,"0.03","17.45",06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,56,Gnocchi di nonna Alice,2,0,"30.4",08/22/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,20,Sir Rodney's Marmalade,1,"0.04",81,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,55,Pate chinois,2,0,24,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,27,Schoggi Schokolade,50,0,"43.9",08/14/1995 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,41,Jack's New England Clam Chowder,10,0,"7.7",10/28/1994 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,46,Spegesild,3,"0.02",12,06/05/1996 0:00:00
+RATTC,Paula Wilson,Rattlesnake Canyon Grocery,52,Filo Mix,2,0,7,06/05/1996 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,52,Filo Mix,14,"0.05",7,03/28/1996 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,70,Outback Lager,12,"0.2",15,05/30/1996 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,59,Raclette Courdavault,10,"0.05",55,12/04/1995 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,17,Alice Mutton,20,"0.05",39,12/04/1995 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,33,Geitost,20,"0.1","2.5",07/10/1995 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,11,Queso Cabrales,6,"0.2","16.8",03/15/1995 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,28,Rossle Sauerkraut,12,0,"36.4",03/15/1995 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,52,Filo Mix,4,"0.15",7,08/02/1995 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,7,Uncle Bob's Organic Dried Pears,20,"0.05",30,03/28/1996 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,41,Jack's New England Clam Chowder,20,"0.2","9.65",10/04/1995 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,24,Guarana Fantastica,10,0,"4.5",05/09/1996 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,56,Gnocchi di nonna Alice,10,"0.05",38,12/04/1995 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,77,Original Frankfurter grune Sosse,20,0,13,02/02/1996 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,62,Tarte au sucre,10,"0.1","49.3",07/10/1995 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,31,Gorgonzola Telino,16,"0.1","12.5",02/02/1996 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,7,Uncle Bob's Organic Dried Pears,20,0,30,05/09/1996 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,53,Perth Pasties,10,"0.2","32.8",05/30/1996 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,54,Tourtiere,10,"0.1","5.9",09/23/1994 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,46,Spegesild,20,0,"9.6",02/28/1995 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,68,Scottish Longbreads,3,"0.1",10,09/23/1994 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,49,Maxilaku,28,0,20,04/10/1996 0:00:00
+REGGC,Maurizio Moroni,Reggiani Caseifici,72,Mozzarella di Giovanni,40,"0.1","34.8",02/02/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,19,Teatime Chocolate Biscuits,40,0,"7.3",03/17/1995 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,19,Teatime Chocolate Biscuits,15,0,"7.3",10/07/1994 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,18,Carnarvon Tigers,25,0,"62.5",03/11/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,70,Outback Lager,20,0,12,10/07/1994 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,60,Camembert Pierrot,40,0,"27.2",04/20/1995 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,71,Flotemysost,2,0,"17.2",03/17/1995 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,59,Raclette Courdavault,42,"0.05",55,02/26/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,60,Camembert Pierrot,35,0,34,05/29/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,22,Gustaf's Knackebrod,15,0,21,09/28/1995 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,13,Konbu,30,0,6,05/29/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,57,Ravioli Angelo,10,"0.05","19.5",02/26/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,16,Pavlova,40,"0.15","13.9",09/22/1994 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,68,Scottish Longbreads,18,"0.2","12.5",09/06/1995 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,65,Louisiana Fiery Hot Pepper Sauce,35,0,"16.8",03/17/1995 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,16,Pavlova,30,"0.25","17.45",03/11/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,17,Alice Mutton,12,0,39,05/29/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,36,Inlagd Sill,25,0,19,07/11/1995 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,46,Spegesild,35,0,12,02/05/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,34,Sasquatch Ale,20,0,"11.2",09/22/1994 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,2,Chang,12,"0.2",19,02/05/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,49,Maxilaku,24,0,16,04/20/1995 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,2,Chang,5,"0.05",19,02/26/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,24,Guarana Fantastica,15,"0.15","4.5",09/28/1995 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,2,Chang,20,0,19,09/06/1995 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,52,Filo Mix,70,0,7,07/11/1995 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,25,NuNuCa Nuss-Nougat-Creme,10,"0.05",14,02/26/1996 0:00:00
+RICAR,Janete Limeira,Ricardo Adocicados,46,Spegesild,15,"0.15","9.6",09/22/1994 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,75,Rhonbrau Klosterbier,50,"0.05","7.75",04/15/1996 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,50,Valkoinen suklaa,20,"0.1","16.25",12/25/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,33,Geitost,15,"0.05","2.5",04/15/1996 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,65,Louisiana Fiery Hot Pepper Sauce,10,0,"21.05",10/13/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,51,Manjimup Dried Apples,6,0,53,06/14/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,59,Raclette Courdavault,30,0,44,08/12/1994 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,30,Nord-Ost Matjeshering,30,0,"25.89",12/25/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,69,Gudbrandsdalsost,36,"0.1",36,05/17/1996 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,31,Gorgonzola Telino,30,0,"12.5",06/14/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,2,Chang,20,0,"15.2",08/12/1994 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,76,Lakkalikoori,2,"0.15",18,06/05/1996 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,53,Perth Pasties,70,"0.1","32.8",05/17/1996 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,26,Gumbar Gummibarchen,20,0,"31.23",12/29/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,58,Escargots de Bourgogne,20,0,"13.25",06/14/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,57,Ravioli Angelo,30,0,"19.5",04/05/1996 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,41,Jack's New England Clam Chowder,6,"0.05","9.65",04/15/1996 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,73,Rod Kaviar,15,0,15,12/25/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,60,Camembert Pierrot,60,"0.05","27.2",02/20/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,73,Rod Kaviar,9,0,15,06/14/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,46,Spegesild,30,"0.15",12,06/05/1996 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,70,Outback Lager,40,0,15,12/29/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,26,Gumbar Gummibarchen,12,"0.1","31.23",12/25/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,13,Konbu,42,"0.15",6,04/05/1996 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,36,Inlagd Sill,25,0,"15.2",08/12/1994 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,29,Thuringer Rostbratwurst,36,0,"123.79",10/13/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,52,Filo Mix,60,0,7,12/29/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,2,Chang,10,"0.15",19,06/05/1996 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,72,Mozzarella di Giovanni,21,0,"34.8",06/14/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,69,Gudbrandsdalsost,20,"0.05","28.8",02/20/1995 0:00:00
+RICSU,Michael Holz,Richter Supermarkt,16,Pavlova,35,0,"13.9",08/12/1994 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,35,Steeleye Stout,4,0,"14.4",09/14/1994 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,45,Rogede sild,20,0,"9.5",05/09/1996 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,30,Nord-Ost Matjeshering,10,0,"20.7",10/17/1994 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,30,Nord-Ost Matjeshering,1,0,"25.89",04/01/1996 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,24,Guarana Fantastica,6,0,"3.6",09/14/1994 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,19,Teatime Chocolate Biscuits,1,0,"7.3",09/14/1994 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,30,Nord-Ost Matjeshering,6,0,"20.7",09/15/1994 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,60,Camembert Pierrot,10,0,34,04/01/1996 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,23,Tunnbrod,10,0,9,05/09/1996 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,42,Singaporean Hokkien Fried Mee,4,0,14,05/09/1996 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,53,Perth Pasties,10,0,"26.2",10/17/1994 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,54,Tourtiere,5,0,"5.9",10/17/1994 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,68,Scottish Longbreads,2,0,"12.5",05/09/1996 0:00:00
+ROMEY,Alejandra Camino,Romero y tomillo,57,Ravioli Angelo,2,0,"15.6",09/15/1994 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,35,Steeleye Stout,8,0,18,02/14/1996 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,41,Jack's New England Clam Chowder,5,0,"9.65",03/28/1996 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,24,Guarana Fantastica,8,0,"4.5",05/30/1995 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,43,Ipoh Coffee,9,0,46,02/14/1996 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,24,Guarana Fantastica,15,0,"3.6",01/18/1995 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,16,Pavlova,15,0,"17.45",03/28/1996 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,28,Rossle Sauerkraut,6,0,"36.4",01/18/1995 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,18,Carnarvon Tigers,8,0,"62.5",09/20/1995 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,38,Cote de Blaye,8,0,"263.5",02/14/1996 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,7,Uncle Bob's Organic Dried Pears,12,0,30,03/28/1996 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,53,Perth Pasties,5,0,"32.8",05/30/1995 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,77,Original Frankfurter grune Sosse,18,0,13,05/10/1996 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,59,Raclette Courdavault,12,0,44,01/18/1995 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,71,Flotemysost,15,0,"17.2",01/18/1995 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,30,Nord-Ost Matjeshering,15,0,"25.89",05/10/1996 0:00:00
+SANTG,Jonas Bergulfsen,Sante Gourmet,19,Teatime Chocolate Biscuits,2,0,"9.2",02/14/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,68,Scottish Longbreads,55,0,"12.5",05/31/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,42,Singaporean Hokkien Fried Mee,25,0,14,03/13/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,58,Escargots de Bourgogne,12,"0.25","13.25",11/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,17,Alice Mutton,27,"0.25",39,11/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,17,Alice Mutton,77,"0.1",39,05/31/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,29,Thuringer Rostbratwurst,60,"0.25","123.79",05/17/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,42,Singaporean Hokkien Fried Mee,24,"0.15",14,05/06/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,57,Ravioli Angelo,15,0,"19.5",04/26/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,31,Gorgonzola Telino,32,0,10,01/25/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,75,Rhonbrau Klosterbier,120,"0.05","7.75",03/20/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,41,Jack's New England Clam Chowder,12,0,"9.65",05/31/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,68,Scottish Longbreads,40,"0.2","12.5",11/10/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,59,Raclette Courdavault,7,0,55,12/28/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,68,Scottish Longbreads,45,0,"12.5",11/29/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,2,Chang,100,"0.25",19,05/17/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,59,Raclette Courdavault,40,"0.15",44,11/08/1994 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,68,Scottish Longbreads,80,"0.25","12.5",04/10/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,36,Inlagd Sill,40,0,19,04/29/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,12,Queso Manchego La Pastora,100,0,38,10/24/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,1,Chai,5,"0.2",18,11/10/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,34,Sasquatch Ale,12,"0.2",14,11/10/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,34,Sasquatch Ale,30,0,14,12/28/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,35,Steeleye Stout,70,"0.15","14.4",11/08/1994 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,14,Tofu,30,"0.2","23.25",07/03/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,62,Tarte au sucre,15,0,"49.3",09/11/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,35,Steeleye Stout,30,0,"14.4",01/30/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,37,Gravad lax,60,"0.2",26,02/22/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,40,Boston Crab Meat,40,0,"18.4",12/21/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,62,Tarte au sucre,30,0,"49.3",12/28/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,16,Pavlova,21,"0.15","13.9",11/08/1994 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,36,Inlagd Sill,55,0,19,08/28/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,64,Wimmers gute Semmelknodel,20,0,"33.25",05/17/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,13,Konbu,80,0,6,05/17/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,13,Konbu,56,0,6,05/06/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,13,Konbu,84,"0.15",6,04/26/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,64,Wimmers gute Semmelknodel,24,0,"33.25",12/28/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,62,Tarte au sucre,30,"0.25","49.3",04/10/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,35,Steeleye Stout,15,"0.15",18,05/06/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,13,Konbu,28,"0.05",6,03/20/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,63,Vegie-spread,80,"0.15","35.1",11/08/1994 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,14,Tofu,42,"0.25","18.6",01/25/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,2,Chang,45,"0.15","15.2",03/13/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,17,Alice Mutton,100,0,39,08/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,2,Chang,3,0,19,11/29/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,2,Chang,30,"0.25",19,11/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,41,Jack's New England Clam Chowder,42,0,"9.65",11/21/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,41,Jack's New England Clam Chowder,120,0,"9.65",10/24/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,31,Gorgonzola Telino,50,0,"12.5",11/29/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,41,Jack's New England Clam Chowder,24,0,"9.65",10/05/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,31,Gorgonzola Telino,44,"0.25","12.5",04/10/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,76,Lakkalikoori,80,0,18,08/28/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,16,Pavlova,55,0,"17.45",04/29/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,1,Chai,80,"0.2",18,02/22/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,60,Camembert Pierrot,30,0,34,10/05/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,15,Genen Shouyu,50,0,"15.5",10/05/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,40,Boston Crab Meat,42,0,"18.4",08/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,2,Chang,25,"0.25","15.2",01/25/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,60,Camembert Pierrot,45,"0.2",34,02/22/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,61,Sirop d'erable,90,"0.15","22.8",03/13/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,1,Chai,45,0,18,05/17/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,33,Geitost,14,0,"2.5",08/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,33,Geitost,30,0,"2.5",10/24/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,33,Geitost,16,0,"2.5",02/05/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,16,Pavlova,49,"0.15","13.9",03/13/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,59,Raclette Courdavault,100,"0.25",55,05/17/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,60,Camembert Pierrot,40,0,34,08/28/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,46,Spegesild,24,0,12,11/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,56,Gnocchi di nonna Alice,28,0,38,12/21/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,10,Ikura,70,0,31,08/28/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,25,NuNuCa Nuss-Nougat-Creme,7,"0.25","11.2",01/25/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,23,Tunnbrod,44,0,9,12/21/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,56,Gnocchi di nonna Alice,18,"0.25",38,11/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,47,Zaanse koeken,50,"0.25","9.5",11/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,56,Gnocchi di nonna Alice,45,0,38,10/05/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,19,Teatime Chocolate Biscuits,35,"0.2","9.2",07/03/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,46,Spegesild,30,0,"9.6",11/08/1994 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,53,Perth Pasties,25,"0.1","32.8",05/31/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,51,Manjimup Dried Apples,20,"0.2",53,07/03/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,54,Tourtiere,30,0,"7.45",10/24/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,46,Spegesild,45,0,12,10/05/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,45,Rogede sild,110,0,"9.5",11/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,26,Gumbar Gummibarchen,30,0,"31.23",11/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,55,Pate chinois,40,0,24,05/06/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,49,Maxilaku,25,"0.05",20,08/18/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,49,Maxilaku,18,0,20,08/28/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,47,Zaanse koeken,10,0,"9.5",10/05/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,55,Pate chinois,4,"0.1",24,05/31/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,56,Gnocchi di nonna Alice,40,"0.2",38,07/03/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,55,Pate chinois,120,"0.1","19.2",01/30/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,73,Rod Kaviar,35,"0.15",15,09/11/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,22,Gustaf's Knackebrod,48,0,21,08/18/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,54,Tourtiere,32,"0.15","7.45",03/13/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,28,Rossle Sauerkraut,15,0,"36.4",03/23/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,26,Gumbar Gummibarchen,70,"0.25","24.9",01/25/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,72,Mozzarella di Giovanni,50,0,"34.8",04/10/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,45,Rogede sild,36,"0.2","9.5",02/22/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,49,Maxilaku,20,"0.15",20,03/13/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,24,Guarana Fantastica,20,0,"4.5",04/29/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,44,Gula Malacca,100,"0.05","15.5",03/23/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,24,Guarana Fantastica,18,"0.2","4.5",07/03/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,71,Flotemysost,16,0,"21.5",05/17/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,75,Rhonbrau Klosterbier,42,0,"7.75",11/29/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,7,Uncle Bob's Organic Dried Pears,45,0,30,08/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,19,Teatime Chocolate Biscuits,12,0,"9.2",11/21/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,71,Flotemysost,55,"0.2","21.5",02/22/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,19,Teatime Chocolate Biscuits,12,"0.2","9.2",02/22/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,75,Rhonbrau Klosterbier,36,"0.1","7.75",05/19/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,69,Gudbrandsdalsost,50,"0.05",36,03/20/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,29,Thuringer Rostbratwurst,36,0,"123.79",05/19/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,10,Ikura,18,0,31,11/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,5,Chef Anton's Gumbo Mix,70,0,"21.35",05/17/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,24,Guarana Fantastica,21,0,"4.5",05/17/1996 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,71,Flotemysost,60,"0.2","21.5",11/10/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,53,Perth Pasties,120,0,"32.8",11/21/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,72,Mozzarella di Giovanni,12,0,"34.8",08/22/1995 0:00:00
+SAVEA,Jose Pavarotti,Save-a-lot Markets,29,Thuringer Rostbratwurst,24,"0.15",99,03/13/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,49,Maxilaku,4,"0.15",20,01/30/1996 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,16,Pavlova,56,"0.05","13.9",12/22/1994 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,68,Scottish Longbreads,20,0,"12.5",03/06/1996 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,60,Camembert Pierrot,80,"0.05","27.2",12/22/1994 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,24,Guarana Fantastica,80,"0.05","3.6",04/12/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,53,Perth Pasties,40,0,"26.2",01/19/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,10,Ikura,36,0,31,01/30/1996 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,36,Inlagd Sill,60,0,19,06/23/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,41,Jack's New England Clam Chowder,6,"0.1","9.65",06/01/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,32,Mascarpone Fabioli,24,"0.15",32,06/23/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,20,Sir Rodney's Marmalade,15,"0.1",81,06/01/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,37,Gravad lax,18,"0.1",26,06/01/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,11,Queso Cabrales,50,"0.1",21,01/26/1996 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,11,Queso Cabrales,10,0,21,03/06/1996 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,52,Filo Mix,20,"0.2","5.6",01/19/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,28,Rossle Sauerkraut,24,0,"45.6",01/30/1996 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,51,Manjimup Dried Apples,10,"0.1",53,01/26/1996 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,45,Rogede sild,15,"0.2","7.6",01/19/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,51,Manjimup Dried Apples,18,0,"42.4",04/12/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,17,Alice Mutton,25,"0.1",39,06/01/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,39,Chartreuse verte,20,"0.15","14.4",01/09/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,28,Rossle Sauerkraut,20,"0.15","36.4",01/09/1995 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,23,Tunnbrod,50,0,9,03/06/1996 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,31,Gorgonzola Telino,70,"0.05",10,12/22/1994 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,1,Chai,40,0,18,03/06/1996 0:00:00
+SEVES,Hari Kumar,Seven Seas Imports,54,Tourtiere,7,"0.1","7.45",01/26/1996 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,38,Cote de Blaye,50,0,"210.8",02/16/1995 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,33,Geitost,8,0,2,11/29/1994 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,77,Original Frankfurter grune Sosse,35,0,"10.4",02/16/1995 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,51,Manjimup Dried Apples,30,"0.25",53,01/29/1996 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,36,Inlagd Sill,30,0,19,10/16/1995 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,61,Sirop d'erable,20,"0.2","28.5",09/22/1995 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,62,Tarte au sucre,5,"0.25","49.3",01/29/1996 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,55,Pate chinois,60,"0.25",24,01/29/1996 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,72,Mozzarella di Giovanni,24,0,"34.8",07/04/1995 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,30,Nord-Ost Matjeshering,25,"0.25","25.89",01/29/1996 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,68,Scottish Longbreads,36,"0.25",10,02/16/1995 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,59,Raclette Courdavault,9,"0.15",44,11/29/1994 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,21,Sir Rodney's Scones,30,"0.2",10,09/22/1995 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,46,Spegesild,2,"0.25","9.6",02/16/1995 0:00:00
+SIMOB,Jytte Petersen,Simons bistro,16,Pavlova,14,"0.05","17.45",06/05/1996 0:00:00
+SPECD,Dominique Perrier,Specialites du monde,75,Rhonbrau Klosterbier,14,0,"7.75",03/27/1996 0:00:00
+SPECD,Dominique Perrier,Specialites du monde,18,Carnarvon Tigers,6,0,"62.5",04/19/1996 0:00:00
+SPECD,Dominique Perrier,Specialites du monde,38,Cote de Blaye,5,0,"263.5",04/19/1996 0:00:00
+SPECD,Dominique Perrier,Specialites du monde,16,Pavlova,3,0,"17.45",12/13/1995 0:00:00
+SPECD,Dominique Perrier,Specialites du monde,69,Gudbrandsdalsost,10,0,36,04/19/1996 0:00:00
+SPECD,Dominique Perrier,Specialites du monde,11,Queso Cabrales,10,0,21,05/22/1996 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,54,Tourtiere,40,0,"5.9",03/03/1995 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,54,Tourtiere,24,0,"5.9",12/09/1994 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,68,Scottish Longbreads,6,"0.2","12.5",12/28/1995 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,51,Manjimup Dried Apples,6,0,53,02/08/1996 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,63,Vegie-spread,10,0,"43.9",04/24/1996 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,18,Carnarvon Tigers,21,"0.2","62.5",12/28/1995 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,38,Cote de Blaye,20,"0.05","210.8",11/15/1994 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,30,Nord-Ost Matjeshering,8,"0.05","20.7",11/15/1994 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,56,Gnocchi di nonna Alice,18,"0.25","30.4",01/02/1995 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,7,Uncle Bob's Organic Dried Pears,10,"0.2",24,01/17/1995 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,36,Inlagd Sill,20,"0.2",19,12/28/1995 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,19,Teatime Chocolate Biscuits,10,"0.05","7.3",11/15/1994 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,35,Steeleye Stout,20,0,18,02/08/1996 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,69,Gudbrandsdalsost,20,"0.2",36,12/28/1995 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,29,Thuringer Rostbratwurst,20,0,99,01/02/1995 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,68,Scottish Longbreads,8,"0.2",10,01/17/1995 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,33,Geitost,24,0,2,09/01/1994 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,26,Gumbar Gummibarchen,10,0,"24.9",03/03/1995 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,60,Camembert Pierrot,20,"0.2","27.2",01/17/1995 0:00:00
+SPLIR,Art Braunschweiger,Split Rail Beer &amp; Ale,56,Gnocchi di nonna Alice,12,"0.05","30.4",11/15/1994 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,43,Ipoh Coffee,20,0,"36.8",03/29/1995 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,28,Rossle Sauerkraut,28,0,"36.4",10/11/1994 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,27,Schoggi Schokolade,25,0,"43.9",04/05/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,54,Tourtiere,10,0,"7.45",05/20/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,20,Sir Rodney's Marmalade,40,"0.05","64.8",08/09/1994 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,33,Geitost,25,"0.05",2,08/09/1994 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,56,Gnocchi di nonna Alice,30,0,38,02/20/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,58,Escargots de Bourgogne,30,"0.2","13.25",04/05/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,43,Ipoh Coffee,12,0,"36.8",10/11/1994 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,26,Gumbar Gummibarchen,30,0,"24.9",03/29/1995 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,4,Chef Anton's Cajun Seasoning,21,0,22,02/22/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,24,Guarana Fantastica,12,0,"4.5",03/14/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,17,Alice Mutton,40,0,"31.2",10/11/1994 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,40,Boston Crab Meat,5,"0.2","18.4",05/21/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,10,Ikura,16,0,31,02/20/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,21,Sir Rodney's Scones,36,0,10,04/05/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,19,Teatime Chocolate Biscuits,21,0,"7.3",04/04/1995 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,35,Steeleye Stout,60,0,18,05/20/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,71,Flotemysost,30,0,"21.5",05/21/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,52,Filo Mix,2,0,7,05/21/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,42,Singaporean Hokkien Fried Mee,30,0,14,05/20/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,55,Pate chinois,25,"0.2",24,04/05/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,56,Gnocchi di nonna Alice,15,0,"30.4",03/29/1995 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,31,Gorgonzola Telino,35,"0.15",10,04/14/1995 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,28,Rossle Sauerkraut,30,0,"36.4",03/29/1995 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,76,Lakkalikoori,42,"0.15","14.4",04/14/1995 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,59,Raclette Courdavault,50,0,55,02/20/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,71,Flotemysost,50,0,"17.2",03/29/1995 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,42,Singaporean Hokkien Fried Mee,2,0,14,01/05/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,1,Chai,10,0,18,05/20/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,60,Camembert Pierrot,40,0,"27.2",08/09/1994 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,70,Outback Lager,30,0,15,02/22/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,77,Original Frankfurter grune Sosse,15,0,13,02/20/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,66,Louisiana Hot Spiced Okra,60,"0.15","13.6",04/14/1995 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,2,Chang,20,0,19,03/14/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,74,Longlife Tofu,20,0,10,02/22/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,77,Original Frankfurter grune Sosse,25,0,13,03/14/1996 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,42,Singaporean Hokkien Fried Mee,50,0,"11.2",04/04/1995 0:00:00
+SUPRD,Pascale Cartrain,Supremes delices,70,Outback Lager,30,0,15,03/14/1996 0:00:00
+THEBI,Liz Nixon,The Big Cheese,62,Tarte au sucre,5,0,"39.4",10/21/1994 0:00:00
+THEBI,Liz Nixon,The Big Cheese,72,Mozzarella di Giovanni,2,0,"34.8",05/01/1996 0:00:00
+THEBI,Liz Nixon,The Big Cheese,5,Chef Anton's Gumbo Mix,4,0,"21.35",11/17/1995 0:00:00
+THEBI,Liz Nixon,The Big Cheese,38,Cote de Blaye,10,0,"263.5",01/30/1996 0:00:00
+THEBI,Liz Nixon,The Big Cheese,34,Sasquatch Ale,10,0,14,01/30/1996 0:00:00
+THEBI,Liz Nixon,The Big Cheese,16,Pavlova,10,0,"13.9",10/21/1994 0:00:00
+THEBI,Liz Nixon,The Big Cheese,36,Inlagd Sill,5,0,19,11/17/1995 0:00:00
+THECR,Liu Wong,The Cracker Box,52,Filo Mix,10,0,7,05/06/1996 0:00:00
+THECR,Liu Wong,The Cracker Box,67,Laughing Lumberjack Lager,3,0,14,01/12/1996 0:00:00
+THECR,Liu Wong,The Cracker Box,44,Gula Malacca,10,0,"19.45",09/07/1995 0:00:00
+THECR,Liu Wong,The Cracker Box,40,Boston Crab Meat,10,0,"18.4",05/06/1996 0:00:00
+THECR,Liu Wong,The Cracker Box,29,Thuringer Rostbratwurst,6,0,"123.79",09/07/1995 0:00:00
+THECR,Liu Wong,The Cracker Box,28,Rossle Sauerkraut,10,0,"45.6",09/07/1995 0:00:00
+THECR,Liu Wong,The Cracker Box,10,Ikura,6,0,31,01/12/1996 0:00:00
+THECR,Liu Wong,The Cracker Box,1,Chai,4,0,18,05/06/1996 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,19,Teatime Chocolate Biscuits,12,"0.1","7.3",03/17/1995 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,51,Manjimup Dried Apples,40,0,"42.4",08/05/1994 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,31,Gorgonzola Telino,3,"0.1",10,03/17/1995 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,24,Guarana Fantastica,20,"0.1","3.6",03/17/1995 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,41,Jack's New England Clam Chowder,14,0,"9.65",06/26/1995 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,14,Tofu,9,0,"18.6",08/05/1994 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,49,Maxilaku,40,0,20,04/22/1996 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,19,Teatime Chocolate Biscuits,15,"0.2","7.3",03/09/1995 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,52,Filo Mix,15,"0.1","5.6",03/17/1995 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,34,Sasquatch Ale,20,"0.2","11.2",03/09/1995 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,34,Sasquatch Ale,10,"0.25",14,06/26/1995 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,57,Ravioli Angelo,15,"0.2","15.6",03/09/1995 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,56,Gnocchi di nonna Alice,28,0,38,08/23/1995 0:00:00
+TOMSP,Karin Josephs,Toms Spezialitaten,19,Teatime Chocolate Biscuits,12,0,"9.2",04/22/1996 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,11,Queso Cabrales,15,0,21,02/20/1996 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,44,Gula Malacca,21,0,"19.45",07/24/1995 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,44,Gula Malacca,9,0,"19.45",05/26/1995 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,43,Ipoh Coffee,5,0,46,02/20/1996 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,10,Ikura,2,0,31,10/23/1995 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,75,Rhonbrau Klosterbier,6,0,"6.2",09/29/1994 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,28,Rossle Sauerkraut,14,0,"36.4",11/02/1994 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,49,Maxilaku,30,0,16,10/13/1994 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,17,Alice Mutton,8,0,"31.2",11/02/1994 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,17,Alice Mutton,10,0,39,03/29/1996 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,18,Carnarvon Tigers,12,0,50,09/29/1994 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,59,Raclette Courdavault,10,0,44,10/13/1994 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,24,Guarana Fantastica,5,0,"4.5",05/26/1995 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,44,Gula Malacca,21,0,"19.45",10/23/1995 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,24,Guarana Fantastica,10,0,"3.6",09/29/1994 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,54,Tourtiere,10,0,"7.45",03/29/1996 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,71,Flotemysost,2,0,"17.2",10/13/1994 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,19,Teatime Chocolate Biscuits,7,0,"9.2",10/23/1995 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,70,Outback Lager,12,0,15,02/20/1996 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,10,Ikura,15,0,"24.8",09/08/1994 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,68,Scottish Longbreads,20,0,"12.5",02/20/1996 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,33,Geitost,30,0,"2.5",03/29/1996 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,39,Chartreuse verte,20,0,18,06/03/1996 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,31,Gorgonzola Telino,20,0,"12.5",07/24/1995 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,13,Konbu,10,0,"4.8",09/08/1994 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,38,Cote de Blaye,15,0,"263.5",05/26/1995 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,1,Chai,10,0,18,07/24/1995 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,76,Lakkalikoori,30,0,"14.4",11/02/1994 0:00:00
+TORTU,Miguel Angel Paolino,Tortuga Restaurante,63,Vegie-spread,5,0,"35.1",09/29/1994 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,55,Pate chinois,20,"0.2",24,08/22/1995 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,20,Sir Rodney's Marmalade,20,0,"64.8",09/28/1994 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,58,Escargots de Bourgogne,30,"0.1","13.25",02/19/1996 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,68,Scottish Longbreads,24,0,"12.5",02/13/1996 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,30,Nord-Ost Matjeshering,20,"0.05","25.89",02/15/1996 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,72,Mozzarella di Giovanni,15,"0.1","34.8",02/19/1996 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,39,Chartreuse verte,28,0,18,02/13/1996 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,62,Tarte au sucre,10,"0.2","49.3",08/22/1995 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,6,Grandma's Boysenberry Spread,6,0,25,02/13/1996 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,60,Camembert Pierrot,30,0,34,02/13/1996 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,31,Gorgonzola Telino,20,"0.05",10,05/05/1995 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,4,Chef Anton's Cajun Seasoning,20,"0.2",22,08/22/1995 0:00:00
+TRADH,Anabela Domingues,Tradicao Hipermercados,29,Thuringer Rostbratwurst,8,"0.05","123.79",02/15/1996 0:00:00
+TRAIH,Helvetius Nagy,Trail's Head Gourmet Provisioners,39,Chartreuse verte,10,0,18,07/24/1995 0:00:00
+TRAIH,Helvetius Nagy,Trail's Head Gourmet Provisioners,33,Geitost,14,0,"2.5",07/20/1995 0:00:00
+TRAIH,Helvetius Nagy,Trail's Head Gourmet Provisioners,75,Rhonbrau Klosterbier,20,0,"7.75",07/24/1995 0:00:00
+TRAIH,Helvetius Nagy,Trail's Head Gourmet Provisioners,62,Tarte au sucre,3,0,"49.3",02/08/1996 0:00:00
+TRAIH,Helvetius Nagy,Trail's Head Gourmet Provisioners,64,Wimmers gute Semmelknodel,6,0,"33.25",07/20/1995 0:00:00
+TRAIH,Helvetius Nagy,Trail's Head Gourmet Provisioners,77,Original Frankfurter grune Sosse,18,0,13,07/24/1995 0:00:00
+TRAIH,Helvetius Nagy,Trail's Head Gourmet Provisioners,40,Boston Crab Meat,2,0,"18.4",07/20/1995 0:00:00
+TRAIH,Helvetius Nagy,Trail's Head Gourmet Provisioners,70,Outback Lager,6,0,15,02/08/1996 0:00:00
+TRAIH,Helvetius Nagy,Trail's Head Gourmet Provisioners,62,Tarte au sucre,10,0,"49.3",07/20/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,76,Lakkalikoori,35,0,"14.4",01/31/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,34,Sasquatch Ale,14,0,14,11/01/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,77,Original Frankfurter grune Sosse,5,"0.25",13,08/17/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,71,Flotemysost,30,0,"17.2",01/31/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,34,Sasquatch Ale,36,0,"11.2",12/29/1994 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,54,Tourtiere,50,0,"7.45",08/07/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,35,Steeleye Stout,10,0,18,04/02/1996 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,77,Original Frankfurter grune Sosse,40,0,13,04/11/1996 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,41,Jack's New England Clam Chowder,30,"0.05","9.65",01/08/1996 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,77,Original Frankfurter grune Sosse,7,0,"10.4",12/29/1994 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,7,Uncle Bob's Organic Dried Pears,10,0,30,08/07/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,52,Filo Mix,15,"0.05",7,01/08/1996 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,24,Guarana Fantastica,25,0,"3.6",04/05/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,40,Boston Crab Meat,50,"0.2","18.4",12/18/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,24,Guarana Fantastica,25,0,"4.5",04/11/1996 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,3,Aniseed Syrup,14,0,10,08/07/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,29,Thuringer Rostbratwurst,18,"0.1",99,04/05/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,45,Rogede sild,30,"0.1","7.6",04/05/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,28,Rossle Sauerkraut,60,"0.1","45.6",11/01/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,77,Original Frankfurter grune Sosse,14,0,"10.4",01/31/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,50,Valkoinen suklaa,25,0,13,04/05/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,40,Boston Crab Meat,20,0,"14.7",04/05/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,54,Tourtiere,18,0,"5.9",12/29/1994 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,61,Sirop d'erable,20,0,"28.5",01/08/1996 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,10,Ikura,18,"0.1",31,11/01/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,62,Tarte au sucre,15,0,"49.3",01/08/1996 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,59,Raclette Courdavault,18,"0.05",55,05/02/1996 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,68,Scottish Longbreads,60,0,10,01/31/1995 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,63,Vegie-spread,40,0,"43.9",04/02/1996 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,65,Louisiana Fiery Hot Pepper Sauce,15,0,"16.8",12/29/1994 0:00:00
+VAFFE,Palle Ibsen,Vaffeljernet,10,Ikura,25,0,31,04/11/1996 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,52,Filo Mix,8,0,"5.6",11/21/1994 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,70,Outback Lager,30,"0.15",15,02/23/1996 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,35,Steeleye Stout,30,0,18,06/23/1995 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,48,Chocolade,8,"0.15","12.75",02/05/1996 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,33,Geitost,4,"0.15","2.5",02/23/1996 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,51,Manjimup Dried Apples,4,"0.25",53,02/21/1996 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,65,Louisiana Fiery Hot Pepper Sauce,20,0,"16.8",08/08/1994 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,72,Mozzarella di Giovanni,40,0,"27.8",03/30/1995 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,22,Gustaf's Knackebrod,6,"0.05","16.8",08/08/1994 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,7,Uncle Bob's Organic Dried Pears,16,"0.05",24,03/30/1995 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,54,Tourtiere,6,"0.2","5.9",03/22/1995 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,25,NuNuCa Nuss-Nougat-Creme,20,"0.15",14,02/23/1996 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,10,Ikura,20,"0.2","24.8",03/22/1995 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,2,Chang,20,"0.25",19,01/31/1996 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,57,Ravioli Angelo,15,"0.05","15.6",08/08/1994 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,41,Jack's New England Clam Chowder,20,0,"9.65",02/05/1996 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,46,Spegesild,20,"0.05","9.6",03/30/1995 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,10,Ikura,20,"0.05","24.8",04/18/1995 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,7,Uncle Bob's Organic Dried Pears,10,0,30,06/23/1995 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,65,Louisiana Fiery Hot Pepper Sauce,2,0,"21.05",01/31/1996 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,43,Ipoh Coffee,20,"0.15",46,02/05/1996 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,68,Scottish Longbreads,10,0,10,11/21/1994 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,62,Tarte au sucre,40,0,"49.3",06/23/1995 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,74,Longlife Tofu,15,"0.25",10,01/31/1996 0:00:00
+VICTE,Mary Saveley,Victuailles en stock,61,Sirop d'erable,30,"0.15","28.5",02/05/1996 0:00:00
+VINET,Paul Henriot,Vins et alcools Chevalier,42,Singaporean Hokkien Fried Mee,10,0,"9.8",08/04/1994 0:00:00
+VINET,Paul Henriot,Vins et alcools Chevalier,41,Jack's New England Clam Chowder,12,0,"9.65",12/12/1995 0:00:00
+VINET,Paul Henriot,Vins et alcools Chevalier,52,Filo Mix,18,0,7,12/13/1995 0:00:00
+VINET,Paul Henriot,Vins et alcools Chevalier,72,Mozzarella di Giovanni,5,0,"34.8",08/04/1994 0:00:00
+VINET,Paul Henriot,Vins et alcools Chevalier,11,Queso Cabrales,12,0,14,08/04/1994 0:00:00
+VINET,Paul Henriot,Vins et alcools Chevalier,13,Konbu,4,0,6,12/12/1995 0:00:00
+VINET,Paul Henriot,Vins et alcools Chevalier,71,Flotemysost,20,0,"17.2",09/06/1994 0:00:00
+VINET,Paul Henriot,Vins et alcools Chevalier,36,Inlagd Sill,6,0,19,12/13/1995 0:00:00
+VINET,Paul Henriot,Vins et alcools Chevalier,56,Gnocchi di nonna Alice,4,0,"30.4",10/03/1994 0:00:00
+VINET,Paul Henriot,Vins et alcools Chevalier,72,Mozzarella di Giovanni,7,0,"27.8",09/06/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,43,Ipoh Coffee,24,0,"36.8",10/24/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,19,Teatime Chocolate Biscuits,12,"0.25","9.2",10/02/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,32,Mascarpone Fabioli,50,"0.2",32,05/23/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,1,Chai,15,"0.15","14.4",12/08/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,55,Pate chinois,4,"0.1",24,10/16/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,31,Gorgonzola Telino,8,"0.1","12.5",10/16/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,53,Perth Pasties,20,0,"26.2",10/24/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,28,Rossle Sauerkraut,4,0,"36.4",10/24/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,55,Pate chinois,12,0,"19.2",12/19/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,70,Outback Lager,15,"0.25",15,09/21/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,31,Gorgonzola Telino,30,0,10,12/19/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,33,Geitost,20,"0.05","2.5",09/14/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,40,Boston Crab Meat,10,0,"14.7",10/10/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,2,Chang,30,"0.05",19,09/14/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,61,Sirop d'erable,15,"0.2","28.5",05/23/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,22,Gustaf's Knackebrod,20,"0.25",21,10/02/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,75,Rhonbrau Klosterbier,10,0,"6.2",10/24/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,64,Wimmers gute Semmelknodel,15,"0.1","33.25",10/16/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,23,Tunnbrod,25,0,"7.2",12/08/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,69,Gudbrandsdalsost,20,"0.25",36,09/21/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,35,Steeleye Stout,18,"0.05",18,05/23/1996 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,21,Sir Rodney's Scones,40,"0.2",10,05/23/1995 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,69,Gudbrandsdalsost,20,0,"28.8",12/19/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,32,Mascarpone Fabioli,15,"0.05",32,05/23/1996 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,56,Gnocchi di nonna Alice,20,0,"30.4",10/10/1994 0:00:00
+WANDK,Rita Muller,Die Wandernde Kuh,12,Queso Manchego La Pastora,20,"0.05",38,05/23/1996 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,11,Queso Cabrales,15,0,21,06/30/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,14,Tofu,20,"0.1","18.6",02/13/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,60,Camembert Pierrot,24,"0.15",34,07/31/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,36,Inlagd Sill,30,0,"15.2",09/01/1994 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,61,Sirop d'erable,25,0,"22.8",03/27/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,45,Rogede sild,40,"0.15","9.5",12/22/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,14,Tofu,5,"0.15","23.25",12/22/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,1,Chai,10,"0.1",18,05/15/1996 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,4,Chef Anton's Cajun Seasoning,25,0,22,09/19/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,14,Tofu,10,0,"18.6",11/18/1994 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,35,Steeleye Stout,6,0,18,06/30/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,39,Chartreuse verte,20,0,"14.4",03/27/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,69,Gudbrandsdalsost,10,"0.15",36,07/31/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,58,Escargots de Bourgogne,6,0,"13.25",09/19/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,56,Gnocchi di nonna Alice,20,"0.2",38,01/17/1996 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,54,Tourtiere,3,"0.2","7.45",01/17/1996 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,22,Gustaf's Knackebrod,24,0,21,06/30/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,71,Flotemysost,30,0,"17.2",03/27/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,19,Teatime Chocolate Biscuits,20,0,"7.3",02/16/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,13,Konbu,10,0,6,06/05/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,53,Perth Pasties,50,0,"26.2",03/27/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,53,Perth Pasties,15,0,"26.2",03/08/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,71,Flotemysost,40,"0.1","17.2",11/18/1994 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,16,Pavlova,14,0,"17.45",06/30/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,57,Ravioli Angelo,20,0,"15.6",02/16/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,43,Ipoh Coffee,25,0,"36.8",09/01/1994 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,71,Flotemysost,30,0,"17.2",11/03/1994 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,13,Konbu,20,"0.1",6,05/15/1996 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,31,Gorgonzola Telino,30,0,"12.5",06/30/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,21,Sir Rodney's Scones,10,"0.1",8,11/18/1994 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,74,Longlife Tofu,35,0,10,01/17/1996 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,12,Queso Manchego La Pastora,12,"0.05","30.4",08/26/1994 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,56,Gnocchi di nonna Alice,30,"0.15",38,06/05/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,1,Chai,8,"0.15",18,06/05/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,29,Thuringer Rostbratwurst,10,0,"123.79",07/31/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,59,Raclette Courdavault,25,"0.15",55,12/22/1995 0:00:00
+WARTH,Pirkko Koskitalo,Wartian Herkku,53,Perth Pasties,10,0,"26.2",02/16/1995 0:00:00
+WELLI,Paula Parente,Wellington Importadora,19,Teatime Chocolate Biscuits,24,"0.05","9.2",01/30/1996 0:00:00
+WELLI,Paula Parente,Wellington Importadora,70,Outback Lager,8,"0.1",12,02/21/1995 0:00:00
+WELLI,Paula Parente,Wellington Importadora,73,Rod Kaviar,20,"0.1",12,02/21/1995 0:00:00
+WELLI,Paula Parente,Wellington Importadora,43,Ipoh Coffee,20,0,46,09/25/1995 0:00:00
+WELLI,Paula Parente,Wellington Importadora,59,Raclette Courdavault,15,"0.05",55,01/30/1996 0:00:00
+WELLI,Paula Parente,Wellington Importadora,77,Original Frankfurter grune Sosse,12,0,"10.4",08/15/1994 0:00:00
+WELLI,Paula Parente,Wellington Importadora,18,Carnarvon Tigers,4,"0.25","62.5",04/08/1996 0:00:00
+WELLI,Paula Parente,Wellington Importadora,9,Mishi Kobe Niku,20,"0.1","77.6",02/21/1995 0:00:00
+WELLI,Paula Parente,Wellington Importadora,46,Spegesild,21,"0.1",12,09/25/1995 0:00:00
+WELLI,Paula Parente,Wellington Importadora,70,Outback Lager,3,"0.25",15,03/22/1996 0:00:00
+WELLI,Paula Parente,Wellington Importadora,1,Chai,21,0,18,04/08/1996 0:00:00
+WELLI,Paula Parente,Wellington Importadora,23,Tunnbrod,8,"0.25",9,04/08/1996 0:00:00
+WELLI,Paula Parente,Wellington Importadora,25,NuNuCa Nuss-Nougat-Creme,15,"0.05",14,01/30/1996 0:00:00
+WELLI,Paula Parente,Wellington Importadora,18,Carnarvon Tigers,4,"0.1","62.5",09/25/1995 0:00:00
+WELLI,Paula Parente,Wellington Importadora,13,Konbu,2,"0.1","4.8",02/21/1995 0:00:00
+WELLI,Paula Parente,Wellington Importadora,1,Chai,20,"0.05",18,03/26/1996 0:00:00
+WELLI,Paula Parente,Wellington Importadora,53,Perth Pasties,15,0,"26.2",08/15/1994 0:00:00
+WELLI,Paula Parente,Wellington Importadora,52,Filo Mix,20,0,7,02/01/1996 0:00:00
+WELLI,Paula Parente,Wellington Importadora,47,Zaanse koeken,15,0,"9.5",08/01/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,34,Sasquatch Ale,35,"0.05","11.2",04/24/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,62,Tarte au sucre,35,0,"49.3",03/26/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,62,Tarte au sucre,3,0,"49.3",03/01/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,34,Sasquatch Ale,35,0,14,05/31/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,38,Cote de Blaye,25,0,"263.5",05/17/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,36,Inlagd Sill,35,0,19,05/17/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,35,Steeleye Stout,35,"0.2",18,12/14/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,77,Original Frankfurter grune Sosse,30,"0.05","10.4",04/24/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,2,Chang,12,0,19,05/12/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,2,Chang,40,"0.15","15.2",04/10/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,33,Geitost,60,"0.05",2,08/31/1994 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,33,Geitost,35,0,"2.5",03/01/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,63,Vegie-spread,24,"0.2","43.9",08/11/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,19,Teatime Chocolate Biscuits,42,0,"9.2",05/31/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,17,Alice Mutton,20,0,39,11/08/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,73,Rod Kaviar,15,"0.15",15,11/06/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,16,Pavlova,35,"0.15","13.9",04/10/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,17,Alice Mutton,42,0,39,03/01/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,4,Chef Anton's Cajun Seasoning,35,0,"17.6",12/02/1994 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,26,Gumbar Gummibarchen,15,0,"31.23",11/30/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,58,Escargots de Bourgogne,15,0,"13.25",03/26/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,28,Rossle Sauerkraut,5,"0.2","45.6",12/14/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,72,Mozzarella di Giovanni,20,"0.05","27.8",08/31/1994 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,46,Spegesild,18,0,12,11/08/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,53,Perth Pasties,10,0,"32.8",05/12/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,54,Tourtiere,60,"0.15","7.45",11/06/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,8,Northwoods Cranberry Sauce,70,"0.25",32,12/02/1994 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,69,Gudbrandsdalsost,30,"0.15",36,11/06/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,21,Sir Rodney's Scones,40,0,10,03/01/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,9,Mishi Kobe Niku,6,0,97,11/06/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,21,Sir Rodney's Scones,12,0,10,05/12/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,56,Gnocchi di nonna Alice,5,"0.2",38,08/11/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,56,Gnocchi di nonna Alice,14,"0.2",38,12/14/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,18,Carnarvon Tigers,20,0,"62.5",03/01/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,75,Rhonbrau Klosterbier,30,"0.2","7.75",08/11/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,45,Rogede sild,40,"0.2","9.5",12/14/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,59,Raclette Courdavault,30,0,55,05/17/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,16,Pavlova,3,0,"17.45",05/31/1996 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,61,Sirop d'erable,25,0,"28.5",05/12/1995 0:00:00
+WHITC,Karl Jablonski,White Clover Markets,44,Gula Malacca,2,"0.15","15.5",04/10/1995 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,40,Boston Crab Meat,12,0,"18.4",03/12/1996 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,1,Chai,2,0,18,05/07/1996 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,65,Louisiana Fiery Hot Pepper Sauce,10,0,"21.05",03/12/1996 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,55,Pate chinois,5,0,24,08/30/1995 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,24,Guarana Fantastica,20,0,"4.5",11/07/1995 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,21,Sir Rodney's Scones,20,0,10,03/08/1996 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,43,Ipoh Coffee,6,0,46,10/19/1995 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,42,Singaporean Hokkien Fried Mee,6,0,14,10/19/1995 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,19,Teatime Chocolate Biscuits,12,0,"9.2",03/28/1996 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,8,Northwoods Cranberry Sauce,10,0,40,11/07/1995 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,16,Pavlova,3,0,"17.45",10/19/1995 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,76,Lakkalikoori,10,0,18,03/12/1996 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,28,Rossle Sauerkraut,3,0,"45.6",03/08/1996 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,49,Maxilaku,10,0,20,03/28/1996 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,59,Raclette Courdavault,10,0,55,05/07/1996 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,61,Sirop d'erable,5,0,"28.5",03/28/1996 0:00:00
+WILMK,Matti Karttunen,Wilman Kala,12,Queso Manchego La Pastora,4,0,38,11/07/1995 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,2,Chang,10,0,19,01/23/1996 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,31,Gorgonzola Telino,30,0,10,01/05/1995 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,35,Steeleye Stout,3,0,18,03/06/1996 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,75,Rhonbrau Klosterbier,30,0,"7.75",05/03/1996 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,74,Longlife Tofu,20,0,10,05/03/1996 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,60,Camembert Pierrot,15,0,34,08/25/1995 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,58,Escargots de Bourgogne,15,0,"10.6",01/05/1995 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,62,Tarte au sucre,12,0,"49.3",05/23/1996 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,61,Sirop d'erable,15,0,"28.5",03/27/1996 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,1,Chai,6,0,18,08/25/1995 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,54,Tourtiere,3,0,"7.45",01/23/1996 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,2,Chang,10,0,19,08/25/1995 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,68,Scottish Longbreads,15,0,"12.5",01/23/1996 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,51,Manjimup Dried Apples,2,0,53,03/06/1996 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,24,Guarana Fantastica,12,0,"4.5",05/03/1996 0:00:00
+WOLZA,Zbyszek Piestrzeniewicz,Wolski  Zajazd,61,Sirop d'erable,7,0,"28.5",05/03/1996 0:00:00

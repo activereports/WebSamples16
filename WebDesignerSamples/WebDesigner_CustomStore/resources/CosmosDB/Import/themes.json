@@ -1,0 +1,523 @@
+[
+  {
+    "id": "Active.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#000000",
+          "Dark2": "#1F497D",
+          "Light1": "#FFFFFF",
+          "Light2": "#EEECE1",
+          "Accent1": "#4F81BD",
+          "Accent2": "#C0504D",
+          "Accent3": "#9BBB59",
+          "Accent4": "#8064A2",
+          "Accent5": "#4BACC6",
+          "Accent6": "#F79646",
+          "Hyperlink": "#0000FF",
+          "HyperlinkFollowed": "#800080"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Arial",
+            "Style": "Normal",
+            "Size": "11pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Times New Roman",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Autumn.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#2F2B20",
+          "Dark2": "#675E47",
+          "Light1": "#FFFFFF",
+          "Light2": "#DFDCB7",
+          "Accent1": "#A9A57C",
+          "Accent2": "#9CBEBD",
+          "Accent3": "#D2CB6C",
+          "Accent4": "#8064A2",
+          "Accent5": "#C89F5D",
+          "Accent6": "#B1A089",
+          "Hyperlink": "#D25814",
+          "HyperlinkFollowed": "#849A0A"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Verdana",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Georgia",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Clarity.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#292934",
+          "Dark2": "#D2533C",
+          "Light1": "#FFFFFF",
+          "Light2": "#F3F2DC",
+          "Accent1": "#93A299",
+          "Accent2": "#AD8F67",
+          "Accent3": "#726056",
+          "Accent4": "#4C5A6A",
+          "Accent5": "#808DA0",
+          "Accent6": "#79463D",
+          "Hyperlink": "#0000FF",
+          "HyperlinkFollowed": "#800080"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Tahoma",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Palatino Linotype",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Cool.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#000000",
+          "Dark2": "#46464A",
+          "Light1": "#FFFFFF",
+          "Light2": "#E3DCCF",
+          "Accent1": "#6F6F74",
+          "Accent2": "#A7B789",
+          "Accent3": "#BEAE98",
+          "Accent4": "#92A9B9",
+          "Accent5": "#9C8265",
+          "Accent6": "#8D6974",
+          "Hyperlink": "#67AABF",
+          "HyperlinkFollowed": "#B1B5AB"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Lucida Sans Unicode",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Book Antiqua",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Cordial.default.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#000000",
+          "Dark2": "#09213B",
+          "Light1": "#FFFFFF",
+          "Light2": "#D5EDF4",
+          "Accent1": "#2C7C9F",
+          "Accent2": "#244A58",
+          "Accent3": "#E2751D",
+          "Accent4": "#FFB400",
+          "Accent5": "#7EB606",
+          "Accent6": "#C00000",
+          "Hyperlink": "#7030A0",
+          "HyperlinkFollowed": "#00B0F0"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Arial",
+            "Style": "Normal",
+            "Size": "11pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Times New Roman",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Cosmo.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#58585A",
+          "Dark2": "#000000",
+          "Light1": "#FFFFFF",
+          "Light2": "#ABACAD",
+          "Accent1": "#008FC5",
+          "Accent2": "#7BC143",
+          "Accent3": "#005568",
+          "Accent4": "#00498B",
+          "Accent5": "#0098A1",
+          "Accent6": "#F5F5F5",
+          "Hyperlink": "#0000FF",
+          "HyperlinkFollowed": "#800080"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Calibri",
+            "Style": "Normal",
+            "Size": "11pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Calibri",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Deep.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#000000",
+          "Dark2": "#2B142D",
+          "Light1": "#FFFFFF",
+          "Light2": "#C3AFCC",
+          "Accent1": "#663366",
+          "Accent2": "#330F42",
+          "Accent3": "#666699",
+          "Accent4": "#999966",
+          "Accent5": "#F7901E",
+          "Accent6": "#A3A101",
+          "Hyperlink": "#BC5FBC",
+          "HyperlinkFollowed": "#9775A7"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Verdana",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Georgia",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Grays.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#000000",
+          "Dark2": "#000000",
+          "Light1": "#FFFFFF",
+          "Light2": "#F8F8F8",
+          "Accent1": "#DDDDDD",
+          "Accent2": "#B2B2B2",
+          "Accent3": "#969696",
+          "Accent4": "#808080",
+          "Accent5": "#5F5F5F",
+          "Accent6": "#4D4D4D",
+          "Hyperlink": "#5F5F5F",
+          "HyperlinkFollowed": "#919191"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Tahoma",
+            "Style": "Normal",
+            "Size": "11pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Palatino Linotype",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Handsome.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#000000",
+          "Dark2": "#564B3C",
+          "Light1": "#FFFFFF",
+          "Light2": "#ECEDD1",
+          "Accent1": "#93A299",
+          "Accent2": "#CF543F",
+          "Accent3": "#B5AE53",
+          "Accent4": "#848058",
+          "Accent5": "#E8B54D",
+          "Accent6": "#786C71",
+          "Hyperlink": "#CCCC00",
+          "HyperlinkFollowed": "#B2B2B2"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Lucida Sans Unicode",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Book Antiqua",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Northwest.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#000000",
+          "Dark2": "#D1282E",
+          "Light1": "#FFFFFF",
+          "Light2": "#C8C8B1",
+          "Accent1": "#7A7A7A",
+          "Accent2": "#F5C201",
+          "Accent3": "#526DB0",
+          "Accent4": "#989AAC",
+          "Accent5": "#DC5924",
+          "Accent6": "#B4B392",
+          "Hyperlink": "#CC9900",
+          "HyperlinkFollowed": "#969696"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Arial",
+            "Style": "Normal",
+            "Size": "11pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Times New Roman",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Placid.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#000000",
+          "Dark2": "#646B86",
+          "Light1": "#FFFFFF",
+          "Light2": "#D5EDF4",
+          "Accent1": "#D16349",
+          "Accent2": "#CCB400",
+          "Accent3": "#8CADAE",
+          "Accent4": "#8C7B70",
+          "Accent5": "#8FB08C",
+          "Accent6": "#D19049",
+          "Hyperlink": "#00A3D6",
+          "HyperlinkFollowed": "#694F07"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Verdana",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Georgia",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Reels.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#000000",
+          "Dark2": "#3184BD",
+          "Light1": "#FFFFFF",
+          "Light2": "#F4F9FF",
+          "Accent1": "#6D91D0",
+          "Accent2": "#E8AE4B",
+          "Accent3": "#E6E84B",
+          "Accent4": "#C5E84B",
+          "Accent5": "#E6AB56",
+          "Accent6": "#A1E2E2"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Tahoma",
+            "Style": "Normal",
+            "Size": "16pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Tahoma",
+            "Style": "Normal",
+            "Size": "10pt"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Seabreeze.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#000000",
+          "Dark2": "#242852",
+          "Light1": "#FFFFFF",
+          "Light2": "#ACCBF9",
+          "Accent1": "#629DD1",
+          "Accent2": "#297FD5",
+          "Accent3": "#7F8FA9",
+          "Accent4": "#4A66AC",
+          "Accent5": "#5AA2AE",
+          "Accent6": "#9D90A0",
+          "Hyperlink": "#9454C3",
+          "HyperlinkFollowed": "#3EBBF0"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Tahoma",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Palatino Linotype",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Summertime.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#000000",
+          "Dark2": "#434342",
+          "Light1": "#FFFFFF",
+          "Light2": "#CDD7D9",
+          "Accent1": "#797B7E",
+          "Accent2": "#F96A1B",
+          "Accent3": "#08A1D9",
+          "Accent4": "#7C984A",
+          "Accent5": "#C2AD8D",
+          "Accent6": "#506E94",
+          "Hyperlink": "#5F5F5F",
+          "HyperlinkFollowed": "#969696"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Lucida Sans Unicode",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Book Antiqua",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "Wind.rdlx-theme",
+    "Content": {
+      "Theme": {
+        "Colors": {
+          "Dark1": "#2F2B20",
+          "Dark2": "#675E47",
+          "Light1": "#FFFFFF",
+          "Light2": "#DFDCB7",
+          "Accent1": "#A9A57C",
+          "Accent2": "#9CBEBD",
+          "Accent3": "#D2CB6C",
+          "Accent4": "#8064A2",
+          "Accent5": "#C89F5D",
+          "Accent6": "#B1A089",
+          "Hyperlink": "#D25814",
+          "HyperlinkFollowed": "#849A0A"
+        },
+        "Fonts": {
+          "MajorFont": {
+            "Family": "Arial",
+            "Style": "Normal",
+            "Size": "11pt",
+            "Weight": "Bold"
+          },
+          "MinorFont": {
+            "Family": "Times New Roman",
+            "Style": "Normal",
+            "Size": "10pt",
+            "Weight": "Normal"
+          }
+        }
+      }
+    }
+  }]

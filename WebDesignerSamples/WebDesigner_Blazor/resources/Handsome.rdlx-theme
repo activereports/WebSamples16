@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<Theme xmlns="http://www.datadynamics.com/sidewinder/theme">
+  <Colors>	
+    <Dark1>#000000</Dark1>
+    <Dark2>#564B3C</Dark2>
+    <Light1>#FFFFFF</Light1>
+    <Light2>#ECEDD1</Light2>
+    <Accent1>#93A299</Accent1>
+    <Accent2>#CF543F</Accent2>
+    <Accent3>#B5AE53</Accent3>
+    <Accent4>#848058</Accent4>
+    <Accent5>#E8B54D</Accent5>
+    <Accent6>#786C71</Accent6>
+    <Hyperlink>#CCCC00</Hyperlink>
+    <HyperlinkFollowed>#B2B2B2</HyperlinkFollowed>
+  </Colors>
+  <Fonts>
+    <MajorFont>
+      <Family>Lucida Sans Unicode</Family>
+      <Style>Normal</Style>
+      <Size>10pt</Size>
+      <Weight>Bold</Weight>
+    </MajorFont>
+    <MinorFont>
+      <Family>Book Antiqua</Family>
+      <Style>Normal</Style>
+      <Size>10pt</Size>
+      <Weight>Normal</Weight>
+    </MinorFont>
+  </Fonts>
+</Theme>

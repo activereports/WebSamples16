@@ -1,0 +1,36 @@
+{
+	"DataSet": {
+		"Name": "Categories",
+		"Query": {
+			"CommandText": "$.Data[*]",
+			"DataSourceName": "NorthwindCategories"
+		},
+		"Fields": [
+			{
+				"Name": "CategoryId",
+				"DataField": "CategoryId",
+				"DataType": "Integer",
+				"Aggregate": "Count"
+			},
+			{
+				"Name": "CategoryName",
+				"DataField": "CategoryName",
+				"DataType": "String",
+				"Aggregate": "Count"
+			},
+			{
+				"Name": "Description",
+				"DataField": "Description",
+				"DataType": "String",
+				"Aggregate": "Count"
+			}
+		]
+	},
+	"DataSource": {
+		"Name": "NorthwindCategories",
+		"ConnectionProperties": {
+			"ConnectString": "jsondata={\"Data\":[{\"CategoryId\":1,\"CategoryName\":\"Beverages\",\"Description\":\"Soft drinks, coffees, teas, beers, and ales\"},{\"CategoryId\":2,\"CategoryName\":\"Condiments\",\"Description\":\"Sweet and savory sauces, relishes, spreads, and seasonings\"},{\"CategoryId\":3,\"CategoryName\":\"Confections\",\"Description\":\"Desserts, candies, and sweet breads\"},{\"CategoryId\":4,\"CategoryName\":\"Dairy Products\",\"Description\":\"Cheeses\"},{\"CategoryId\":5,\"CategoryName\":\"Grains/Cereals\",\"Description\":\"Breads, crackers, pasta, and cereal\"},{\"CategoryId\":6,\"CategoryName\":\"Meat/Poultry\",\"Description\":\"Prepared meats\"},{\"CategoryId\":7,\"CategoryName\":\"Produce\",\"Description\":\"Dried fruit and bean curd\"},{\"CategoryId\":8,\"CategoryName\":\"Seafood\",\"Description\":\"Seaweed and fish\"}]};schemadata={\"$id\":\"http://example.com/example.json\",\"type\":\"object\",\"definitions\":{},\"$schema\":\"http://json-schema.org/draft-07/schema#\",\"properties\":{\"Data\":{\"$id\":\"/properties/Data\",\"type\":\"array\",\"items\":{\"$id\":\"/properties/Data/items\",\"type\":\"object\",\"properties\":{\"CategoryId\":{\"$id\":\"/properties/Data/items/properties/CategoryId\",\"type\":\"integer\",\"title\":\"The CategoryId Schema\",\"default\":0,\"examples\":[123]},\"CategoryName\":{\"$id\":\"/properties/Data/items/properties/CategoryName\",\"type\":\"string\",\"title\":\"The CategoryName Schema\",\"default\":0,\"examples\":[\"abc\"]},\"Description\":{\"$id\":\"/properties/Data/items/properties/Description\",\"type\":\"string\",\"title\":\"The Description Schema\",\"default\":0,\"examples\":[\"abc\"]},}}}}}",
+			"DataProvider": "JSON"
+		}
+	}
+}

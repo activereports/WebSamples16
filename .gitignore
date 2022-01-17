@@ -1,0 +1,13 @@
+wwwroot
+node_modules
+dist
+**/bin/
+**/obj/
+**/packages
+**/.idea/
+**/.nuget/
+.vs
+*.orig
+*.sln.*
+*.csproj.*
+*.suo

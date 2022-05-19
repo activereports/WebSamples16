@@ -4,8 +4,8 @@
     <LangVersion>9</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.0.0" />
-    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Designer" Version="16.0.0" />
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.1.1" />
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Designer" Version="16.1.1" />
     <PackageReference Include="LiteDB" Version="5.0.10" />
     <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.20.1" />
   </ItemGroup>

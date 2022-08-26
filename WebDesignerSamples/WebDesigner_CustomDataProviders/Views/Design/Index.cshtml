@@ -15,6 +15,11 @@
 
 	<!-- For Virtual Directory -->
 	<!--<base href="/VirtualDirectoryName/">-->
+
+	<style>
+		body,html{width:100%;height:100%;margin:0;padding:0}@@keyframes arwd-loader{from{color:#fff}to{color:#205f78}}.ar-web-designer{width:100%;height:100%}
+		.ar-web-designer__loader{display:flex;width:100%;height:100%;background-color:#205f78;color:#fff;font-size:18px;animation-name:arwd-loader;animation-duration:.62s;animation-timing-function:ease-in-out;animation-iteration-count:infinite;animation-direction:alternate;justify-content:center;align-items:center}
+	</style>
 	
 	<link rel="stylesheet" href="vendor/css/fonts-googleapis.css" type="text/css" />
 	<link rel="stylesheet" href="jsViewer.min.css" />
@@ -29,54 +34,38 @@
 	<script src="jsViewer.min.js"></script>
 	<script src="web-designer.js"></script>
 
-	<div id="designer-id" style="width: 100%; height: 100%;"></div>
+	<div id="ar-web-designer" class="ar-web-designer">
+		<span class="ar-web-designer__loader"><b>AR Web Designer</b></span>
+	</div>
 
-<script>
-
-		var designerOptions = GrapeCity.ActiveReports.WebDesigner.createDesignerOptions();
-		designerOptions.server.url = 'api';
-		designerOptions.reportInfo = '@reportId' ? { id: '@reportId' } : null;
-
-		designerOptions.openButton.visible = true;
-		designerOptions.saveButton.visible = true;
-		designerOptions.saveAsButton.visible = true;
-		
-		// Used in About dialog and File View Help tab.
-		designerOptions.documentation.home = 'https://www.grapecity.com/activereports/docs/v16/online-webdesigner/overview.html';
-		// Used in notifications about report items transformation.
-		designerOptions.documentation.reportItemsTransformation = 'https://www.grapecity.com/activereports/docs/v16/online-webdesigner/supportedcontrols.html';
-
-		designerOptions.reportItemsFeatures.table.autoFillFooter = true;
-
+	<script>
 		var viewer = null;
-        designerOptions.openViewer = function(options) {
-        	if (viewer) {
-				viewer.openReport(options.reportInfo.id);
-				return;
-        	}
-        	viewer = GrapeCity.ActiveReports.JSViewer.create({
-        		locale: 'en',
-        		element: '#' + options.element,
-        		reportService: {
-        			url: 'api/reporting',
-        		},
-        		reportID: options.reportInfo.id,
-        		settings: {
-        			zoomType: 'FitPage'
-        		},
-        	});
-    };
-
-    designerOptions.dataTab.dataSets.canModify = true;
-    designerOptions.dataTab.dataSources.canModify = true;
-
-    designerOptions.dataTab.dataSources.options.predefinedProviders = [];
-    designerOptions.dataTab.dataSources.options.customProviders = [
-        { key: 'SQLITE', name: 'SQLite Provider' },
-        { key: 'ODATA', name: 'C1 ODATA Provider' }
-    ];
-
-    GrapeCity.ActiveReports.WebDesigner.renderApplication('designer-id', designerOptions);
+		GrapeCity.ActiveReports.Designer.create('#ar-web-designer', {
+			appBar: { openButton: { visible: true } },
+			data: { dataSets: { canModify: true }, dataSources: { canModify: true, options: { predefinedProviders: [], customProviders: [
+				{ key: 'SQLITE', name: 'SQLite Provider' },
+				{ key: 'ODATA', name: 'C1 ODATA Provider' }
+			]} } },
+			preview: {
+				openViewer: (options) => {
+					if (viewer) {
+						viewer.openReport(options.documentInfo.id);
+						return;
+					}
+					viewer = GrapeCity.ActiveReports.JSViewer.create({
+						element: '#' + options.element,
+						renderFormat: 'svg',
+						reportService: {
+							url: 'api/reporting',
+						},
+						reportID: options.documentInfo.id,
+						settings: {
+							zoomType: 'FitPage',
+						},
+					});
+				}
+			}
+		});
 	</script>
 </body>
 </html>

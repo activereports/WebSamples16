@@ -3,12 +3,18 @@
     <TargetFramework>net6.0</TargetFramework>
     <AspNetCoreHostingModelV2>InProcess</AspNetCoreHostingModelV2>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="wwwroot\**\*.*" />
     <EmbeddedResource Include="..\..\JsViewerReports\*.*" LinkBase="Reports" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.1.1" />
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.2.0" />
   </ItemGroup>
   <Target Name="ClientBuild" BeforeTargets="BeforeBuild" Condition="!Exists('wwwroot\jsViewer.min.js') OR !Exists('wwwroot\jsViewer.min.css')">
     <Exec WorkingDirectory="ClientApp" Command="npm install" />

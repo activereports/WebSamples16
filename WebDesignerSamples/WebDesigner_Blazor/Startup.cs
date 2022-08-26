@@ -1,6 +1,7 @@
 using System.IO;
 using WebDesigner_Blazor.Implementation;
 using WebDesigner_Blazor.Services;
+using GrapeCity.ActiveReports.Aspnetcore.Designer.Services;
 using GrapeCity.ActiveReports.Aspnetcore.Designer;
 using GrapeCity.ActiveReports.Aspnetcore.Viewer;
 using Microsoft.AspNetCore.Builder;
@@ -19,9 +20,6 @@ namespace WebDesigner_Blazor
 		private static readonly DirectoryInfo TemplatesRootDirectory =
 			new DirectoryInfo(Path.Combine(Directory.GetCurrentDirectory(), "templates" + Path.DirectorySeparatorChar));
 
-		private static readonly DirectoryInfo DataSetsRootDirectory =
-			new DirectoryInfo(Path.Combine(Directory.GetCurrentDirectory(), "datasets" + Path.DirectorySeparatorChar));
-
 		public Startup(IConfiguration configuration)
 		{
 			Configuration = configuration;
@@ -36,13 +34,13 @@ namespace WebDesigner_Blazor
 			services.AddReporting();
 			services.AddDesigner();
 			services.AddSingleton<ITemplatesService>(new FileSystemTemplates(TemplatesRootDirectory));
-			services.AddSingleton<IDataSetsService>(new FileSystemDataSets(DataSetsRootDirectory));
+			services.AddSingleton<IDataSetsService>(new CustomDataSetTemplates());
 			services.AddRazorPages().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
 			services.AddServerSideBlazor();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+		public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDataSetsService dataSetsService)
 		{
 			if (env.IsDevelopment())
 			{
@@ -54,7 +52,11 @@ namespace WebDesigner_Blazor
 			}
 
 			app.UseReporting(config => config.UseFileStore(ResourcesRootDirectory));
-			app.UseDesigner(config => config.UseFileStore(ResourcesRootDirectory, false));
+			app.UseDesigner(config =>
+			{
+				config.UseFileStore(ResourcesRootDirectory, false);
+				config.UseDataSetTemplates(dataSetsService);
+			});
 
 			app.UseStaticFiles();
 

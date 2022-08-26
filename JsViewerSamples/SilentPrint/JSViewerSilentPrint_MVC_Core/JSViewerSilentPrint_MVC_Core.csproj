@@ -4,12 +4,18 @@
     <Prefer32bit>true</Prefer32bit>
     <AspNetCoreHostingModelV2>InProcess</AspNetCoreHostingModelV2>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="wwwroot\**\*.*" />
     <EmbeddedResource Include="..\..\JsViewerReports\*.*" LinkBase="Reports" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.1.1" />
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.2.0" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
     <PackageReference Include="System.Text.Json" Version="5.0.2" />
     <PackageReference Include="System.Text.Encodings.Web" Version="5.0.1" />

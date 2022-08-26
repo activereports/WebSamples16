@@ -2,10 +2,16 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>NU1701</NoWarn>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="C1.AdoNet.OData" Version="1.0.20211.49" />
-    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.1.1" />
-    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Designer" Version="16.1.1" />
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.2.0" />
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Designer" Version="16.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.113" />
     <PackageReference Include="System.Data.SQLite.EF6" Version="1.0.113" />

@@ -3,8 +3,6 @@ import { ActivatedRoute } from '@angular/router';
 declare var GrapeCity: any;
 declare var $: any;
 
-var viewer = null;
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -12,48 +10,37 @@ var viewer = null;
 })
 
 export class HomeComponent implements OnInit {
-  reportName: any;
-  @ViewChild('viewer') private viewerElement: ElementRef;
+    private viewer: any;
 
-  constructor(private route: ActivatedRoute) {
-    this.route.params.subscribe(params => {
-      const id = params['id'];
-      const designerOptions = GrapeCity.ActiveReports.WebDesigner.createDesignerOptions();
-      designerOptions.server.url = 'api';
-      designerOptions.reportInfo = id ? { id: id, name: id } : null;
-      designerOptions.reportItemsFeatures.table.autoFillFooter = true;
-      designerOptions.openButton.visible = true;
-      designerOptions.saveButton.visible = true;
-      designerOptions.saveAsButton.visible = true;
-      designerOptions.documentation.home = 'https://www.grapecity.com/activereports/docs/v16/online-webdesigner/overview.html';
-      designerOptions.openViewer = this.openViewer.bind(this);
-      designerOptions.dataTab.dataSets.canModify = true;
-      designerOptions.dataTab.dataSources.canModify = true;
-      GrapeCity.ActiveReports.WebDesigner.renderApplication('designer-id', designerOptions);
-    });
-  }
+    constructor(private route: ActivatedRoute) { }
 
-  ngOnInit() {}
-
-  public openViewer(options) {
-    if (viewer) {
-        viewer.openReport(options.reportInfo.id);
-        return;
+    ngOnInit() {
+        GrapeCity.ActiveReports.Designer.create('#ar-web-designer', {
+            appBar: { openButton: { visible: true } },
+            data: { dataSets: { canModify: true }, dataSources: { canModify: true } },
+            preview: {
+                openViewer: (options) => {
+                    if (this.viewer) {
+                        this.viewer.openReport(options.documentInfo.id);
+                        return;
+                    }
+                    this.viewer = GrapeCity.ActiveReports.JSViewer.create({
+                        element: '#' + options.element,
+                        renderFormat: 'svg',
+                        reportService: {
+                            url: 'api/reporting',
+                        },
+                        reportID: options.documentInfo.id,
+                        settings: {
+                            zoomType: 'FitPage',
+                        },
+                    });
+                }
+            }
+        });
     }
-    viewer = GrapeCity.ActiveReports.JSViewer.create({
-      locale: 'en',
-      element: '#' + options.element,
-      reportService: {
-        url: 'api/reporting',
-      },
-      reportID: options.reportInfo.id,
-      settings: {
-        zoomType: 'FitPage'
-      },
-    });
-  }
 
-  public closeViewer() {
-    this.viewerElement.nativeElement.firstElementChild.remove();
-  }
+    ngOnDestroy() {
+        this.viewer.destroy();
+	}
 }

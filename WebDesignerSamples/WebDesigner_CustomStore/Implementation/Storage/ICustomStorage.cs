@@ -7,7 +7,6 @@ using GrapeCity.ActiveReports.Aspnetcore.Designer.Services;
 
 using WebDesignerCustomStore.Services;
 
-
 namespace WebDesignerCustomStore.Implementation.Storage
 {
 	public interface ICustomStorage : IDisposable
@@ -17,9 +16,6 @@ namespace WebDesignerCustomStore.Implementation.Storage
 
 		byte[] GetImage(string imageId);
 		IEnumerable<IImageInfo> GetImagesList();
-
-		object GetDataset(string datasetId);
-		IEnumerable<object> GetDatasetsList();
 
 		Report GetReport(string reportId);
 		void SaveReport(string id, Report report, bool isTemporary = false);

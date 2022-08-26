@@ -48,7 +48,6 @@ namespace WebDesignerCustomStore.Implementation.CustomStore
 		/// <remarks>
 		/// Supported resource types: 
 		/// <list type="bullet">
-		///		<item><see cref="DataSets.Dataset"/></item>
 		///		<item><see cref="Images.ImageInfo"/></item>
 		///		<item><see cref="Reports.ReportInfo"/></item>
 		///		<item><see cref="Templates.Template"/></item>
@@ -84,7 +83,7 @@ namespace WebDesignerCustomStore.Implementation.CustomStore
 			if (ext == ".rdl" || ext == ".rdlx" || ext == ".rpx")
 				return typeof(Reports.ReportInfo);
 
-			return typeof(DataSets.Dataset);
+			throw new NotSupportedException();
 		}
 	}
 }

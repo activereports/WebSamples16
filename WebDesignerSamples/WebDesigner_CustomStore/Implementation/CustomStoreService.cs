@@ -3,7 +3,6 @@
 using WebDesignerCustomStore.Services;
 using WebDesignerCustomStore.Implementation.Storage;
 
-
 namespace WebDesignerCustomStore.Implementation.CustomStore
 {
 	public partial class CustomStoreService : ICustomStoreService

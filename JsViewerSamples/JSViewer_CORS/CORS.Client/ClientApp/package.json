@@ -6,7 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "ncp": "^2.0.0",
-    "@grapecity/ar-viewer": "16.1.1"
+    "@grapecity/ar-viewer": "16.2.0"
   },
   "scripts": {
     "build": "ncp ./node_modules/@grapecity/ar-viewer/dist ../include"

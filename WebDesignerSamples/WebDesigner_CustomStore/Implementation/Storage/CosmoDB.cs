@@ -19,7 +19,6 @@ using WebDesignerCustomStore.Implementation.CustomStore.Themes;
 using WebDesignerCustomStore.Implementation.CustomStore.Images;
 using WebDesignerCustomStore.Implementation.CustomStore.Reports;
 
-
 namespace WebDesignerCustomStore.Implementation.Storage
 {
 	public class CosmoDB : ICustomStorage
@@ -29,12 +28,10 @@ namespace WebDesignerCustomStore.Implementation.Storage
 		private const string IMAGES = "images";
 		private const string THEMES = "themes";
 		private const string REPORTS = "reports";
-		private const string DATASETS = "datasets";
 		private const string TEMPLATES = "templates";
 
 		private List<(string db, string container)> _containers = new()
 		{
-			(DATABASE_NAME, "datasets"),
 			(DATABASE_NAME, "images"),
 			(DATABASE_NAME, "themes"),
 			(DATABASE_NAME, "templates"),
@@ -55,37 +52,6 @@ namespace WebDesignerCustomStore.Implementation.Storage
 		public void Dispose()
 		{
 			_client.Dispose();
-		}
-
-		public object GetDataset(string datasetId)
-		{
-			var response = _db.GetContainer(DATASETS)
-			   .ReadItemAsync<JObject>(datasetId, new PartitionKey(datasetId))
-			   .Result;
-
-			if (response.StatusCode != HttpStatusCode.OK)
-				return null;
-
-			return response.Resource["Content"].ToString();
-		}
-
-		public IEnumerable<object> GetDatasetsList()
-		{
-			var datasets = _db.GetContainer(DATASETS)
-							  .GetItemLinqQueryable<JObject>(true)
-							  .AsEnumerable()
-							  .Select(json =>
-							  {
-								  var id = json["id"].ToString();
-
-								  return new
-								  {
-									  Id = id,
-									  Name = Path.GetFileNameWithoutExtension(id),
-								  };
-							  });
-
-			return datasets;
 		}
 
 		public byte[] GetImage(string imageId)

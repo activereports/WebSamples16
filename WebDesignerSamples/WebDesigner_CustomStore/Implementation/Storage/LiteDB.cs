@@ -15,9 +15,7 @@ using WebDesignerCustomStore.Implementation.CustomStore;
 using WebDesignerCustomStore.Implementation.CustomStore.Images;
 using WebDesignerCustomStore.Implementation.CustomStore.Themes;
 using WebDesignerCustomStore.Implementation.CustomStore.Reports;
-using WebDesignerCustomStore.Implementation.CustomStore.DataSets;
 using WebDesignerCustomStore.Implementation.CustomStore.Templates;
-
 
 namespace WebDesignerCustomStore.Implementation.Database
 {
@@ -26,7 +24,6 @@ namespace WebDesignerCustomStore.Implementation.Database
 		private const string IMAGES = "images";
 		private const string THEMES = "themes";
 		private const string REPORTS = "reports";
-		private const string DATASETS = "datasets";
 		private const string TEMPLATES = "templates";
 
 		private LiteDatabase _lite;
@@ -39,29 +36,6 @@ namespace WebDesignerCustomStore.Implementation.Database
 		public void Dispose()
 		{
 			_lite.Dispose();
-		}
-
-		public object GetDataset(string datasetId)
-		{
-			var dataset = _lite
-				.GetCollection<Dataset>(DATASETS)
-				.FindById(datasetId);
-
-			return dataset?.Data;
-		}
-
-		public IEnumerable<object> GetDatasetsList()
-		{
-			var dataSetsList = _lite
-				.GetCollection<Dataset>(DATASETS)
-				.FindAll()
-				.Select(dataset => new
-				{
-					Id = dataset.Id,
-					Name = Path.GetFileNameWithoutExtension(dataset.Id),
-				});
-
-			return dataSetsList;
 		}
 
 		public byte[] GetImage(string imageId)

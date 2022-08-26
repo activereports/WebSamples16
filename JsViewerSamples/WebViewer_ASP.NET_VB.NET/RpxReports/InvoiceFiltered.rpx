@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ActiveReportsLayout Version="3.4" PrintWidth="9360" MaxPages="100" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0">
+<ActiveReportsLayout Version="3.4" PrintWidth="9360" MaxPages="100" DocumentName="ActiveReports Document" ScriptLang="C#" MasterReport="0" CompatibilityMode="CrossPlatform">
   <StyleSheet>
     <Style Name="Normal" Value="font-family: Arial; font-style: normal; text-decoration: none; font-weight: normal; font-size: 10pt; color: Black" />
     <Style Name="Heading1" Value="font-size: 16pt; font-weight: bold" />

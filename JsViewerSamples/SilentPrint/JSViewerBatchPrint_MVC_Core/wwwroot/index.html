@@ -76,7 +76,7 @@
             const report = document.getElementById(reportId);
             const reportName = report.getElementsByTagName("span")[0].innerText;
 
-            let exportSettings = { OnlyForPrint: 'True', ContentInline: 'true', Title: reportName }
+            let exportSettings = { OnlyForPrint: 'True', ContentInline: 'true', Title: reportName, silentPrint: true }
             let parameters = [];
             const reportInfo = reports[reportName];
             if (reportInfo && reportInfo.settings)

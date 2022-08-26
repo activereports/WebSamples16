@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 using GrapeCity.ActiveReports.Aspnetcore.Viewer;
 using GrapeCity.ActiveReports.Aspnetcore.Designer;
+using GrapeCity.ActiveReports.Aspnetcore.Designer.Services;
 
 using WebDesignerCustomDataProviders.Services;
 using WebDesignerCustomDataProviders.Implementation;
@@ -23,9 +24,6 @@ namespace WebDesignerCustomDataProviders
 		private static readonly DirectoryInfo TemplatesRootDirectory = 
 			new DirectoryInfo(Path.Combine(Directory.GetCurrentDirectory(), "templates" + Path.DirectorySeparatorChar));
 
-		private static readonly DirectoryInfo DataSetsRootDirectory = 
-			new DirectoryInfo(Path.Combine(Directory.GetCurrentDirectory(), "datasets") + Path.DirectorySeparatorChar);
-
 		public Startup(IConfiguration configuration)
 		{
 			Configuration = configuration;
@@ -40,13 +38,13 @@ namespace WebDesignerCustomDataProviders
 				.AddReporting()
 				.AddDesigner()
 				.AddSingleton<ITemplatesService>(new FileSystemTemplates(TemplatesRootDirectory))
-				.AddSingleton<IDataSetsService>(new ODataDataSets(DataSetsRootDirectory))
+				.AddSingleton<IDataSetsService>(new CustomDataSetTemplates())
 				.AddMvc(options => options.EnableEndpointRouting = false)
 				.AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+		public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDataSetsService dataSetsService)
 		{
 			if (env.IsDevelopment())
 			{
@@ -76,6 +74,7 @@ namespace WebDesignerCustomDataProviders
 						typeof(C1ODataProviderFactory).AssemblyQualifiedName,
 						typeof(C1ODataConnectionAdapter).AssemblyQualifiedName)
 				});
+				config.UseDataSetTemplates(dataSetsService);
 			});
 
 			app.UseStaticFiles();

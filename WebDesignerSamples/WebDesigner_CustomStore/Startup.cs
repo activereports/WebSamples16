@@ -12,7 +12,7 @@ using GrapeCity.ActiveReports.Aspnetcore.Designer;
 using WebDesignerCustomStore.Services;
 using WebDesignerCustomStore.Implementation.Storage;
 using WebDesignerCustomStore.Implementation.CustomStore;
-
+using GrapeCity.ActiveReports.Aspnetcore.Designer.Services;
 
 namespace WebDesignerCustomStore
 {
@@ -37,14 +37,14 @@ namespace WebDesignerCustomStore
 				.AddSingleton<ICustomStorage>(s => new Implementation.Database.LiteDB(Path.Combine(ResourcesRoot, "lite.db")))
 				//.AddSingleton<ICustomStorage, CosmoDB>()
 				.AddSingleton<ICustomStoreService>(s => new CustomStoreService(s.GetRequiredService<ICustomStorage>()))
-				.AddSingleton<IDataSetsService>(s => s.GetRequiredService<ICustomStoreService>())
 				.AddSingleton<ITemplatesService>(s => s.GetRequiredService<ICustomStoreService>())
+				.AddSingleton<IDataSetsService>(s => new CustomDataSetTemplates())
 				.AddMvc(options => options.EnableEndpointRouting = false)
 				.AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+		public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDataSetsService dataSetsService)
 		{
 			if (env.IsDevelopment())
 			{
@@ -53,7 +53,11 @@ namespace WebDesignerCustomStore
 
 			var resourcesService = app.ApplicationServices.GetRequiredService<ICustomStoreService>();
 			app.UseReporting(config => config.UseCustomStore(resourcesService.GetReport));
-			app.UseDesigner(config => config.UseCustomStore(resourcesService));
+			app.UseDesigner(config =>
+			{
+				config.UseCustomStore(resourcesService);
+				config.UseDataSetTemplates(dataSetsService);
+			});
 
 			app.UseStaticFiles();
 			app.UseMvc();

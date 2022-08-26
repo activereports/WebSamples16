@@ -1,1 +1,37 @@
-﻿
+﻿body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0
+}
+
+@@keyframes arwd-loader {
+	from {
+		color: #fff
+	}
+
+	to {
+		color: #205f78
+	}
+}
+
+.ar-web-designer {
+	width: 100%;
+	height: 100%
+}
+
+.ar-web-designer__loader {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	background-color: #205f78;
+	color: #fff;
+	font-size: 18px;
+	animation-name: arwd-loader;
+	animation-duration: .62s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	justify-content: center;
+	align-items: center
+}

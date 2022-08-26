@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 using GrapeCity.ActiveReports.Aspnetcore.Viewer;
 using GrapeCity.ActiveReports.Aspnetcore.Designer;
+using GrapeCity.ActiveReports.Aspnetcore.Designer.Services;
 
 using WebDesignerMvcCore.Services;
 using WebDesignerMvcCore.Implementation;
@@ -20,10 +21,6 @@ namespace WebDesignerMvcCore
 
 		private static readonly DirectoryInfo TemplatesRootDirectory = 
 			new DirectoryInfo(Path.Combine(Directory.GetCurrentDirectory(), "templates" + Path.DirectorySeparatorChar));
-
-		private static readonly DirectoryInfo DataSetsRootDirectory = 
-			new DirectoryInfo(Path.Combine(Directory.GetCurrentDirectory(), "datasets") + Path.DirectorySeparatorChar);
-
 		
 		public Startup(IConfiguration configuration)
 		{
@@ -39,13 +36,13 @@ namespace WebDesignerMvcCore
 				.AddReporting()
 				.AddDesigner()
 				.AddSingleton<ITemplatesService>(new FileSystemTemplates(TemplatesRootDirectory))
-				.AddSingleton<IDataSetsService>(new FileSystemDataSets(DataSetsRootDirectory))
+				.AddSingleton<IDataSetsService>(new CustomDataSetTemplates())
 				.AddMvc(options => options.EnableEndpointRouting = false)
 				.AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+		public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDataSetsService dataSetsService)
 		{
 			if (env.IsDevelopment())
 			{
@@ -53,7 +50,11 @@ namespace WebDesignerMvcCore
 			}
 
 			app.UseReporting(config => config.UseFileStore(ResourcesRootDirectory));
-			app.UseDesigner(config => config.UseFileStore(ResourcesRootDirectory, false));
+			app.UseDesigner(config =>
+			{
+				config.UseFileStore(ResourcesRootDirectory, false);
+				config.UseDataSetTemplates(dataSetsService);
+			});
 
 			app.UseStaticFiles();
 			app.UseMvc();

@@ -18,6 +18,8 @@ using WebDesignerCustomStore.Implementation.CustomStore;
 using WebDesignerCustomStore.Implementation.CustomStore.Themes;
 using WebDesignerCustomStore.Implementation.CustomStore.Images;
 using WebDesignerCustomStore.Implementation.CustomStore.Reports;
+using System.Xml;
+using Newtonsoft.Json;
 
 namespace WebDesignerCustomStore.Implementation.Storage
 {
@@ -322,6 +324,46 @@ namespace WebDesignerCustomStore.Implementation.Storage
 		private static string GetValue(JToken json, string token)
 		{
 			return json.SelectToken(token)?.ToString() ?? string.Empty;
+		}
+
+		public SectionReport GetSectionReport(string reportId)
+		{
+			var (container, id) = Util.GetCollectionAndName(reportId, REPORTS);
+			var response = _db.GetContainer(container)
+							  .ReadItemAsync<JObject>(id, new PartitionKey(id))
+							  .Result;
+
+			if (response.StatusCode != HttpStatusCode.OK)
+				return null;
+
+			var reportXmlDoc = JsonConvert.DeserializeXmlNode(GetValue(response.Resource, "Content.Report"));
+			var report = new SectionReport();
+			report.LoadLayout(new XmlNodeReader(reportXmlDoc));
+			report.ResourceLocator = new CustomStoreResourceLocator(this);
+			return report;
+		}
+
+		public void SaveSectionReport(string reportId, SectionReport report, bool isTemporary)
+		{
+			var reportXml = new StringBuilder();
+			report.SaveLayout(XmlWriter.Create(reportXml));
+			var reportXmlDoc = new XmlDocument();
+			reportXmlDoc.LoadXml(reportXml.ToString());
+			var json = JsonConvert.SerializeXmlNode(reportXmlDoc);
+
+			var container = isTemporary ? Util.TEMP_SUFFIX : REPORTS;
+
+			var item = new JObject
+			{
+				["id"] = reportId,
+				["Type"] = "RPX",
+				["Content"] = new JObject { ["Report"] = json }
+			};
+
+			_db.GetContainer(container)
+			   .UpsertItemAsync(item)
+			   .GetAwaiter()
+			   .GetResult();
 		}
 	}
 }

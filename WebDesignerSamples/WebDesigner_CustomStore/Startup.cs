@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -52,7 +53,12 @@ namespace WebDesignerCustomStore
 			}
 
 			var resourcesService = app.ApplicationServices.GetRequiredService<ICustomStoreService>();
-			app.UseReporting(config => config.UseCustomStore(resourcesService.GetReport));
+			app.UseReporting(config => config.UseCustomStore(id =>
+			{
+				if (".rpx".Equals(Path.GetExtension(id), StringComparison.InvariantCultureIgnoreCase))
+					return resourcesService.GetSectionReport(id);
+				return resourcesService.GetReport(id);
+			}));
 			app.UseDesigner(config =>
 			{
 				config.UseCustomStore(resourcesService);

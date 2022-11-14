@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
 
     ngOnInit() {
         GrapeCity.ActiveReports.Designer.create('#ar-web-designer', {
+            rpx: { enabled: true },
             appBar: { openButton: { visible: true } },
             data: { dataSets: { canModify: true }, dataSources: { canModify: true } },
             preview: {

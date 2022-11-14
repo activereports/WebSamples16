@@ -26,5 +26,8 @@ namespace WebDesignerCustomStore.Implementation.Storage
 		IEnumerable<TemplateInfo> GetTemplatesList();
 
 		Resource GetResource(string resourceId);
+
+		SectionReport GetSectionReport(string reportId);
+		void SaveSectionReport(string id, SectionReport report, bool isTemporary);
 	}
 }

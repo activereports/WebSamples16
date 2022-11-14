@@ -69,9 +69,9 @@ namespace WebDesignerCustomStore.Implementation
 			return fixedPageNode != null ? "FPL" : "CPL";
 		}
 
-		public static string GenerateTempReportName()
+		public static string GenerateTempReportName(string extension)
 		{
-			return $"{Guid.NewGuid():D}.rdlx";
+			return $"{Guid.NewGuid():D}" + extension;
 		}
 	}
 }

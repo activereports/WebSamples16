@@ -57,7 +57,7 @@ namespace WebDesignerCustomStore.Implementation.CustomStore
 		/// </summary>
 		/// <param name="template"><see cref="Template"/> content represented by byte array.</param>
 		/// <returns><see cref="TemplateThumbnail" /> containing the extracted thumbnail.</returns>
-		public static TemplateThumbnail ExtractThumbnail(byte[] template)
+		private static TemplateThumbnail ExtractThumbnail(byte[] template)
 		{
 			using var stream = new MemoryStream(template);
 			var xTemplate = XElement.Load(stream);

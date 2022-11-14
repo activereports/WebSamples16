@@ -15,7 +15,7 @@
     <EmbeddedResource Include="..\JsViewerReports\*.*" LinkBase="Reports" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.2.0" />
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.3.1" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
     <PackageReference Include="System.Text.Json" Version="5.0.2" />
     <PackageReference Include="System.Text.Encodings.Web" Version="5.0.1" />

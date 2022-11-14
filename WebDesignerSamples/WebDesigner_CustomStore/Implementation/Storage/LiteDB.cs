@@ -16,6 +16,8 @@ using WebDesignerCustomStore.Implementation.CustomStore.Images;
 using WebDesignerCustomStore.Implementation.CustomStore.Themes;
 using WebDesignerCustomStore.Implementation.CustomStore.Reports;
 using WebDesignerCustomStore.Implementation.CustomStore.Templates;
+using System.Xml;
+using System.Text;
 
 namespace WebDesignerCustomStore.Implementation.Database
 {
@@ -180,6 +182,40 @@ namespace WebDesignerCustomStore.Implementation.Database
 				return new Resource(theme.ToStream(), null);
 
 			return new Resource(CustomStoreResourceLocator.ToStream(result), null);
+		}
+
+		public SectionReport GetSectionReport(string reportId)
+		{
+			var (collection, reportName) = Util.GetCollectionAndName(reportId, REPORTS);
+			var reportItem = _lite.GetCollection<ReportInfo>(collection)
+								  .FindById(reportName);
+
+			if (reportItem is null)
+				return null;
+
+			var report = new SectionReport();
+			report.LoadLayout(XmlReader.Create(new MemoryStream(reportItem.Content)));
+
+			// Define our own resource locator for correct work with report resources (images, themes and so on)
+			report.ResourceLocator = new CustomStoreResourceLocator(this);
+			return report;
+		}
+
+		public void SaveSectionReport(string reportId, SectionReport report, bool isTemporary)
+		{
+			var reportXml = new MemoryStream();
+			report.SaveLayout(XmlWriter.Create(reportXml));
+			var collection = isTemporary ? Util.TEMP_SUFFIX : REPORTS;
+
+			_lite
+				.GetCollection<ReportInfo>(collection)
+				.Upsert(new ReportInfo
+				{
+					Id = reportId,
+					Name = reportId,
+					Content = reportXml.ToArray(),
+					Type = "RPX",
+				});
 		}
 	}
 }

@@ -14,6 +14,7 @@ using WebDesignerCustomStore.Services;
 using WebDesignerCustomStore.Implementation.Storage;
 using WebDesignerCustomStore.Implementation.CustomStore;
 using GrapeCity.ActiveReports.Aspnetcore.Designer.Services;
+using System.Text;
 
 namespace WebDesignerCustomStore
 {
@@ -31,6 +32,8 @@ namespace WebDesignerCustomStore
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
+			Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
 			// Add implemented IResourcesService to service collection for correct disposing and lifetime
 			services
 				.AddReporting()

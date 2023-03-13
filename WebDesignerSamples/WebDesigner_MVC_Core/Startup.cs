@@ -11,6 +11,7 @@ using GrapeCity.ActiveReports.Aspnetcore.Designer.Services;
 
 using WebDesignerMvcCore.Services;
 using WebDesignerMvcCore.Implementation;
+using System.Text;
 
 namespace WebDesignerMvcCore
 {
@@ -32,6 +33,8 @@ namespace WebDesignerMvcCore
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
+			Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
 			services
 				.AddReporting()
 				.AddDesigner()

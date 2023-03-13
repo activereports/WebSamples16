@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System.Text;
 
 namespace WebDesigner_Blazor
 {
@@ -31,6 +32,8 @@ namespace WebDesigner_Blazor
 		// For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
 		public void ConfigureServices(IServiceCollection services)
 		{
+			Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
 			services.AddReporting();
 			services.AddDesigner();
 			services.AddSingleton<ITemplatesService>(new FileSystemTemplates(TemplatesRootDirectory));

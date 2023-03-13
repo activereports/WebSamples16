@@ -13,6 +13,7 @@ using WebDesignerCustomDataProviders.Services;
 using WebDesignerCustomDataProviders.Implementation;
 using System.Data.SQLite.EF6;
 using C1.AdoNet.OData;
+using System.Text;
 
 namespace WebDesignerCustomDataProviders
 {
@@ -34,6 +35,8 @@ namespace WebDesignerCustomDataProviders
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
+			Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
 			services
 				.AddReporting()
 				.AddDesigner()

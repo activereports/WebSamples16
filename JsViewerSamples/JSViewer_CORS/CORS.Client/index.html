@@ -32,9 +32,9 @@
             viewer = GrapeCity.ActiveReports.JSViewer.create({
                 element: '#viewerContainer',
                 reportService: {
-                    url: serverUrl + 'api/reporting'
-                },
-
+                    url: serverUrl + 'api/reporting',
+                    onRequest: (init) => {init.credentials = 'omit';}
+                }
             });
             localize();
             populateReports();

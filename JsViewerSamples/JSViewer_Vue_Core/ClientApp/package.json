@@ -21,7 +21,7 @@
     "@babel/preset-env": "^7.4.5",
     "babel-loader": "^8.0.6",
     "copy-webpack-plugin": "^5.0.3",
-    "@grapecity/ar-viewer": "16.3.1"
+    "@grapecity/ar-viewer": "16.4.0"
   },
   "dependencies": {
     "vue": "^2.5.17"

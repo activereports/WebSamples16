@@ -7,6 +7,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
 
 using GrapeCity.ActiveReports.Aspnetcore.Viewer;
+using System.Text;
 
 namespace JSViewer_CORS_Core
 {
@@ -17,6 +18,8 @@ namespace JSViewer_CORS_Core
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
+			Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
 			services
 				.AddLogging(config =>
 				{

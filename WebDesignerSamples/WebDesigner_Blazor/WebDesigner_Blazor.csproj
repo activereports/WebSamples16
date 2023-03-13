@@ -9,8 +9,9 @@
     <NoWarn>NU1701</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Designer" Version="16.3.1" />
-    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.3.1" />
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Designer" Version="16.4.0" />
+    <PackageReference Include="GrapeCity.ActiveReports.Aspnetcore.Viewer" Version="16.4.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="templates\**" CopyToPublishDirectory="PreserveNewest" />
